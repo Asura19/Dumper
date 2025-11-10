@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [FrameworkDumper dumpFrameworkAtPath:@"/System/Library/PrivateFrameworks/SpringBoardServices.framework"];
+    [FrameworkDumper dumpFrameworkAtPath:@"/System/Library/PrivateFrameworks/SpringBoardUIServices.framework"];
 }
 
 
