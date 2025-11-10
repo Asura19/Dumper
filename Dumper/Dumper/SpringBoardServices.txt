@@ -1,0 +1,5843 @@
+✅ 成功加载框架: /System/Library/PrivateFrameworks/SpringBoardServices.framework
+📦 开始 Dump 所有类...
+📊 找到 209 个类
+==========================================
+📋 ========== 所有类名概览 ==========
+  1. SBSUnlockOptions : NSObject
+  2. _SBSHardwareButtonEventConsumerInfo : NSObject
+  3. SBSCaptureApplicationService : NSObject
+  4. SBSInCallPresentationServiceInterfaceSpecification : NSObject
+  5. SBSRemoteAlertConfiguration : SBSRemoteAlertDefinition
+  6. SBSCaptureIntentServiceSpecification : NSObject
+  7. SBSLockScreenContentAssertion : NSObject
+  8. SBSServiceFacilityClient : FBSServiceFacilityClient
+  9. SBSAccidentalActivationMitigationSessionServiceClient : NSObject
+ 10. SBSWidgetMetricsService : NSObject
+ 11. SBSLockScreenServiceConnection : NSObject
+ 12. SBSLockScreenService : NSObject
+ 13. SBSSmartCoverService : NSObject
+ 14. SBSSystemNotesPresentationClientToServerProxy : NSObject
+ 15. SBSBiometricsService : SBSAbstractSystemService
+ 16. SBSRemoteAlertHandleServiceSpecification : NSObject
+ 17. SBSRemoteAlertHandleContext : NSObject
+ 18. SBSSystemApertureRestrictionService : NSObject
+ 19. SBSFocusModesHomeScreenSettingsResponse : NSObject
+ 20. SBSMenuBarSystemService : SBSAbstractSystemService
+ 21. SBSBuddyWindowingTelemetryPersonalizationMetrics : SBSAbstractWindowingTelemetryPersonalizationMetrics
+ 22. SBSApplicationShortcutServiceFetchResult : NSObject
+ 23. SBSUserNotificationImageDefinition : SBSUserNotificationAssetDefinition
+ 24. SBSSystemApertureStateDumpService : SBSAbstractSystemService
+ 25. SBSExternalDisplayLayoutElement : FBSDisplayLayoutElement
+ 26. SBSHomeScreenConfigurationService : NSObject
+ 27. _SBSPhysicalButtonTargetMonitorObserver : BSSimpleAssertion
+ 28. SBSPhysicalButtonTargetMonitor : NSObject
+ 29. SBSHomeScreenConfigurationLayout : NSObject
+ 30. SBSAbstractFacilityService : NSObject
+ 31. SBSApplicationShortcutItem : NSObject
+ 32. SBSCaptureButtonRestrictionService : NSObject
+ 33. SBSSystemAperturePortalSourceInfoRequestServiceSpecification : NSObject
+ 34. SBSSystemNotesPresentationServiceInterfaceSpecification : NSObject
+ 35. SBIdleTimerRequestConfiguration : ITIdleTimerConfiguration
+ 36. SBSUserNotificationSystemImageDefinition : SBSUserNotificationImageDefinition
+ 37. SBSAnalyticsState : NSObject
+ 38. SBSRelaunchAction : BSAction
+ 39. SBSApplicationService : SBSAbstractApplicationService
+ 40. SBSConnectedDisplayInfo : NSObject
+ 41. SBSHardwareButtonService : SBSAbstractSystemService
+ 42. SBSHardwareButtonHintViewAssertion : SBSAssertion
+ 43. SBSHardwareButtonSystemGlowAssertion : SBSAssertion
+ 44. SBSFocusModesHomeScreenSettingsRequest : NSObject
+ 45. SBSQuickActionControlRequest : NSObject
+ 46. SBSBuddyMultitaskingFlow : NSObject
+ 47. SBSCaptureButtonAppConfigurationClient : NSObject
+ 48. _SBSCarPlayApplicationInfo : NSObject
+ 49. SBSApplicationCarPlayService : NSObject
+ 50. SBSSoftwareUpdateService : SBSAbstractSystemService
+ 51. SBSDisplayModeSettings : NSObject
+ 52. SBSMutableDisplayModeSettings : SBSDisplayModeSettings
+ 53. SBSLockScreenServiceSpecification : NSObject
+ 54. SBSUserNotificationTextFieldDefinition : NSObject
+ 55. SBSMutableUserNotificationTextFieldDefinition : SBSUserNotificationTextFieldDefinition
+ 56. _SBSUserNotificationTextFieldDefinitionBuilder : NSObject
+ 57. SBSUserNotificationCAPackageDefinition : SBSUserNotificationAssetDefinition
+ 58. SBSUserNotificationSystemApertureContentDefinition : NSObject
+ 59. SBSSpotlightActivationRequest : NSObject
+ 60. SBSRemoteContentDefinition : NSObject
+ 61. SBSApplicationUserQuitMonitorSessionSpecification : NSObject
+ 62. SBSAccidentalActivationMitigationSessionServiceSpecification : NSObject
+ 63. SBSRemoteContentAlert : NSObject
+ 64. SBSRemoteContentAlertAction : NSObject
+ 65. SBSUserNotificationColorDefinition : NSObject
+ 66. SBSWidgetMetricsServer : NSObject
+ 67. SBSAbstractSystemService : SBSAbstractFacilityService
+ 68. SBSInCallPresentationConfiguration : NSObject
+ 69. SBSCaptureButtonAppConfigurationCoordinator : NSObject
+ 70. SBSFocusModesHomeScreenSnapshot : NSObject
+ 71. SBSFocusModesHomeScreenSettingsServiceInterfaceSpecification : NSObject
+ 72. SBSHomeScreenServiceSpecification : NSObject
+ 73. SBSHomeScreenServiceArrayOfStrings : NSObject
+ 74. SBSHomeScreenServiceArrayOfNumbers : NSObject
+ 75. SBSHomeScreenServiceNumberOrString : NSObject
+ 76. SBSAppSwitcherSystemService : SBSAbstractSystemService
+ 77. SBSHomeScreenSilhouetteLayout : NSObject
+ 78. SBSHomeScreenRectangleSilhouette : NSObject
+ 79. SBSCaptureIntentService : NSObject
+ 80. SBSSwitcherDemoCommandsSessionSpecification : NSObject
+ 81. SBSUserNotificationButtonDefinition : NSObject
+ 82. SBSMutableUserNotificationButtonDefinition : SBSUserNotificationButtonDefinition
+ 83. _SBSUserNotificationButtonDefinitionBuilder : NSObject
+ 84. SBSControlCenterWindowingTelemetryPersonalizationMetrics : SBSAbstractWindowingTelemetryPersonalizationMetrics
+ 85. SBSWallpaperService : NSObject
+ 86. SBSWallpaperClient : FBSServiceFacilityClient
+ 87. SBSHomeScreenService : NSObject
+ 88. SBSHomeScreenServiceInstalledWebClipsObservationAssertion : NSObject
+ 89. SBSHomeScreenServiceHomeScreenLayoutAvailabilityObservationAssertion : NSObject
+ 90. SBSHomeScreenServiceHomeScreenLayoutObservationAssertion : NSObject
+ 91. SBSHomeScreenServiceIconBadgeValueObservationAssertion : NSObject
+ 92. SBSHomeScreenServiceIconStyleObservationAssertion : NSObject
+ 93. SBSHomeScreenServiceHomeScreenApplicationsObservationAssertion : NSObject
+ 94. SBSStatusBarStyleOverridesAssertion : SBSBackgroundActivityAssertion
+ 95. SBScreenTimeTrackingController : NSObject
+ 96. SBSKeyboardFocusService : NSObject
+ 97. SBSDisplayLayoutElement : FBSDisplayLayoutElement
+ 98. SBSSystemNotesPresentationRequest : NSObject
+ 99. SBSRemoteAlertHandle : NSObject
+100. SBSWidgetMetricsServiceInterfaceSpecification : NSObject
+101. SBSStatusBarBackgroundActivityTapContextImpl : NSObject
+102. SBSSystemServiceClient : SBSServiceFacilityClient
+103. SBSCFUserNotificationGraphicIconDefinition : SBSUserNotificationImageDefinition
+104. SBSUserNotificationImageAssetDefinition : SBSUserNotificationImageDefinition
+105. SBSLockScreenContentAction : BSAction
+106. SBSWebClipService : NSObject
+107. SBSRemoteAlertActivationContext : NSObject
+108. SBSStateDumpService : SBSAbstractSystemService
+109. SBSWakeToRemoteAlertAssertion : SBSLockScreenContentAssertion
+110. SBSHomeScreenItem : NSObject
+111. SBSHomeScreenConfiguration : NSObject
+112. SBSStatusBarStyleOverridesCoordinator : SBSBackgroundActivityCoordinator
+113. SBSApplicationClient : SBSServiceFacilityClient
+114. SBSApplicationMultiwindowService : SBSAbstractApplicationService
+115. SBSTestAutomationService : SBSAbstractSystemService
+116. SBSApplicationRestrictionMonitorProxy : NSObject
+117. SBSBackgroundActivityAssertionData : NSObject
+118. SBSHomeScreenConfigurationServiceInterfaceSpecification : NSObject
+119. SBSSystemApertureRestrictionServiceSpecification : NSObject
+120. SBSRemoteAlertConfigurationContext : NSObject
+121. SBSAbstractWindowingTelemetryPersonalizationMetrics : NSObject
+122. SBSPortalSource : NSObject
+123. SBSSystemNotesConnectAction : BSAction
+124. _SBSSystemNotesConnectActionSettingsDescriptionProvider : NSObject
+125. SBSAdaptiveTimeLayoutContext : NSObject
+126. SBSKeyboardFocusServiceSpecification : NSObject
+127. SBSExternalDisplayService : NSObject
+128. SBSSystemNotesPresentationConfiguration : NSObject
+129. SBSMultitaskingApplicationShortcutService : NSObject
+130. SBSApplicationShortcutService : SBSAbstractApplicationService
+131. SBSPhysicalButtonTargetMonitorServer : NSObject
+132. SBSPhysicalButtonTargetMonitorClient : NSObject
+133. SBSPhysicalButtonTargetMonitorServiceSpecification : NSObject
+134. SBSQuickActionConfigurationRequest : NSObject
+135. SBSLockScreenRemoteContentAssertion : SBSLockScreenContentAssertion
+136. SBSSystemNotesTakeScreenshotAction : BSAction
+137. SBSHomeScreenIconStyleConfiguration : NSObject
+138. SBSSystemNotesTakeScreenshotResult : NSObject
+139. SBSApplicationHarmonyService : SBSAbstractApplicationService
+140. SBSApplicationRestrictionState : NSObject
+141. SBSRemoteAlertPresentationTarget : NSObject
+142. SBSRemoteAlertPresentationTargetPredicate : NSObject
+143. SBSApplicationShortcutIcon : NSObject
+144. SBSApplicationShortcutSystemIcon : SBSApplicationShortcutIcon
+145. SBSApplicationShortcutSystemPrivateIcon : SBSApplicationShortcutIcon
+146. SBSApplicationShortcutTemplateIcon : SBSApplicationShortcutIcon
+147. SBSApplicationShortcutCustomImageIcon : SBSApplicationShortcutIcon
+148. SBSApplicationShortcutContactIcon : SBSApplicationShortcutIcon
+149. SBSExternalDisplayServiceSpecification : NSObject
+150. SBSCaptureApplicationServiceSpecification : NSObject
+151. SBSCardItem : NSObject
+152. SBSCardItemsController : NSObject
+153. SBSSystemAperturePortalSourceInfoRequest : NSObject
+154. SBSCaptureButtonAppConfigurationServiceSpecification : NSObject
+155. SBSRelativeDisplayArrangement : NSObject
+156. SBSSecureAppAssertion : SBSLockScreenContentAssertion
+157. SBSSystemApertureLayoutMonitorServiceSpecification : NSObject
+158. SBSCaptureButtonRestrictionServiceSpecification : NSObject
+159. SBSAssertion : NSObject
+160. SBSWebClipServiceSessionSpecification : NSObject
+161. SBSSystemNotesCreateAction : BSAction
+162. _SBSSystemNotesCreateActionSettingsDescriptionProvider : NSObject
+163. SBSOSMigrationHomeScreenApp : NSObject
+164. SBSOSMigrationHomeScreenWidget : NSObject
+165. SBSOSMigrationHomeScreenFolder : NSObject
+166. SBSOSMigrationHomeScreenLayoutItem : NSObject
+167. SBSOSMigrationHomeScreenPage : NSObject
+168. SBSOSMigrationHomeScreenLayout : NSObject
+169. SBSHomeScreenConfigurationServiceProxy : NSObject
+170. SBSBackgroundActivityAssertionAcquisitionHandlerEntry : NSObject
+171. SBSBackgroundActivityAssertionManager : NSObject
+172. SBSSpotlightActivationRequestServer : NSObject
+173. SBSDebugActiveWidgetInfo : NSObject
+174. SBSUniversalControlInterfaceSpecification : NSObject
+175. SBSRemoteAlertHandleXPCClient : NSObject
+176. SBSSystemApertureScenePresentationSessionClient : NSObject
+177. SBSSystemApertureScenePresentationSessionServer : NSObject
+178. SBSSystemNotesPresentationHandle : NSObject
+179. SBSUniversalControlService : NSObject
+180. SBSSystemApertureLayoutMonitor : NSObject
+181. SBSApplicationUserQuitMonitor : NSObject
+182. SBSAccidentalActivationMitigationSessionServiceServer : NSObject
+183. SBSRemoteContentPreferences : NSObject
+184. SBSSwitcherDemoCommands : NSObject
+185. SBSHomeScreenItemApplication : SBSHomeScreenItem
+186. SBSBackgroundContentDefinition : NSObject
+187. _SBSHardwareButtonEventConfiguration : NSObject
+188. _SBSDisplayIdentifiersCache : NSObject
+189. SBSAppDragLocalContext : NSObject
+190. SBSSmartCoverServiceSpecification : NSObject
+191. SBSBackgroundActivityAssertion : NSObject
+192. SBSUserNotificationAssetDefinition : NSObject
+193. SBSBackgroundActivityCoordinator : NSObject
+194. SBSAbstractApplicationService : SBSAbstractFacilityService
+195. SBSApplicationRestrictionMonitoringServiceInterfaceSpecification : NSObject
+196. SBSFocusModesHomeScreenSettingsService : NSObject
+197. SBSRemoteAlertDefinition : NSObject
+198. SBSLockScreenPluginService : NSObject
+199. SBSCaptureButtonAppConfigurationServer : NSObject
+200. SBSCaptureButtonEligibleApp : NSObject
+201. SBSInCallPresentationRequest : NSObject
+202. SBLegacyServices : NSObject
+203. SBSLockScreenBackgroundContentAssertion : SBSLockScreenContentAssertion
+204. SBSApplicationRestrictionMonitoringService : NSObject
+205. SBSMultitaskingApplicationShortcutServiceSpecification : NSObject
+206. _SBSUIRemoteAlertServiceObserverHandle : NSObject
+207. SBSAccidentalActivationMitigationClientSession : NSObject
+208. SBSRemoteAlertActivationOptions : SBSRemoteAlertActivationContext
+209. SBSSettingsWindowingTelemetryPersonalizationMetrics : SBSAbstractWindowingTelemetryPersonalizationMetrics
+
+
+==========================================
+📖 开始打印详细信息...
+==========================================
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSUnlockOptions
+📌 父类: NSObject
+📋 协议: BSXPCCoding, BSXPCSecureCoding
+
+🔸 属性 (7):
+  • _aboveOtherContexts
+  • title
+  • subtitle
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (3):
+  • _aboveOtherContexts : B
+  • _title : @"NSString"
+  • _subtitle : @"NSString"
+
+⚡️ 实例方法 (11):
+  - (id)initWithBSXPCCoder:(id)arg0
+  - (void).cxx_destruct
+  - (void)encodeWithBSXPCCoder:(id)arg0
+  - (id)subtitle
+  - (void)_setSubtitle:(id)arg0
+  - (id)initWithXPCDictionary:(id)arg0
+  - (void)_setTitle:(id)arg0
+  - (id)title
+  - (void)encodeWithXPCDictionary:(id)arg0
+  - (BOOL)_aboveOtherContexts
+  - (void)_setAboveOtherContexts:(BOOL)arg0
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsBSXPCSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: _SBSHardwareButtonEventConsumerInfo
+📌 父类: NSObject
+📋 协议: BSInvalidatable
+
+🔸 属性 (10):
+  • valid
+  • service
+  • consumer
+  • buttonKind
+  • eventMask
+  • eventPriority
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (6):
+  • _valid : B
+  • _service : @"SBSHardwareButtonService"
+  • _consumer : @"<SBSHardwareButtonEventConsuming>"
+  • _buttonKind : q
+  • _eventMask : Q
+  • _eventPriority : q
+
+⚡️ 实例方法 (16):
+  - (unsigned long long)eventMask
+  - (void)setService:(id)arg0
+  - (id)consumer
+  - (void)invalidate
+  - (void).cxx_destruct
+  - (void)setValid:(BOOL)arg0
+  - (id)service
+  - (void)dealloc
+  - (void)setConsumer:(id)arg0
+  - (BOOL)isValid
+  - (id)description
+  - (void)setEventMask:(unsigned long long)arg0
+  - (long long)buttonKind
+  - (long long)eventPriority
+  - (void)setButtonKind:(long long)arg0
+  - (void)setEventPriority:(long long)arg0
+
+⚡️ 类方法 (1):
+  + (id)infoWithConsumer:(id)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSCaptureApplicationService
+📌 父类: NSObject
+
+🔹 实例变量 (2):
+  • _lock : {os_unfair_lock_s="_os_unfair_lock_opaque"I}
+  • _lock_connection : @"BSServiceConnection"
+
+⚡️ 实例方法 (7):
+  - (void)invalidate
+  - (void).cxx_destruct
+  - (void)dealloc
+  - (id)init
+  - (void)applicationDidCompleteTransition
+  - (void)beginDelayingAppearance
+  - (void)endDelayingAppearance
+
+⚡️ 类方法 (1):
+  + (id)sharedInstance
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSInCallPresentationServiceInterfaceSpecification
+📌 父类: NSObject
+
+⚡️ 类方法 (3):
+  + (id)interface
+  + (id)serviceQuality
+  + (id)identifier
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSRemoteAlertConfiguration
+📌 父类: SBSRemoteAlertDefinition
+
+🔸 属性 (1):
+  • userInfo
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSCaptureIntentServiceSpecification
+📌 父类: NSObject
+
+⚡️ 类方法 (3):
+  + (id)interface
+  + (id)serviceQuality
+  + (id)identifier
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSLockScreenContentAssertion
+📌 父类: NSObject
+
+🔸 属性 (5):
+  • slot
+  • identifier
+  • configurationObject
+  • action
+  • errorHandler
+
+🔹 实例变量 (5):
+  • _slot : @"NSString"
+  • _identifier : @"NSString"
+  • _configurationObject : @
+  • _action : @"SBSLockScreenContentAction"
+  • _errorHandler : @?
+
+⚡️ 实例方法 (17):
+  - (id)action
+  - (unsigned long long)type
+  - (void)invalidate
+  - (void).cxx_destruct
+  - (void)setAction:(id)arg0
+  - (id)slot
+  - (void)dealloc
+  - (void)setSlot:(id)arg0
+  - (BOOL)_supportsReacquisition
+  - (id)identifier
+  - (void)setIdentifier:(id)arg0
+  - (void)_acquireAssertionWithType:(unsigned long long)arg0 slot:(id)arg1 identifier:(id)arg2 configurationObject:(id)arg3
+  - (@?)_errorHandler
+  - (void)_setErrorHandler:(@?)arg0
+  - (id)configurationObject
+  - (id)initWithType:(unsigned long long)arg0 slot:(id)arg1 identifier:(id)arg2 configurationObject:(id)arg3 errorHandler:(@?)arg4
+  - (void)setConfigurationObject:(id)arg0
+
+⚡️ 类方法 (3):
+  + (BOOL)_isRestrictedDevice
+  + (id)acquireContentProviderAssertionForType:(unsigned long long)arg0 slot:(id)arg1 identifier:(id)arg2 configurationObject:(id)arg3 errorHandler:(@?)arg4
+  + (id)acquireContentProviderAssertionForType:(unsigned long long)arg0 slot:(id)arg1 identifier:(id)arg2 errorHandler:(@?)arg3
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSServiceFacilityClient
+📌 父类: FBSServiceFacilityClient
+
+🔹 实例变量 (1):
+  • _numberOfCheckOuts : q
+
+⚡️ 实例方法 (4):
+  - (id)initWithIdentifier:(id)arg0 calloutQueue:(id)arg1
+  - (BOOL)_decrementCheckout
+  - (id)initWithCalloutQueue:(id)arg0
+  - (void)_incrementCheckout
+
+⚡️ 类方法 (3):
+  + (void)checkInClient:(id)arg0
+  + (id)serviceFacilityIdentifier
+  + (id)checkOutClientWithClass:(Class)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSAccidentalActivationMitigationSessionServiceClient
+📌 父类: NSObject
+📋 协议: SBSAccidentalActivationMitigationSessionServerToClientInterface
+
+🔸 属性 (6):
+  • _connection
+  • delegate
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (3):
+  • _lock : {os_unfair_lock_s="_os_unfair_lock_opaque"I}
+  • _lock_connection : @"BSServiceConnection"
+  • _delegate : @"<SBSAccidentalActivationMitigationSessionServiceClientDelegate>"
+
+⚡️ 实例方法 (10):
+  - (id)_connection
+  - (void)setDelegate:(id)arg0
+  - (void)_setConnection:(id)arg0
+  - (void).cxx_destruct
+  - (id)init
+  - (id)delegate
+  - (id)_createConnection
+  - (void)activateSessionForBundleIdentifier:(id)arg0 duration:(double)arg1 accidentalActivationMitigationSessionCancellationPolicyClassName:(id)arg2
+  - (Vv)mitigationSessionDidTransitionToState:(id)arg0
+  - (void)requestSessionCancellation
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSWidgetMetricsService
+📌 父类: NSObject
+
+🔸 属性 (1):
+  • metricsProvider
+
+🔹 实例变量 (1):
+  • _metricsProvider : @"<SBSWidgetHostingEnvironmentMetricsProviding>"
+
+⚡️ 实例方法 (11):
+  - (void).cxx_destruct
+  - (id)previewMetricsSpecificationForDeviceContext:(id)arg0 displayContext:(id)arg1 bundleIdentifier:(id)arg2
+  - (void)dealloc
+  - (id)systemMetricsForWidget:(id)arg0
+  - (id)init
+  - (id)previewMetricsSpecificationForBundleIdentifier:(id)arg0
+  - (id)metricsProvider
+  - (id)initWithMetricsProvider:(id)arg0
+  - (id)previewMetricsSpecificationsForBundleIdentifier:(id)arg0
+  - (id)previewMetricsSpecificationsForDeviceContext:(id)arg0 displayContext:(id)arg1 bundleIdentifier:(id)arg2
+  - (id)systemMetricsForWidget:(id)arg0 inHostingEnvironment:(id)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSLockScreenServiceConnection
+📌 父类: NSObject
+
+🔹 实例变量 (4):
+  • _connection : @"BSServiceConnection"
+  • _lock : {os_unfair_lock_s="_os_unfair_lock_opaque"I}
+  • _lock_preventPasscodeLockReasons : @"NSCountedSet"
+  • _lock_preventSpuriousScreenUndimReasons : @"NSCountedSet"
+
+⚡️ 实例方法 (10):
+  - (void).cxx_destruct
+  - (void)dealloc
+  - (id)init
+  - (void)launchEmergencyDialerWithCompletion:(@?)arg0
+  - (void)lockDeviceAnimated:(BOOL)arg0 withCompletion:(@?)arg1
+  - (void)migrateIncomingNotificationsToHistory
+  - (id)preventPasscodeLockWithReason:(id)arg0
+  - (id)preventSpuriousScreenUndimWithReason:(id)arg0
+  - (void)requestPasscodeCheckUIWithOptions:(id)arg0 withCompletion:(@?)arg1
+  - (void)requestPasscodeUnlockUIWithOptions:(id)arg0 withCompletion:(@?)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSLockScreenService
+📌 父类: NSObject
+📋 协议: BSInvalidatable
+
+🔸 属性 (4):
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (2):
+  • _lock : {os_unfair_lock_s="_os_unfair_lock_opaque"I}
+  • _lock_connection : @"SBSLockScreenServiceConnection"
+
+⚡️ 实例方法 (11):
+  - (void)invalidate
+  - (void).cxx_destruct
+  - (void)dealloc
+  - (id)init
+  - (void)launchEmergencyDialerWithCompletion:(@?)arg0
+  - (void)lockDeviceAnimated:(BOOL)arg0 withCompletion:(@?)arg1
+  - (void)migrateIncomingNotificationsToHistory
+  - (id)preventPasscodeLockWithReason:(id)arg0
+  - (id)preventSpuriousScreenUndimWithReason:(id)arg0
+  - (void)requestPasscodeCheckUIWithOptions:(id)arg0 withCompletion:(@?)arg1
+  - (void)requestPasscodeUnlockUIWithOptions:(id)arg0 withCompletion:(@?)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSSmartCoverService
+📌 父类: NSObject
+📋 协议: BSInvalidatable
+
+🔸 属性 (4):
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (3):
+  • _lock : {os_unfair_lock_s="_os_unfair_lock_opaque"I}
+  • _lock_connection : @"BSServiceConnection"
+  • _observerAssertion : @"BSCompoundAssertion"
+
+⚡️ 实例方法 (6):
+  - (void)invalidate
+  - (void).cxx_destruct
+  - (void)dealloc
+  - (id)init
+  - (Vv)observeSmartCoverStateDidChange:(id)arg0
+  - (id)registerSmartCoverStateObserver:(id)arg0
+
+⚡️ 类方法 (1):
+  + (id)sharedInstance
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSSystemNotesPresentationClientToServerProxy
+📌 父类: NSObject
+📋 协议: SBSSystemNotesPresentationClientToServerInterface, BSInvalidatable
+
+🔸 属性 (5):
+  • delegate
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (4):
+  • _connection : @"BSServiceConnection"
+  • _connectionQueue : @"NSObject<OS_dispatch_queue>"
+  • _requestedConfiguration : @"SBSSystemNotesPresentationConfiguration"
+  • _delegate : @"<SBSSystemNotesPresentationServerToClientInterface>"
+
+⚡️ 实例方法 (7):
+  - (void)setDelegate:(id)arg0
+  - (void)invalidate
+  - (void).cxx_destruct
+  - (id)delegate
+  - (void)_setupAndActivateConnection
+  - (Vv)activateConfiguration:(id)arg0
+  - (Vv)presentWithConfiguration:(id)arg0 completion:(@?)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSBiometricsService
+📌 父类: SBSAbstractSystemService
+
+⚡️ 实例方法 (4):
+  - (void)fetchUnlockCredentialSetWithCompletion:(@?)arg0
+  - (void)_acquireBiometricAssertionOfType:(unsigned char)arg0 assertionName:(id)arg1 reason:(id)arg2 completion:(@?)arg3
+  - (void)acquireUnlockSuppressionAssertionForReason:(id)arg0 completion:(@?)arg1
+  - (void)acquireWalletPreArmSuppressionAssertionForReason:(id)arg0 completion:(@?)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSRemoteAlertHandleServiceSpecification
+📌 父类: NSObject
+
+⚡️ 类方法 (3):
+  + (id)interface
+  + (id)serviceQuality
+  + (id)identifier
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSRemoteAlertHandleContext
+📌 父类: NSObject
+📋 协议: NSSecureCoding
+
+🔸 属性 (2):
+  • handleID
+  • active
+
+🔹 实例变量 (2):
+  • _active : B
+  • _handleID : @"NSString"
+
+⚡️ 实例方法 (7):
+  - (id)initWithCoder:(id)arg0
+  - (void).cxx_destruct
+  - (BOOL)isActive
+  - (void)encodeWithCoder:(id)arg0
+  - (void)setActive:(BOOL)arg0
+  - (id)handleID
+  - (id)initWithHandleID:(id)arg0
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSSystemApertureRestrictionService
+📌 父类: NSObject
+📋 协议: BSInvalidatable
+
+🔸 属性 (4):
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (6):
+  • _connection : @"BSServiceConnection"
+  • _connectionQueue : @"NSObject<OS_dispatch_queue>"
+  • _restrictToInertAssertion : @"<BSInvalidatable>"
+  • _completeSuppressionAssertion : @"<BSInvalidatable>"
+  • _emptyHidingSuppressionAssertion : @"<BSInvalidatable>"
+  • _isValid : B
+
+⚡️ 实例方法 (6):
+  - (void)invalidate
+  - (void).cxx_destruct
+  - (id)init
+  - (id)acquireRestrictSystemApertureLayoutToInertAssertionWithReason:(id)arg0
+  - (id)acquireSuppressHidingEmptySystemApertureOnClonedDisplaysAssertionWithReason:(id)arg0
+  - (id)acquireSystemApertureCompleteSuppressionAssertionWithReason:(id)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSFocusModesHomeScreenSettingsResponse
+📌 父类: NSObject
+📋 协议: BSXPCSecureCoding
+
+🔸 属性 (5):
+  • snapshots
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (1):
+  • _snapshots : @"NSArray"
+
+⚡️ 实例方法 (6):
+  - (id)initWithBSXPCCoder:(id)arg0
+  - (void).cxx_destruct
+  - (void)encodeWithBSXPCCoder:(id)arg0
+  - (id)snapshots
+  - (id)initWithSnapshots:(id)arg0
+  - (void)setSnapshots:(id)arg0
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsBSXPCSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSMenuBarSystemService
+📌 父类: SBSAbstractSystemService
+
+⚡️ 实例方法 (2):
+  - (BOOL)isMenuBarSupported
+  - (void)toggleMenuBarVisibility
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSBuddyWindowingTelemetryPersonalizationMetrics
+📌 父类: SBSAbstractWindowingTelemetryPersonalizationMetrics
+
+⚡️ 实例方法 (1):
+  - (id)initWithPreviousMultitaskingMode:(long long)arg0 currentMultitaskingMode:(long long)arg1 hasShownMultitaskingBuddyPane:(BOOL)arg2
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSApplicationShortcutServiceFetchResult
+📌 父类: NSObject
+📋 协议: BSXPCCoding, NSCopying
+
+🔸 属性 (7):
+  • staticApplicationShortcutItems
+  • dynamicApplicationShortcutItems
+  • composedApplicationShortcutItems
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (3):
+  • _staticApplicationShortcutItems : @"NSArray"
+  • _dynamicApplicationShortcutItems : @"NSArray"
+  • _composedApplicationShortcutItems : @"NSArray"
+
+⚡️ 实例方法 (11):
+  - (id)staticApplicationShortcutItems
+  - (id)dynamicApplicationShortcutItems
+  - (BOOL)isEqual:(id)arg0
+  - (void).cxx_destruct
+  - (id)initWithXPCDictionary:(id)arg0
+  - (id)initWithStaticApplicationShortcutItems:(id)arg0 dynamicApplicationShortcutItems:(id)arg1 composedApplicationShortcutItems:(id)arg2
+  - (id)init
+  - (void)encodeWithXPCDictionary:(id)arg0
+  - (id)composedApplicationShortcutItems
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (unsigned long long)hash
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSUserNotificationImageDefinition
+📌 父类: SBSUserNotificationAssetDefinition
+
+⚡️ 类方法 (6):
+  + (id)definitionWithImageCatalogPath:(id)arg0 catalogImageKey:(id)arg1
+  + (id)definitionWithImagePath:(id)arg0
+  + (id)definitionWithSystemImageName:(id)arg0
+  + (id)definitionWithSystemImageName:(id)arg0 tintColor:(id)arg1
+  + (id)definitionWithSystemImageName:(id)arg0 tintColorDefinition:(id)arg1
+  + (id)definitionWithSystemImageName:(id)arg0 tintColorName:(id)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSSystemApertureStateDumpService
+📌 父类: SBSAbstractSystemService
+
+⚡️ 实例方法 (2):
+  - (void)writeSystemApertureStateDumpToTextFileAtPath:(id)arg0
+  - (void)requestSystemApertureStateDumpWithCompletion:(@?)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSExternalDisplayLayoutElement
+📌 父类: FBSDisplayLayoutElement
+
+⚡️ 实例方法 (3):
+  - (id)succinctDescriptionBuilder
+  - (BOOL)sb_isPresenting
+  - (BOOL)sb_isExternalDisplayElement
+
+⚡️ 类方法 (1):
+  + (id)elementWithIdentifier:(id)arg0 presenting:(BOOL)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSHomeScreenConfigurationService
+📌 父类: NSObject
+
+⚡️ 类方法 (1):
+  + (void)beginConfigurationSessionWithInvalidationHandler:(@?)arg0 completion:(@?)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: _SBSPhysicalButtonTargetMonitorObserver
+📌 父类: BSSimpleAssertion
+
+🔸 属性 (1):
+  • observationHandler
+
+🔹 实例变量 (1):
+  • _observationHandler : @?
+
+⚡️ 实例方法 (3):
+  - (void).cxx_destruct
+  - (@?)observationHandler
+  - (void)setObservationHandler:(@?)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSPhysicalButtonTargetMonitor
+📌 父类: NSObject
+
+🔹 实例变量 (4):
+  • _lock : {os_unfair_lock_s="_os_unfair_lock_opaque"I}
+  • _lock_client : @"SBSPhysicalButtonTargetMonitorClient"
+  • _lock_observers : @"NSMutableArray"
+  • _lock_targets : Q
+
+⚡️ 实例方法 (7):
+  - (void)_removeObserver:(id)arg0
+  - (void)_addObserver:(id)arg0
+  - (void).cxx_destruct
+  - (void)dealloc
+  - (id)init
+  - (void)_notifyObserversOfPresenceOfPhysicalButtonTargets:(unsigned long long)arg0
+  - (id)startObservingPresenceOfPhysicalButtonTargets:(@?)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSHomeScreenConfigurationLayout
+📌 父类: NSObject
+📋 协议: BSXPCSecureCoding, NSCopying
+
+🔸 属性 (6):
+  • items
+  • dockItems
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (2):
+  • _items : @"NSArray"
+  • _dockItems : @"NSArray"
+
+⚡️ 实例方法 (10):
+  - (BOOL)isEqual:(id)arg0
+  - (id)initWithBSXPCCoder:(id)arg0
+  - (void).cxx_destruct
+  - (void)encodeWithBSXPCCoder:(id)arg0
+  - (id)items
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (id)description
+  - (unsigned long long)hash
+  - (id)dockItems
+  - (id)initWithItems:(id)arg0 dockItems:(id)arg1
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsBSXPCSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSAbstractFacilityService
+📌 父类: NSObject
+📋 协议: BSInvalidatable
+
+🔸 属性 (6):
+  • client
+  • callbackQueue
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (1):
+  • _client : @"SBSServiceFacilityClient"
+
+⚡️ 实例方法 (6):
+  - (void)invalidate
+  - (id)client
+  - (void).cxx_destruct
+  - (void)dealloc
+  - (id)init
+  - (id)callbackQueue
+
+⚡️ 类方法 (1):
+  + (Class)serviceFacilityClientClass
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSApplicationShortcutItem
+📌 父类: NSObject
+📋 协议: BSXPCCoding, NSCopying
+
+🔸 属性 (13):
+  • userInfoData
+  • type
+  • localizedTitle
+  • localizedSubtitle
+  • icon
+  • userInfo
+  • activationMode
+  • bundleIdentifierToLaunch
+  • targetContentIdentifier
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (8):
+  • _type : @"NSString"
+  • _localizedTitle : @"NSString"
+  • _localizedSubtitle : @"NSString"
+  • _icon : @"SBSApplicationShortcutIcon"
+  • _activationMode : Q
+  • _bundleIdentifierToLaunch : @"NSString"
+  • _targetContentIdentifier : @"NSString"
+  • _userInfoData : @"NSData"
+
+⚡️ 实例方法 (26):
+  - (void)setLocalizedTitle:(id)arg0
+  - (void)setLocalizedSubtitle:(id)arg0
+  - (id)userInfoData
+  - (BOOL)isEqual:(id)arg0
+  - (id)userInfo
+  - (id)type
+  - (void)setIcon:(id)arg0
+  - (void)setTargetContentIdentifier:(id)arg0
+  - (void).cxx_destruct
+  - (id)localizedTitle
+  - (void)setUserInfo:(id)arg0
+  - (id)targetContentIdentifier
+  - (void)setActivationMode:(unsigned long long)arg0
+  - (void)setUserInfoData:(id)arg0
+  - (unsigned long long)activationMode
+  - (id)initWithXPCDictionary:(id)arg0
+  - (id)icon
+  - (void)setType:(id)arg0
+  - (void)encodeWithXPCDictionary:(id)arg0
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (id)description
+  - (id)localizedSubtitle
+  - (unsigned long long)hash
+  - (void)_localizeWithHandler:(@?)arg0
+  - (id)bundleIdentifierToLaunch
+  - (void)setBundleIdentifierToLaunch:(id)arg0
+
+⚡️ 类方法 (1):
+  + (id)_staticApplicationShortcutItemsFromInfoPlistEntry:(id)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSCaptureButtonRestrictionService
+📌 父类: NSObject
+📋 协议: BSInvalidatable
+
+🔸 属性 (4):
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (4):
+  • _connection : @"BSServiceConnection"
+  • _connectionQueue : @"NSObject<OS_dispatch_queue>"
+  • _inhibitActionAssertion : @"BSCompoundAssertion"
+  • _isValid : B
+
+⚡️ 实例方法 (4):
+  - (void)invalidate
+  - (void).cxx_destruct
+  - (id)init
+  - (id)acquireCaptureButtonSuppressionAssertionWithOptions:(unsigned long long)arg0 reason:(id)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSSystemAperturePortalSourceInfoRequestServiceSpecification
+📌 父类: NSObject
+
+⚡️ 类方法 (3):
+  + (id)interface
+  + (id)serviceQuality
+  + (id)identifier
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSSystemNotesPresentationServiceInterfaceSpecification
+📌 父类: NSObject
+
+⚡️ 类方法 (3):
+  + (id)interface
+  + (id)serviceQuality
+  + (id)identifier
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBIdleTimerRequestConfiguration
+📌 父类: ITIdleTimerConfiguration
+
+🔸 属性 (8):
+  • boxed_minExpirationTimeout
+  • boxed_maxExpirationTimeout
+  • idleEventMask
+  • precedence
+  • minExpirationTimeout
+  • hasMinExpirationTimeout
+  • maxExpirationTimeout
+  • hasMaxExpirationTimeout
+
+🔹 实例变量 (3):
+  • _boxed_minExpirationTimeout : @"NSNumber"
+  • _boxed_maxExpirationTimeout : @"NSNumber"
+  • _precedence : Q
+
+⚡️ 实例方法 (24):
+  - (id)initWithBSXPCCoder:(id)arg0
+  - (void).cxx_destruct
+  - (void)encodeWithBSXPCCoder:(id)arg0
+  - (id)descriptionWithMultilinePrefix:(id)arg0
+  - (id)init
+  - (id)succinctDescription
+  - (id)succinctDescriptionBuilder
+  - (id)initWithConfiguration:(id)arg0
+  - (id)description
+  - (id)descriptionBuilderWithMultilinePrefix:(id)arg0
+  - (unsigned long long)precedence
+  - (void)setPrecedence:(unsigned long long)arg0
+  - (void)_setBoxed_maxExpirationTimeout:(id)arg0
+  - (void)_setBoxed_minExpirationTimeout:(id)arg0
+  - (id)_boxed_maxExpirationTimeout
+  - (id)_boxed_minExpirationTimeout
+  - (void)_setIdleEventHandler:(id)arg0
+  - (BOOL)hasMaxExpirationTimeout
+  - (BOOL)hasMinExpirationTimeout
+  - (unsigned long long)idleEventMask
+  - (double)maxExpirationTimeout
+  - (double)minExpirationTimeout
+  - (void)setMaxExpirationTimeout:(double)arg0
+  - (void)setMinExpirationTimeout:(double)arg0
+
+⚡️ 类方法 (4):
+  + (id)configurationWithIdleEventHandler:(id)arg0
+  + (id)configurationWithMaximumExpirationTimeout:(double)arg0
+  + (id)configurationWithMinimumExpirationTimeout:(double)arg0
+  + (id)configurationWithMinimumExpirationTimeout:(double)arg0 maximumExpirationTimeout:(double)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSUserNotificationSystemImageDefinition
+📌 父类: SBSUserNotificationImageDefinition
+
+🔸 属性 (2):
+  • systemImageName
+  • tintColor
+
+🔹 实例变量 (2):
+  • _systemImageName : @"NSString"
+  • _tintColor : @"SBSUserNotificationColorDefinition"
+
+⚡️ 实例方法 (8):
+  - (id)initWithSystemImageName:(id)arg0 tintColor:(id)arg1
+  - (void).cxx_destruct
+  - (id)_initWithDictionary:(id)arg0
+  - (id)systemImageName
+  - (id)build
+  - (id)tintColor
+  - (id)initWithSystemImageName:(id)arg0
+  - (id)_initWithSystemImageName:(id)arg0 tintColor:(id)arg1
+
+⚡️ 类方法 (1):
+  + (id)_definitionType
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSAnalyticsState
+📌 父类: NSObject
+📋 协议: BSDescriptionProviding
+
+🔸 属性 (5):
+  • timestamp
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (2):
+  • _timestamp : d
+  • _payload : @"NSDictionary"
+
+⚡️ 实例方法 (11):
+  - (id)debugDescription
+  - (id)coreAnalyticsRepresentation
+  - (id)initWithTimestamp:(double)arg0 payload:(id)arg1
+  - (void).cxx_destruct
+  - (id)descriptionWithMultilinePrefix:(id)arg0
+  - (double)timestamp
+  - (id)objectForKeyedSubscript:(id)arg0
+  - (id)succinctDescription
+  - (id)succinctDescriptionBuilder
+  - (id)description
+  - (id)descriptionBuilderWithMultilinePrefix:(id)arg0
+
+⚡️ 类方法 (2):
+  + (id)withTimestamp:(double)arg0 payload:(id)arg1
+  + (id)withTimestamp:(double)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSRelaunchAction
+📌 父类: BSAction
+
+🔸 属性 (3):
+  • reason
+  • options
+  • targetURL
+
+⚡️ 实例方法 (4):
+  - (id)reason
+  - (unsigned long long)options
+  - (id)initWithReason:(id)arg0 options:(unsigned long long)arg1 targetURL:(id)arg2
+  - (id)targetURL
+
+⚡️ 类方法 (1):
+  + (id)actionWithReason:(id)arg0 options:(unsigned long long)arg1 targetURL:(id)arg2
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSApplicationService
+📌 父类: SBSAbstractApplicationService
+
+⚡️ 实例方法 (1):
+  - (void)deleteSnapshotsForApplicationIdentifier:(id)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSConnectedDisplayInfo
+📌 父类: NSObject
+📋 协议: NSSecureCoding
+
+🔸 属性 (8):
+  • identifier
+  • deviceName
+  • displayName
+  • size
+  • mirrored
+  • arrangement
+  • supportedScales
+  • displayModeSettings
+
+🔹 实例变量 (8):
+  • _mirrored : B
+  • _identifier : @"NSString"
+  • _deviceName : @"NSString"
+  • _displayName : @"NSString"
+  • _arrangement : @"SBSRelativeDisplayArrangement"
+  • _supportedScales : Q
+  • _displayModeSettings : @"SBSDisplayModeSettings"
+  • _size : {CGSize="width"d"height"d}
+
+⚡️ 实例方法 (13):
+  - (id)initWithCoder:(id)arg0
+  - (id)deviceName
+  - ({CGSize=dd})size
+  - (void).cxx_destruct
+  - (BOOL)isMirrored
+  - (id)displayName
+  - (void)encodeWithCoder:(id)arg0
+  - (id)identifier
+  - (id)description
+  - (unsigned long long)supportedScales
+  - (id)arrangement
+  - (id)displayModeSettings
+  - (id)initWithIdentifier:(id)arg0 deviceName:(id)arg1 displayName:(id)arg2 size:({CGSize=dd})arg3 mirrored:(BOOL)arg4 supportedScales:(unsigned long long)arg5 displayModeSettings:(id)arg6 arrangement:(id)arg7
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSHardwareButtonService
+📌 父类: SBSAbstractSystemService
+
+🔸 属性 (3):
+  • consumersPerKind
+  • buttonConfigurationsPerKind
+  • requestHIDAssertionsPerKind
+
+🔹 实例变量 (4):
+  • _captureButtonRestrictionService : @"SBSCaptureButtonRestrictionService"
+  • _consumersPerKind : @"BSMutableIntegerMap"
+  • _buttonConfigurationsPerKind : @"BSMutableIntegerMap"
+  • _requestHIDAssertionsPerKind : @"BSMutableIntegerMap"
+
+⚡️ 实例方法 (27):
+  - (void).cxx_destruct
+  - (void)updateSystemGlowStyle:(long long)arg0
+  - (BOOL)getAssociatedHintViewsSupported
+  - (void)requestSystemGlowEffectWithInitialStyle:(long long)arg0 completion:(@?)arg1
+  - (id)registerAssociatedHintViewContextId:(unsigned int)arg0 layerRenderId:(unsigned long long)arg1 layerSize:({CGSize=dd})arg2 forButtonKind:(long long)arg3
+  - (void)fetchHapticTypeForButtonKind:(long long)arg0 completion:(@?)arg1
+  - (id)acquireCaptureButtonSuppressionAssertionWithOptions:(unsigned long long)arg0 reason:(id)arg1
+  - (void)updateHintViewContentVisibility:(long long)arg0 forButton:(long long)arg1 animationSettings:(id)arg2
+  - (id)description
+  - (long long)toggleStateForButtonKind:(long long)arg0
+  - (void)setHapticType:(long long)arg0 forButtonKind:(long long)arg1
+  - (id)deferHIDEventsForButtonKind:(long long)arg0 toToken:(id)arg1
+  - (void)setButtonConfigurationsPerKind:(id)arg0
+  - (void)setRequestHIDAssertionsPerKind:(id)arg0
+  - (void)_addEventConsumerInfo:(id)arg0
+  - (void)_mainQueue_handleButtonPressMessage:(long long)arg0 forButtonKind:(long long)arg1 priority:(long long)arg2
+  - (void)_resetEventMaskForButtonKind:(long long)arg0
+  - (void)_setApplicationClientEventMask:(unsigned long long)arg0 buttonKind:(long long)arg1 priority:(long long)arg2
+  - (id)_viableConsumerForButtonKind:(long long)arg0 event:(long long)arg1 priority:(long long)arg2
+  - (void)acquireHomeHardwareButtonHintSuppressionAssertionForReason:(id)arg0 completion:(@?)arg1
+  - (id)beginConsumingPressesForButtonKind:(long long)arg0 eventConsumer:(id)arg1 priority:(long long)arg2
+  - (id)buttonConfigurationsPerKind
+  - (void)consumerInfoWillInvalidate:(id)arg0
+  - (id)consumersPerKind
+  - (void)handleButtonPressMessage:(long long)arg0 forButtonKind:(long long)arg1 priority:(long long)arg2
+  - (id)requestHIDAssertionsPerKind
+  - (void)setConsumersPerKind:(id)arg0
+
+⚡️ 类方法 (1):
+  + (id)sharedInstance
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSHardwareButtonHintViewAssertion
+📌 父类: SBSAssertion
+📋 协议: SBSHardwareButtonHintViewContentVisibilityControlling
+
+🔸 属性 (4):
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (1):
+  • _buttonKind : q
+
+⚡️ 实例方法 (2):
+  - (id)initWithButtonKind:(long long)arg0 assertionName:(id)arg1 reason:(id)arg2 receiveRight:(id)arg3
+  - (void)setContentVisibility:(long long)arg0 animationSettings:(id)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSHardwareButtonSystemGlowAssertion
+📌 父类: SBSAssertion
+📋 协议: SBSHardwareButtonSystemGlowStyleControlling
+
+🔸 属性 (4):
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+⚡️ 实例方法 (1):
+  - (void)setSystemGlowStyle:(long long)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSFocusModesHomeScreenSettingsRequest
+📌 父类: NSObject
+📋 协议: BSDescriptionProviding, BSXPCSecureCoding
+
+🔸 属性 (12):
+  • focusModeIdentifier
+  • listsToAdd
+  • listsToRemove
+  • proactivePages
+  • snapshotDelay
+  • appendExistingPages
+  • excludeWallpaper
+  • snapshotScale
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (8):
+  • _appendExistingPages : B
+  • _excludeWallpaper : B
+  • _focusModeIdentifier : @"NSString"
+  • _listsToAdd : @"NSArray"
+  • _listsToRemove : @"NSArray"
+  • _proactivePages : @"NSArray"
+  • _snapshotDelay : d
+  • _snapshotScale : d
+
+⚡️ 实例方法 (24):
+  - (id)initWithBSXPCCoder:(id)arg0
+  - (void).cxx_destruct
+  - (void)encodeWithBSXPCCoder:(id)arg0
+  - (id)descriptionWithMultilinePrefix:(id)arg0
+  - (id)succinctDescription
+  - (id)succinctDescriptionBuilder
+  - (id)description
+  - (id)descriptionBuilderWithMultilinePrefix:(id)arg0
+  - (BOOL)appendExistingPages
+  - (BOOL)excludeWallpaper
+  - (id)focusModeIdentifier
+  - (id)initWithFocusModeIdentifier:(id)arg0
+  - (id)listsToAdd
+  - (id)listsToRemove
+  - (id)proactivePages
+  - (void)setAppendExistingPages:(BOOL)arg0
+  - (void)setExcludeWallpaper:(BOOL)arg0
+  - (void)setListsToAdd:(id)arg0
+  - (void)setListsToRemove:(id)arg0
+  - (void)setProactivePages:(id)arg0
+  - (void)setSnapshotDelay:(double)arg0
+  - (void)setSnapshotScale:(double)arg0
+  - (double)snapshotDelay
+  - (double)snapshotScale
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsBSXPCSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSQuickActionControlRequest
+📌 父类: NSObject
+📋 协议: NSCopying, NSSecureCoding
+
+🔸 属性 (6):
+  • extensionBundleIdentifier
+  • containerBundleIdentifier
+  • kind
+  • quickActionCategory
+  • type
+  • location
+
+🔹 实例变量 (6):
+  • _extensionBundleIdentifier : @"NSString"
+  • _containerBundleIdentifier : @"NSString"
+  • _kind : @"NSString"
+  • _quickActionCategory : Q
+  • _type : Q
+  • _location : q
+
+⚡️ 实例方法 (11):
+  - (id)initWithCoder:(id)arg0
+  - (unsigned long long)type
+  - (id)containerBundleIdentifier
+  - (void).cxx_destruct
+  - (id)extensionBundleIdentifier
+  - (id)kind
+  - (void)encodeWithCoder:(id)arg0
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (long long)location
+  - (id)initWithExtensionBundleIdentifier:(id)arg0 containerBundleIdentifier:(id)arg1 kind:(id)arg2 quickActionCategory:(unsigned long long)arg3 type:(unsigned long long)arg4 location:(long long)arg5
+  - (unsigned long long)quickActionCategory
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSBuddyMultitaskingFlow
+📌 父类: NSObject
+
+🔸 属性 (2):
+  • currentMultitaskingOption
+  • userPreviouslySelectedMultitaskingOptionInViewController
+
+🔹 实例变量 (3):
+  • _sbDefaults : @"NSUserDefaults"
+  • _hasShownMultitaskingBuddyPane : B
+  • _userPreviouslySelectedMultitaskingOptionInViewController : @"NSNumber"
+
+⚡️ 实例方法 (12):
+  - (void).cxx_destruct
+  - (void)dealloc
+  - (id)init
+  - (double)_currentDeviceMemorySizeInGigabytes
+  - (void)_emitBuddyWindowingPersonalizationTelemetry
+  - (long long)_initialMultitaskingOptionSelectedInViewController
+  - (long long)_telemetryMultitaskingModeForOption:(long long)arg0
+  - (long long)currentMultitaskingOption
+  - (BOOL)needsToShow
+  - (void)setCurrentMultitaskingOption:(long long)arg0
+  - (void)setUserPreviouslySelectedMultitaskingOptionInViewController:(id)arg0
+  - (id)userPreviouslySelectedMultitaskingOptionInViewController
+
+⚡️ 类方法 (1):
+  + (id)sharedInstance
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSCaptureButtonAppConfigurationClient
+📌 父类: NSObject
+📋 协议: SBSCaptureButtonAppConfigurationServerToClientInterface
+
+🔸 属性 (6):
+  • _connection
+  • delegate
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (3):
+  • _lock : {os_unfair_lock_s="_os_unfair_lock_opaque"I}
+  • _lock_connection : @"BSServiceConnection"
+  • _delegate : @"<SBSCaptureButtonAppConfigurationClientDelegate>"
+
+⚡️ 实例方法 (10):
+  - (id)_connection
+  - (void)setDelegate:(id)arg0
+  - (void)_setConnection:(id)arg0
+  - (void).cxx_destruct
+  - (id)init
+  - (id)delegate
+  - (void)establishConnectionIfNeeded
+  - (Vv)receiveInitialOrUpdatedAssociatedAppBundleIdentifier:(id)arg0
+  - (Vv)receiveInitialOrUpdatedEligibleApps:(id)arg0
+  - (void)setCurrentAssociatedAppUsingBundleIdentifier:(id)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: _SBSCarPlayApplicationInfo
+📌 父类: NSObject
+📋 协议: SBSCarPlayApplicationIcon
+
+🔸 属性 (7):
+  • iconImageData
+  • iconImageScale
+  • localizedDisplayName
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (3):
+  • _iconImageData : @"NSData"
+  • _iconImageScale : d
+  • _localizedDisplayName : @"NSString"
+
+⚡️ 实例方法 (7):
+  - (void)setLocalizedDisplayName:(id)arg0
+  - (id)localizedDisplayName
+  - (void).cxx_destruct
+  - (id)iconImageData
+  - (double)iconImageScale
+  - (void)setIconImageData:(id)arg0
+  - (void)setIconImageScale:(double)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSApplicationCarPlayService
+📌 父类: NSObject
+
+⚡️ 实例方法 (4):
+  - (void)fetchApplicationIconInformationForBundleIdentifier:(id)arg0 inVehicle:(id)arg1 withCompletion:(@?)arg2
+  - (void)fetchIconStateForVehicleId:(id)arg0 withCompletion:(@?)arg1
+  - (void)resetIconStateForVehicleId:(id)arg0
+  - (void)setIconState:(id)arg0 hiddenIcons:(id)arg1 forVehicleId:(id)arg2
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSSoftwareUpdateService
+📌 父类: SBSAbstractSystemService
+
+🔸 属性 (1):
+  • passcodePolicy
+
+⚡️ 实例方法 (2):
+  - (void)setPasscodePolicy:(long long)arg0
+  - (long long)passcodePolicy
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSDisplayModeSettings
+📌 父类: NSObject
+📋 协议: NSSecureCoding, NSCopying, NSMutableCopying
+
+🔸 属性 (2):
+  • scale
+  • overscanCompensation
+
+🔹 实例变量 (2):
+  • _scale : Q
+  • _overscanCompensation : q
+
+⚡️ 实例方法 (11):
+  - (id)initWithCoder:(id)arg0
+  - (BOOL)isEqual:(id)arg0
+  - (id)initWithSettings:(id)arg0
+  - (unsigned long long)scale
+  - (id)mutableCopyWithZone:(^{_NSZone=})arg0
+  - (void)encodeWithCoder:(id)arg0
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (id)description
+  - (long long)overscanCompensation
+  - (id)defaultsRepresentation
+  - (id)initWithScale:(unsigned long long)arg0 overscanCompensation:(long long)arg1
+
+⚡️ 类方法 (2):
+  + (BOOL)supportsSecureCoding
+  + (id)fromDefaultsRepresentation:(id)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSMutableDisplayModeSettings
+📌 父类: SBSDisplayModeSettings
+
+🔸 属性 (2):
+  • scale
+  • overscanCompensation
+
+⚡️ 实例方法 (3):
+  - (void)setScale:(unsigned long long)arg0
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (void)setOverscanCompensation:(long long)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSLockScreenServiceSpecification
+📌 父类: NSObject
+
+⚡️ 类方法 (3):
+  + (id)interface
+  + (id)serviceQuality
+  + (id)identifier
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSUserNotificationTextFieldDefinition
+📌 父类: NSObject
+📋 协议: NSCopying, NSMutableCopying
+
+🔸 属性 (8):
+  • _hasSetMaxLength
+  • title
+  • value
+  • secure
+  • maxLength
+  • keyboardType
+  • autocapitalizationType
+  • autocorrectionType
+
+🔹 实例变量 (8):
+  • _title : @"NSString"
+  • _value : @"NSString"
+  • _isSecure : B
+  • _hasSetMaxLength : B
+  • _maxLength : Q
+  • _keyboardType : q
+  • _autocorrectionType : q
+  • _autocapitalizationType : q
+
+⚡️ 实例方法 (17):
+  - (long long)autocorrectionType
+  - (BOOL)isSecure
+  - (long long)keyboardType
+  - (long long)autocapitalizationType
+  - (BOOL)isEqual:(id)arg0
+  - (void).cxx_destruct
+  - (id)_initWithDictionary:(id)arg0
+  - (id)value
+  - (id)mutableCopyWithZone:(^{_NSZone=})arg0
+  - (id)init
+  - (id)title
+  - (id)build
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (unsigned long long)hash
+  - (unsigned long long)maxLength
+  - (void)_copyPropertiesToDefinition:(id)arg0
+  - (BOOL)_hasSetMaxLength
+
+⚡️ 类方法 (1):
+  + (id)_definitionsFromSerializedDefinitions:(id)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSMutableUserNotificationTextFieldDefinition
+📌 父类: SBSUserNotificationTextFieldDefinition
+
+🔸 属性 (7):
+  • title
+  • value
+  • secure
+  • maxLength
+  • keyboardType
+  • autocapitalizationType
+  • autocorrectionType
+
+⚡️ 实例方法 (8):
+  - (void)setSecure:(BOOL)arg0
+  - (void)setAutocapitalizationType:(long long)arg0
+  - (void)setKeyboardType:(long long)arg0
+  - (void)setAutocorrectionType:(long long)arg0
+  - (void)setMaxLength:(unsigned long long)arg0
+  - (void)setTitle:(id)arg0
+  - (void)setValue:(id)arg0
+  - (id)copyWithZone:(^{_NSZone=})arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: _SBSUserNotificationTextFieldDefinitionBuilder
+📌 父类: NSObject
+
+🔹 实例变量 (1):
+  • _definitions : @"NSMutableArray"
+
+⚡️ 实例方法 (4):
+  - (void).cxx_destruct
+  - (id)init
+  - (id)build
+  - (void)addTextFieldDefinitionWithConfiguration:(@?)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSUserNotificationCAPackageDefinition
+📌 父类: SBSUserNotificationAssetDefinition
+
+🔸 属性 (1):
+  • caPackagePath
+
+🔹 实例变量 (1):
+  • _caPackagePath : @"NSString"
+
+⚡️ 实例方法 (5):
+  - (void).cxx_destruct
+  - (id)_initWithDictionary:(id)arg0
+  - (id)build
+  - (id)_initWithCAPackagePath:(id)arg0
+  - (id)caPackagePath
+
+⚡️ 类方法 (2):
+  + (id)_definitionType
+  + (id)definitionWithCAPackagePath:(id)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSUserNotificationSystemApertureContentDefinition
+📌 父类: NSObject
+
+🔸 属性 (12):
+  • leadingImageDefinition
+  • keyColorName
+  • alertHeaderColorName
+  • alertHeader
+  • alertMessage
+  • alertHeaderColor
+  • keyColor
+  • alertTextAlignment
+  • defaultButtonTitle
+  • alternateButtonTitle
+  • leadingAssetDefinition
+  • preventsAutomaticDismissal
+
+🔹 实例变量 (9):
+  • _preventsAutomaticDismissal : B
+  • _alertHeader : @"NSString"
+  • _alertMessage : @"NSString"
+  • _alertHeaderColor : @"SBSUserNotificationColorDefinition"
+  • _keyColor : @"SBSUserNotificationColorDefinition"
+  • _alertTextAlignment : @"NSNumber"
+  • _defaultButtonTitle : @"NSString"
+  • _alternateButtonTitle : @"NSString"
+  • _leadingAssetDefinition : @"SBSUserNotificationAssetDefinition"
+
+⚡️ 实例方法 (27):
+  - (void).cxx_destruct
+  - (id)_initWithDictionary:(id)arg0
+  - (id)build
+  - (id)keyColor
+  - (void)setKeyColor:(id)arg0
+  - (id)alertMessage
+  - (void)setAlertHeader:(id)arg0
+  - (id)alertHeader
+  - (id)alertHeaderColor
+  - (id)alertHeaderColorName
+  - (id)alertTextAlignment
+  - (id)alternateButtonTitle
+  - (id)defaultButtonTitle
+  - (id)keyColorName
+  - (id)leadingAssetDefinition
+  - (id)leadingImageDefinition
+  - (BOOL)preventsAutomaticDismissal
+  - (void)setAlertHeaderColor:(id)arg0
+  - (void)setAlertHeaderColorName:(id)arg0
+  - (void)setAlertMessage:(id)arg0
+  - (void)setAlertTextAlignment:(id)arg0
+  - (void)setAlternateButtonTitle:(id)arg0
+  - (void)setDefaultButtonTitle:(id)arg0
+  - (void)setKeyColorName:(id)arg0
+  - (void)setLeadingAssetDefinition:(id)arg0
+  - (void)setLeadingImageDefinition:(id)arg0
+  - (void)setPreventsAutomaticDismissal:(BOOL)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSSpotlightActivationRequest
+📌 父类: NSObject
+
+⚡️ 实例方法 (1):
+  - (void)requestSpotlightActivation
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSRemoteContentDefinition
+📌 父类: NSObject
+📋 协议: BSXPCCoding, BSDescriptionProviding, NSCopying
+
+🔸 属性 (8):
+  • serviceName
+  • viewControllerClassName
+  • xpcEndpoint
+  • userInfo
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (4):
+  • _serviceName : @"NSString"
+  • _viewControllerClassName : @"NSString"
+  • _xpcEndpoint : @"NSObject<OS_xpc_object>"
+  • _userInfo : @"NSDictionary"
+
+⚡️ 实例方法 (18):
+  - (id)userInfo
+  - (void).cxx_destruct
+  - (id)viewControllerClassName
+  - (void)setUserInfo:(id)arg0
+  - (id)descriptionWithMultilinePrefix:(id)arg0
+  - (id)serviceName
+  - (id)initWithXPCDictionary:(id)arg0
+  - (id)init
+  - (id)succinctDescription
+  - (void)encodeWithXPCDictionary:(id)arg0
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (id)succinctDescriptionBuilder
+  - (id)description
+  - (id)descriptionBuilderWithMultilinePrefix:(id)arg0
+  - (void)setXpcEndpoint:(id)arg0
+  - (id)xpcEndpoint
+  - (id)initWithServiceName:(id)arg0 viewControllerClassName:(id)arg1
+  - (id)initWithServiceName:(id)arg0 viewControllerClassName:(id)arg1 xpcEndpoint:(id)arg2 userInfo:(id)arg3
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSApplicationUserQuitMonitorSessionSpecification
+📌 父类: NSObject
+
+⚡️ 类方法 (3):
+  + (id)interface
+  + (id)serviceQuality
+  + (id)identifier
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSAccidentalActivationMitigationSessionServiceSpecification
+📌 父类: NSObject
+
+⚡️ 类方法 (3):
+  + (id)interface
+  + (id)serviceQuality
+  + (id)identifier
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSRemoteContentAlert
+📌 父类: NSObject
+📋 协议: NSSecureCoding
+
+🔸 属性 (4):
+  • title
+  • message
+  • preferredStyle
+  • actions
+
+🔹 实例变量 (5):
+  • _preferredStyle : q
+  • _actions : @"NSMutableArray"
+  • _preferredAction : @"SBSRemoteContentAlertAction"
+  • _title : @"NSString"
+  • _message : @"NSString"
+
+⚡️ 实例方法 (13):
+  - (id)initWithCoder:(id)arg0
+  - (void)setMessage:(id)arg0
+  - (BOOL)isEqual:(id)arg0
+  - (void).cxx_destruct
+  - (id)actions
+  - (void)addAction:(id)arg0
+  - (void)setTitle:(id)arg0
+  - (long long)preferredStyle
+  - (id)title
+  - (void)encodeWithCoder:(id)arg0
+  - (id)message
+  - (unsigned long long)hash
+  - (id)initWithTitle:(id)arg0 message:(id)arg1 preferredStyle:(long long)arg2
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSRemoteContentAlertAction
+📌 父类: NSObject
+📋 协议: NSSecureCoding
+
+🔸 属性 (3):
+  • title
+  • style
+  • enabled
+
+🔹 实例变量 (3):
+  • _title : @"NSString"
+  • _style : q
+  • _enabled : B
+
+⚡️ 实例方法 (10):
+  - (id)initWithCoder:(id)arg0
+  - (BOOL)isEqual:(id)arg0
+  - (id)initWithTitle:(id)arg0 style:(long long)arg1
+  - (void).cxx_destruct
+  - (BOOL)isEnabled
+  - (long long)style
+  - (id)title
+  - (void)encodeWithCoder:(id)arg0
+  - (void)setEnabled:(BOOL)arg0
+  - (unsigned long long)hash
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSUserNotificationColorDefinition
+📌 父类: NSObject
+📋 协议: NSCopying
+
+🔸 属性 (2):
+  • color
+  • colorName
+
+🔹 实例变量 (2):
+  • _color : @"BSColor"
+  • _colorName : @"NSString"
+
+⚡️ 实例方法 (9):
+  - (id)color
+  - (void).cxx_destruct
+  - (id)_initWithDictionary:(id)arg0
+  - (id)colorName
+  - (id)build
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (id)_stringForColor:(id)arg0
+  - (id)_colorForString:(id)arg0
+  - (id)_initWithColorName:(id)arg0 color:(id)arg1
+
+⚡️ 类方法 (2):
+  + (id)definitionWithColor:(id)arg0
+  + (id)definitionWithColorName:(id)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSWidgetMetricsServer
+📌 父类: NSObject
+📋 协议: SBSWidgetHostingEnvironmentMetricsProviding
+
+🔸 属性 (4):
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (1):
+  • _connection : @"BSServiceConnection"
+
+⚡️ 实例方法 (11):
+  - (void).cxx_destruct
+  - (id)previewMetricsSpecificationForDeviceContext:(id)arg0 displayContext:(id)arg1 bundleIdentifier:(id)arg2
+  - (id)_init
+  - (void)dealloc
+  - (id)systemMetricsForWidget:(id)arg0
+  - (id)init
+  - (id)previewMetricsSpecificationForBundleIdentifier:(id)arg0
+  - (void)_createConnection
+  - (id)previewMetricsSpecificationsForBundleIdentifier:(id)arg0
+  - (id)previewMetricsSpecificationsForDeviceContext:(id)arg0 displayContext:(id)arg1 bundleIdentifier:(id)arg2
+  - (id)systemMetricsForWidget:(id)arg0 inHostingEnvironment:(id)arg1
+
+⚡️ 类方法 (2):
+  + (id)checkOutServerInstance
+  + (void)returnServerInstance:(id)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSAbstractSystemService
+📌 父类: SBSAbstractFacilityService
+
+🔸 属性 (1):
+  • client
+
+⚡️ 实例方法 (1):
+  - (id)client
+
+⚡️ 类方法 (1):
+  + (Class)serviceFacilityClientClass
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSInCallPresentationConfiguration
+📌 父类: NSObject
+📋 协议: NSSecureCoding
+
+🔸 属性 (11):
+  • preferredBannerHeight
+  • preferredPresentationMode
+  • userInitiated
+  • sceneBundleIdentifier
+  • screenSharingPresentation
+  • identifier
+  • supportsSystemAperture
+  • shouldPreventBannersWhenPresentedAsOverlay
+  • supportsAmbient
+  • shouldPreferContinuityDisplayForFullScreenPresentation
+  • requiresDismissedPresentationmode
+
+🔹 实例变量 (11):
+  • _userInitiated : B
+  • _screenSharingPresentation : B
+  • _supportsSystemAperture : B
+  • _shouldPreventBannersWhenPresentedAsOverlay : B
+  • _supportsAmbient : B
+  • _shouldPreferContinuityDisplayForFullScreenPresentation : B
+  • _requiresDismissedPresentationmode : B
+  • _preferredBannerHeight : d
+  • _preferredPresentationMode : q
+  • _sceneBundleIdentifier : @"NSString"
+  • _identifier : @"NSUUID"
+
+⚡️ 实例方法 (29):
+  - (id)initWithCoder:(id)arg0
+  - (void)setUserInitiated:(BOOL)arg0
+  - (void).cxx_destruct
+  - (id)descriptionWithMultilinePrefix:(id)arg0
+  - (BOOL)isUserInitiated
+  - (void)encodeWithCoder:(id)arg0
+  - (id)succinctDescription
+  - (id)identifier
+  - (id)succinctDescriptionBuilder
+  - (id)description
+  - (id)descriptionBuilderWithMultilinePrefix:(id)arg0
+  - (BOOL)supportsAmbient
+  - (id)initWithSceneBundleIdentifier:(id)arg0
+  - (BOOL)isScreenSharingPresentation
+  - (double)preferredBannerHeight
+  - (long long)preferredPresentationMode
+  - (BOOL)requiresDismissedPresentationmode
+  - (id)sceneBundleIdentifier
+  - (void)setPreferredBannerHeight:(double)arg0
+  - (void)setPreferredPresentationMode:(long long)arg0
+  - (void)setRequiresDismissedPresentationmode:(BOOL)arg0
+  - (void)setScreenSharingPresentation:(BOOL)arg0
+  - (void)setShouldPreferContinuityDisplayForFullScreenPresentation:(BOOL)arg0
+  - (void)setShouldPreventBannersWhenPresentedAsOverlay:(BOOL)arg0
+  - (void)setSupportsAmbient:(BOOL)arg0
+  - (void)setSupportsSystemAperture:(BOOL)arg0
+  - (BOOL)shouldPreferContinuityDisplayForFullScreenPresentation
+  - (BOOL)shouldPreventBannersWhenPresentedAsOverlay
+  - (BOOL)supportsSystemAperture
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSCaptureButtonAppConfigurationCoordinator
+📌 父类: NSObject
+📋 协议: SBSCaptureButtonAppConfigurationClientDelegate
+
+🔸 属性 (4):
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (9):
+  • _client : @"SBSCaptureButtonAppConfigurationClient"
+  • _associatedAppObserversToBlocks : @"NSMapTable"
+  • _eligibleAppsObserversToBlocks : @"NSMapTable"
+  • _eligibleCaptureAppsObserversToBlocks : @"NSMapTable"
+  • _isAssociatedAppKnown : B
+  • _areEligibleAppsKnown : B
+  • _currentAssociatedAppBundleIdentifier : @"NSString"
+  • _currentEligibleAppsBundleIdentifiers : @"NSSet"
+  • _currentEligibleApps : @"NSSet"
+
+⚡️ 实例方法 (9):
+  - (void).cxx_destruct
+  - (void)dealloc
+  - (id)init
+  - (void)setAssociatedAppBundleIdentifier:(id)arg0
+  - (id)addObserverForAssociatedAppUpdatesUsingBlock:(@?)arg0
+  - (id)addObserverForEligibleAppsUpdatesUsingBlock:(@?)arg0
+  - (id)addObserverForEligibleCaptureAppsUpdatesUsingBlock:(@?)arg0
+  - (void)captureButtonAppConfigurationClient:(id)arg0 receiveInitialOrUpdatedAssociatedAppBundleIdentifier:(id)arg1
+  - (void)captureButtonAppConfigurationClient:(id)arg0 receiveInitialOrUpdatedEligibleApps:(id)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSFocusModesHomeScreenSnapshot
+📌 父类: NSObject
+📋 协议: BSXPCSecureCoding
+
+🔸 属性 (8):
+  • listIdentifier
+  • focusModeIdentifier
+  • machPortSendRight
+  • wantsListVisible
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (4):
+  • _wantsListVisible : B
+  • _listIdentifier : @"NSString"
+  • _focusModeIdentifier : @"NSString"
+  • _machPortSendRight : @"BSMachPortSendRight"
+
+⚡️ 实例方法 (12):
+  - (id)listIdentifier
+  - (void)setListIdentifier:(id)arg0
+  - (id)initWithBSXPCCoder:(id)arg0
+  - (void).cxx_destruct
+  - (void)encodeWithBSXPCCoder:(id)arg0
+  - (id)focusModeIdentifier
+  - (id)initWithListIdentifier:(id)arg0 focusModeIdentifier:(id)arg1 machPortSendRight:(id)arg2
+  - (id)machPortSendRight
+  - (void)setFocusModeIdentifier:(id)arg0
+  - (void)setMachPortSendRight:(id)arg0
+  - (void)setWantsListVisible:(BOOL)arg0
+  - (BOOL)wantsListVisible
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsBSXPCSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSFocusModesHomeScreenSettingsServiceInterfaceSpecification
+📌 父类: NSObject
+
+⚡️ 类方法 (3):
+  + (id)interface
+  + (id)serviceQuality
+  + (id)identifier
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSHomeScreenServiceSpecification
+📌 父类: NSObject
+
+⚡️ 类方法 (3):
+  + (id)interface
+  + (id)serviceQuality
+  + (id)identifier
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSHomeScreenServiceArrayOfStrings
+📌 父类: NSObject
+📋 协议: NSCopying, NSSecureCoding
+
+🔸 属性 (1):
+  • array
+
+🔹 实例变量 (1):
+  • _array : @"NSArray"
+
+⚡️ 实例方法 (7):
+  - (id)initWithCoder:(id)arg0
+  - (id)array
+  - (void).cxx_destruct
+  - (id)initWithArray:(id)arg0
+  - (id)init
+  - (void)encodeWithCoder:(id)arg0
+  - (id)copyWithZone:(^{_NSZone=})arg0
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSHomeScreenServiceArrayOfNumbers
+📌 父类: NSObject
+📋 协议: NSCopying, NSSecureCoding
+
+🔸 属性 (1):
+  • array
+
+🔹 实例变量 (1):
+  • _array : @"NSArray"
+
+⚡️ 实例方法 (7):
+  - (id)initWithCoder:(id)arg0
+  - (id)array
+  - (void).cxx_destruct
+  - (id)initWithArray:(id)arg0
+  - (id)init
+  - (void)encodeWithCoder:(id)arg0
+  - (id)copyWithZone:(^{_NSZone=})arg0
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSHomeScreenServiceNumberOrString
+📌 父类: NSObject
+📋 协议: NSCopying, NSSecureCoding
+
+🔸 属性 (1):
+  • numberOrString
+
+🔹 实例变量 (1):
+  • _numberOrString : @"<NSCopying><NSSecureCoding>"
+
+⚡️ 实例方法 (7):
+  - (id)initWithCoder:(id)arg0
+  - (void).cxx_destruct
+  - (id)init
+  - (void)encodeWithCoder:(id)arg0
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (id)initWithNumberOrString:(id)arg0
+  - (id)numberOrString
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSAppSwitcherSystemService
+📌 父类: SBSAbstractSystemService
+
+⚡️ 实例方法 (3):
+  - (void)requestResetLayoutAttributesWithCompletion:(@?)arg0
+  - (void)requestAppSwitcherAppearanceForHiddenApplicationWithBundleIdentifier:(id)arg0 completion:(@?)arg1
+  - (void)requestUpdateWindowingMode:(int)arg0 withCompletion:(@?)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSHomeScreenSilhouetteLayout
+📌 父类: NSObject
+📋 协议: BSDescriptionStreamable, BSXPCSecureCoding, NSCopying, NSCoding
+
+🔸 属性 (6):
+  • icons
+  • dock
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (2):
+  • _icons : @"NSArray"
+  • _dock : @"SBSHomeScreenRectangleSilhouette"
+
+⚡️ 实例方法 (14):
+  - (id)initWithCoder:(id)arg0
+  - (BOOL)isEqual:(id)arg0
+  - (id)initWithBSXPCCoder:(id)arg0
+  - (id)dock
+  - (void).cxx_destruct
+  - (id)icons
+  - (void)appendDescriptionToFormatter:(id)arg0
+  - (void)encodeWithBSXPCCoder:(id)arg0
+  - (id)init
+  - (void)encodeWithCoder:(id)arg0
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (id)description
+  - (unsigned long long)hash
+  - (id)initWithIcons:(id)arg0 dock:(id)arg1
+
+⚡️ 类方法 (2):
+  + (BOOL)supportsSecureCoding
+  + (BOOL)supportsBSXPCSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSHomeScreenRectangleSilhouette
+📌 父类: NSObject
+📋 协议: BSDescriptionStreamable, BSXPCSecureCoding, NSCopying, NSCoding
+
+🔸 属性 (6):
+  • frame
+  • cornerRadius
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (2):
+  • _cornerRadius : d
+  • _frame : {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}}
+
+⚡️ 实例方法 (13):
+  - (id)initWithCoder:(id)arg0
+  - (BOOL)isEqual:(id)arg0
+  - (id)initWithBSXPCCoder:(id)arg0
+  - (double)cornerRadius
+  - (void)appendDescriptionToFormatter:(id)arg0
+  - (void)encodeWithBSXPCCoder:(id)arg0
+  - (id)init
+  - (void)encodeWithCoder:(id)arg0
+  - ({CGRect={CGPoint=dd}{CGSize=dd}})frame
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (id)description
+  - (unsigned long long)hash
+  - (id)initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})arg0 cornerRadius:(double)arg1
+
+⚡️ 类方法 (2):
+  + (BOOL)supportsSecureCoding
+  + (BOOL)supportsBSXPCSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSCaptureIntentService
+📌 父类: NSObject
+
+🔹 实例变量 (2):
+  • _lock : {os_unfair_lock_s="_os_unfair_lock_opaque"I}
+  • _lock_connection : @"BSServiceConnection"
+
+⚡️ 实例方法 (6):
+  - (void)invalidate
+  - (id)context
+  - (void).cxx_destruct
+  - (void)setContext:(id)arg0
+  - (void)dealloc
+  - (id)init
+
+⚡️ 类方法 (1):
+  + (id)sharedInstance
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSSwitcherDemoCommandsSessionSpecification
+📌 父类: NSObject
+
+⚡️ 类方法 (3):
+  + (id)interface
+  + (id)serviceQuality
+  + (id)identifier
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSUserNotificationButtonDefinition
+📌 父类: NSObject
+📋 协议: NSCopying, NSMutableCopying
+
+🔸 属性 (3):
+  • title
+  • presentationStyle
+  • isPreferredButton
+
+🔹 实例变量 (3):
+  • _title : @"NSString"
+  • _presentationStyle : i
+  • _isPreferredButton : B
+
+⚡️ 实例方法 (13):
+  - (BOOL)isEqual:(id)arg0
+  - (void).cxx_destruct
+  - (id)_initWithDictionary:(id)arg0
+  - (int)presentationStyle
+  - (id)initWithTitle:(id)arg0
+  - (id)mutableCopyWithZone:(^{_NSZone=})arg0
+  - (id)init
+  - (id)title
+  - (id)build
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (unsigned long long)hash
+  - (void)_copyPropertiesToDefinition:(id)arg0
+  - (BOOL)isPreferredButton
+
+⚡️ 类方法 (1):
+  + (id)_buttonDefinitionsFromSerializedDefinitions:(id)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSMutableUserNotificationButtonDefinition
+📌 父类: SBSUserNotificationButtonDefinition
+
+🔸 属性 (3):
+  • title
+  • presentationStyle
+  • isPreferredButton
+
+⚡️ 实例方法 (4):
+  - (void)setTitle:(id)arg0
+  - (void)setPresentationStyle:(int)arg0
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (void)setIsPreferredButton:(BOOL)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: _SBSUserNotificationButtonDefinitionBuilder
+📌 父类: NSObject
+
+🔹 实例变量 (1):
+  • _definitions : @"NSMutableArray"
+
+⚡️ 实例方法 (4):
+  - (void).cxx_destruct
+  - (id)init
+  - (id)build
+  - (void)addButtonDefinitionWithTitle:(id)arg0 withConfiguration:(@?)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSControlCenterWindowingTelemetryPersonalizationMetrics
+📌 父类: SBSAbstractWindowingTelemetryPersonalizationMetrics
+
+⚡️ 实例方法 (1):
+  - (id)initWithPreviousMultitaskingMode:(long long)arg0 currentMultitaskingMode:(long long)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSWallpaperService
+📌 父类: NSObject
+
+🔸 属性 (1):
+  • posterSignificantEventsCounter
+
+🔹 实例变量 (3):
+  • _client : @"SBSWallpaperClient"
+  • _callbackQueue : @"NSObject<OS_dispatch_queue>"
+  • _wasInvalidated : B
+
+⚡️ 实例方法 (26):
+  - (BOOL)setWallpaperGradient:(id)arg0 forVariants:(unsigned long long)arg1
+  - (unsigned long long)significantEventsCounterForPosterWithIdentifier:(id)arg0
+  - (void)fetchContentCutoutBoundsForVariant:(long long)arg0 orientation:(long long)arg1 completionHandler:(@?)arg2
+  - (unsigned long long)posterSignificantEventsCounter
+  - (BOOL)setWallpaperColor:(id)arg0 darkColor:(id)arg1 forVariants:(unsigned long long)arg2
+  - (void)fetchLimitedOcclusionBoundsForOrientation:(long long)arg0 completionHandler:(@?)arg1
+  - (void)invalidate
+  - (BOOL)setWallpaperWithVideoWithWallpaperMode:(id)arg0 cropRect:({CGRect={CGPoint=dd}{CGSize=dd}})arg1 wallpaperMode:(long long)arg2
+  - (void)fetchAdaptiveTimeBoundsForContext:(id)arg0 timeHeight:(double)arg1 completionHandler:(@?)arg2
+  - (void)handleQuickActionConfigurationRequest:(id)arg0 completionHandler:(@?)arg1
+  - (void).cxx_destruct
+  - (BOOL)setWallpaperColorName:(id)arg0 forVariants:(unsigned long long)arg1
+  - (void)fetchOriginalImageForVariant:(long long)arg0 completionHandler:(@?)arg1
+  - (void)fetchLockScreenTimeBoundsForOrientation:(long long)arg0 completionHandler:(@?)arg1
+  - (void)dealloc
+  - (void)triggerPosterSignificantEventWithCompletion:(@?)arg0
+  - (void)fetchObscurableBoundsForOrientation:(long long)arg0 completionHandler:(@?)arg1
+  - (void)fetchPosterSignificantEventsCounterWithCompletionHandler:(@?)arg0
+  - (id)init
+  - (void)fetchAdaptiveTimeHeightLimitsForContext:(id)arg0 completionHandler:(@?)arg1
+  - (void)fetchThumbnailForVariant:(long long)arg0 completionHandler:(@?)arg1
+  - (void)fetchLockScreenContentCutoutBoundsForOrientation:(long long)arg0 completionHandler:(@?)arg1
+  - (void)fetchExtendedLockScreenContentCutoutBoundsForOrientation:(long long)arg0 completionHandler:(@?)arg1
+  - (void)fetchOriginalVideoURLForVariant:(long long)arg0 completionHandler:(@?)arg1
+  - (void)restoreDefaultWallpaperWithCompletion:(@?)arg0
+  - (void)fetchMaximalLockScreenContentCutoutBoundsForOrientation:(long long)arg0 completionHandler:(@?)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSWallpaperClient
+📌 父类: FBSServiceFacilityClient
+
+🔸 属性 (1):
+  • posterSignificantEventsCounter
+
+⚡️ 实例方法 (25):
+  - (BOOL)setWallpaperGradient:(id)arg0 forVariants:(unsigned long long)arg1
+  - (unsigned long long)significantEventsCounterForPosterWithIdentifier:(id)arg0
+  - (id)initWithIdentifier:(id)arg0 calloutQueue:(id)arg1
+  - (void)fetchContentCutoutBoundsForVariant:(unsigned int)arg0 orientation:(unsigned int)arg1 completionHandler:(@?)arg2
+  - (unsigned long long)posterSignificantEventsCounter
+  - (BOOL)setWallpaperColor:(id)arg0 darkColor:(id)arg1 forVariants:(unsigned long long)arg2
+  - (void)fetchLimitedOcclusionBoundsForOrientation:(unsigned int)arg0 completionHandler:(@?)arg1
+  - (BOOL)setWallpaperWithVideoWithWallpaperMode:(id)arg0 cropRect:({CGRect={CGPoint=dd}{CGSize=dd}})arg1 wallpaperMode:(unsigned char)arg2
+  - (void)fetchAdaptiveTimeBoundsForContext:(id)arg0 timeHeight:(double)arg1 completionHandler:(@?)arg2
+  - (id)initWithCalloutQueue:(id)arg0
+  - (void)handleQuickActionConfigurationRequest:(id)arg0 completionHandler:(@?)arg1
+  - (void)_fetchLockScreenBoundsCheckOfType:(long long)arg0 orientation:(unsigned int)arg1 completionHandler:(@?)arg2
+  - (BOOL)setWallpaperColorName:(id)arg0 forVariants:(unsigned long long)arg1
+  - (void)fetchOriginalImageForVariant:(unsigned int)arg0 completionHandler:(@?)arg1
+  - (void)fetchLockScreenTimeBoundsForOrientation:(unsigned int)arg0 completionHandler:(@?)arg1
+  - (void)triggerPosterSignificantEventWithCompletion:(@?)arg0
+  - (void)fetchObscurableBoundsForOrientation:(unsigned int)arg0 completionHandler:(@?)arg1
+  - (void)fetchPosterSignificantEventsCounterWithCompletionHandler:(@?)arg0
+  - (void)fetchAdaptiveTimeHeightLimitsForContext:(id)arg0 completionHandler:(@?)arg1
+  - (void)fetchThumbnailForVariant:(unsigned int)arg0 completionHandler:(@?)arg1
+  - (void)fetchLockScreenContentCutoutBoundsForOrientation:(unsigned int)arg0 completionHandler:(@?)arg1
+  - (void)fetchExtendedLockScreenContentCutoutBoundsForOrientation:(unsigned int)arg0 completionHandler:(@?)arg1
+  - (void)fetchOriginalVideoURLForVariant:(unsigned int)arg0 completionHandler:(@?)arg1
+  - (void)restoreDefaultWallpaperWithCompletion:(@?)arg0
+  - (void)fetchMaximalLockScreenContentCutoutBoundsForOrientation:(unsigned int)arg0 completionHandler:(@?)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSHomeScreenService
+📌 父类: NSObject
+📋 协议: SBSHomeScreenServiceServerToClientInterface
+
+🔸 属性 (16):
+  • cachedHomeScreenLayoutAvailable
+  • cachedHomeScreenLayoutAvailableValid
+  • cachedIconStyleConfiguration
+  • cachedIconStyleConfigurationValid
+  • largeIconLayoutEnabled
+  • largeIconSizeEnabled
+  • addsNewIconsToHomeScreen
+  • showsBadgesInAppLibrary
+  • showsHomeScreenSearchAffordance
+  • allHomeScreenApplicationBundleIdentifiers
+  • allHomeScreenApplicationPlaceholderBundleIdentifiers
+  • allIconLists
+  • homeScreenLayoutAvailable
+  • homeScreenIconStyleConfiguration
+  • debuggingActiveWidgetInfo
+  • overflowSlotCounts
+
+🔹 实例变量 (14):
+  • _connection : @"BSServiceConnection"
+  • _connectionQueue : @"NSObject<OS_dispatch_queue>"
+  • _lock : {os_unfair_lock_s="_os_unfair_lock_opaque"I}
+  • _installedWebClipObservers : @"NSHashTable"
+  • _homeScreenLayoutAvailableObservers : @"NSHashTable"
+  • _homeScreenLayoutObservers : @"NSHashTable"
+  • _iconBadgeValueObservers : @"NSHashTable"
+  • _iconStyleObservers : @"NSHashTable"
+  • _homeScreenApplicationsObservers : @"NSHashTable"
+  • _homeScreenLayoutAvailable : B
+  • _cachedHomeScreenLayoutAvailable : B
+  • _cachedHomeScreenLayoutAvailableValid : B
+  • _cachedIconStyleConfigurationValid : B
+  • _cachedIconStyleConfiguration : @"SBSHomeScreenIconStyleConfiguration"
+
+⚡️ 实例方法 (110):
+  - (void)addEmptyPage
+  - (void)removeWidgetsFromHomeScreen
+  - (BOOL)hasWidgetWithBundleIdentifier:(id)arg0
+  - (void)removeFileStackWithURL:(id)arg0
+  - (id)folderPathToIconWithBundleIdentifier:(id)arg0
+  - (void)resetHomeScreenLayoutWithCompletion:(@?)arg0
+  - (void)addFileStackWithURL:(id)arg0
+  - (void)presentAppLibraryCategoryPodForCategoryIdentifier:(id)arg0 completion:(@?)arg1
+  - (void)setupHomeScreenForWidgetScrollPerformanceTest
+  - (void)randomizeAllIconsAcrossPagesWithPageCount:(unsigned long long)arg0
+  - (BOOL)hasConfiguredFilesStackWithURL:(id)arg0
+  - (void)runRemoveAndRestoreIconTest
+  - (Vv)precacheIconLayersOnFirstPageWithAppearanceDescriptions:(id)arg0
+  - (void)swapApplicationIconsInProminentPositionsWithBundleIdentifier:(id)arg0 withApplicationIconsWithWithBundleIdentifier:(id)arg1
+  - (BOOL)canSwapApplicationIconsInProminentPositionsWithBundleIdentifier:(id)arg0 withApplicationIconsWithWithBundleIdentifier:(id)arg1
+  - (void)runDownloadingIconTest
+  - (void)addPageOfApplicationIconsWithBundleIdentifier:(id)arg0
+  - (Vv)installedWebClipsDidChange
+  - (void)clearTodayViewLayout
+  - (id)silhouetteLayoutForPageAtIndex:(unsigned long long)arg0
+  - (BOOL)showsBadgesInAppLibrary
+  - (void)organizeAllIconsAcrossPagesWithPageCount:(unsigned long long)arg0
+  - (void)organizeAllIconsIntoFoldersWithPageCount:(unsigned long long)arg0
+  - (id)debuggingActiveWidgetInfo
+  - (void)badgeValueForIconWithApplicationBundleIdentifier:(id)arg0 completionHandler:(@?)arg1
+  - (id)allHomeScreenApplicationPlaceholderBundleIdentifiers
+  - (id)addHomeScreenApplicationsObserver:(id)arg0
+  - (void)removeHomeScreenLayoutAvailabilityObservationAssertion:(id)arg0
+  - (void)requestAppLibraryUpdateWithReason:(id)arg0 completionHandler:(@?)arg1
+  - (void)addWidgetToTodayViewWithBundleIdentifier:(id)arg0
+  - (void)overrideBadgeValue:(id)arg0 forBundleIdentifier:(id)arg1
+  - (id)addIconBadgeValueObserver:(id)arg0
+  - (void)addSuggestedPageWithPageType:(id)arg0 focusModeIdentifier:(id)arg1
+  - (void)resetCategoriesLayoutWithCompletion:(@?)arg0
+  - (void)deleteAllWebClips
+  - (id)allIconLists
+  - (BOOL)isLargeIconLayoutEnabled
+  - (Vv)runFloatingDockStressTestWithCompletion:(@?)arg0
+  - (void)setShowsHomeScreenSearchAffordance:(BOOL)arg0
+  - (void)ignoreAllApps
+  - (id)addInstalledWebClipsObserver:(id)arg0
+  - (id)osMigrationHomeScreenLayout
+  - (Vv)homeScreenLayoutDidChange
+  - (BOOL)isCachedHomeScreenLayoutAvailableValid
+  - (void)clearAllOverflowSlotCounts
+  - (void)setIconListsHidden:(id)arg0
+  - (BOOL)debugContinuityWithBadgeType:(id)arg0 deviceTypeIdentifier:(id)arg1
+  - (void)addApplicationIconToHomeScreenWithBundleIdentifier:(id)arg0
+  - (void)configureDeweyOneCategoryWithAllApps
+  - (void)setHomeScreenLayoutAvailable:(BOOL)arg0
+  - (void).cxx_destruct
+  - (BOOL)isHomeScreenLayoutAvailable
+  - (Vv)homeScreenIconStyleConfigurationDidChange:(id)arg0
+  - (void)insertEmptyPageAtIndex:(unsigned long long)arg0
+  - (void)dismissAppLibraryWithCompletion:(@?)arg0
+  - (void)removeInstalledWebClipsObservationAssertion:(id)arg0
+  - (void)setLargeIconLayoutEnabled:(BOOL)arg0
+  - (void)removeIconBadgeValueObservationAssertion:(id)arg0
+  - (id)addHomeScreenLayoutObserver:(id)arg0
+  - (id)badgeValueForIconWithApplicationBundleIdentifier:(id)arg0
+  - (void)requestAppLibraryUpdateSuggestionsAndRecentsPodWithReason:(id)arg0 completionHandler:(@?)arg1
+  - (void)setHomeScreenIconStyleConfiguration:(id)arg0
+  - (id)osMigrationDefaultHomeScreenLayout
+  - (void)setCachedIconStyleConfigurationValid:(BOOL)arg0
+  - (id)configureCategoryMapProviderToUseCategoryMapAtURL:(id)arg0
+  - (Vv)homeScreenApplicationsDidChange
+  - (BOOL)addsNewIconsToHomeScreen
+  - (id)homeScreenIconStyleConfiguration
+  - (void)setCachedHomeScreenLayoutAvailableValid:(BOOL)arg0
+  - (id)cachedIconStyleConfiguration
+  - (void)setIconTintColor:(id)arg0
+  - (void)unforbidApplicationBundleIdentifierFromLibrary:(id)arg0 withCompletion:(@?)arg1
+  - (void)runWidgetDiscoverabilityTest
+  - (Vv)importOSMigrationHomeScreenLayout:(id)arg0
+  - (void)reloadHomeScreenLayout
+  - (void)dealloc
+  - (Vv)homeScreenLayoutAvailabilityDidChange:(id)arg0
+  - (void)presentAppLibraryAnimated:(BOOL)arg0 completion:(@?)arg1
+  - (id)allHomeScreenApplicationBundleIdentifiers
+  - (void)addDebugIconWithSizeClassDescription:(id)arg0 inPage:(unsigned long long)arg1 atPositionDescription:(id)arg2
+  - (void)setAddsNewIconsToHomeScreen:(BOOL)arg0
+  - (void)configureDeweyEachAppHasItsOwnCategory
+  - (void)requestSuggestedApplicationWithBundleIdentifier:(id)arg0 completion:(@?)arg1
+  - (void)addApplicationIconToHomeScreenWithBundleIdentifier:(id)arg0 inPage:(unsigned long long)arg1 atPositionDescription:(id)arg2
+  - (id)init
+  - (void)changeDisplayedDateOverride:(id)arg0
+  - (void)clearNewlyInstalledAndRecentlyUpdatedAppIndicators
+  - (void)resetTodayViewLayout
+  - (void)setCachedHomeScreenLayoutAvailable:(BOOL)arg0
+  - (id)iconTintColor
+  - (void)setShowsBadgesInAppLibrary:(BOOL)arg0
+  - (void)configureLibraryWithCategoryLimit:(long long)arg0
+  - (void)removeIconStyleObservationAssertion:(id)arg0
+  - (void)removeHomeScreenApplicationsObservationAssertion:(id)arg0
+  - (void)removeAllWidgets
+  - (BOOL)isCachedIconStyleConfigurationValid
+  - (void)forbidApplicationBundleIdentifierFromLibrary:(id)arg0 withCompletion:(@?)arg1
+  - (id)overflowSlotCounts
+  - (void)changeDisplayedDateWithAutoupdatingSecondsOverride:(id)arg0
+  - (void)changeDisplayedDateOffsetOverride:(double)arg0
+  - (BOOL)showsHomeScreenSearchAffordance
+  - (void)removeHomeScreenLayoutObservationAssertion:(id)arg0
+  - (id)addHomeScreenIconStyleObserver:(id)arg0
+  - (void)setHomeScreenIconStyleConfiguration:(id)arg0 wallpaperDimmed:(BOOL)arg1
+  - (Vv)applicationIconInfoChangedForBundleIdentifiers:(id)arg0
+  - (BOOL)isCachedHomeScreenLayoutAvailable
+  - (id)addHomeScreenLayoutAvailabilityObserver:(id)arg0
+  - (void)setCachedIconStyleConfiguration:(id)arg0
+  - (void)setLargeIconSizeEnabled:(BOOL)arg0
+  - (BOOL)isLargeIconSizeEnabled
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSHomeScreenServiceInstalledWebClipsObservationAssertion
+📌 父类: NSObject
+📋 协议: BSInvalidatable
+
+🔸 属性 (7):
+  • invalidated
+  • service
+  • observer
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (3):
+  • _invalidated : B
+  • _observer : @"<SBSHomeScreenServiceInstalledWebClipsObserver>"
+  • _service : @"SBSHomeScreenService"
+
+⚡️ 实例方法 (9):
+  - (void)setService:(id)arg0
+  - (BOOL)isInvalidated
+  - (void)invalidate
+  - (void).cxx_destruct
+  - (id)observer
+  - (id)service
+  - (void)dealloc
+  - (id)initWithObserver:(id)arg0 service:(id)arg1
+  - (void)setInvalidated:(BOOL)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSHomeScreenServiceHomeScreenLayoutAvailabilityObservationAssertion
+📌 父类: NSObject
+📋 协议: BSInvalidatable
+
+🔸 属性 (7):
+  • invalidated
+  • service
+  • observer
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (3):
+  • _invalidated : B
+  • _observer : @"<SBSHomeScreenServiceLayoutAvailableObserver>"
+  • _service : @"SBSHomeScreenService"
+
+⚡️ 实例方法 (9):
+  - (void)setService:(id)arg0
+  - (BOOL)isInvalidated
+  - (void)invalidate
+  - (void).cxx_destruct
+  - (id)observer
+  - (id)service
+  - (void)dealloc
+  - (id)initWithObserver:(id)arg0 service:(id)arg1
+  - (void)setInvalidated:(BOOL)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSHomeScreenServiceHomeScreenLayoutObservationAssertion
+📌 父类: NSObject
+📋 协议: BSInvalidatable
+
+🔸 属性 (7):
+  • invalidated
+  • service
+  • observer
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (3):
+  • _invalidated : B
+  • _observer : @"<SBSHomeScreenServiceLayoutObserver>"
+  • _service : @"SBSHomeScreenService"
+
+⚡️ 实例方法 (9):
+  - (void)setService:(id)arg0
+  - (BOOL)isInvalidated
+  - (void)invalidate
+  - (void).cxx_destruct
+  - (id)observer
+  - (id)service
+  - (void)dealloc
+  - (id)initWithObserver:(id)arg0 service:(id)arg1
+  - (void)setInvalidated:(BOOL)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSHomeScreenServiceIconBadgeValueObservationAssertion
+📌 父类: NSObject
+📋 协议: BSInvalidatable
+
+🔸 属性 (7):
+  • invalidated
+  • service
+  • observer
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (3):
+  • _invalidated : B
+  • _observer : @"<SBSHomeScreenServiceIconBadgeValueObserver>"
+  • _service : @"SBSHomeScreenService"
+
+⚡️ 实例方法 (9):
+  - (void)setService:(id)arg0
+  - (BOOL)isInvalidated
+  - (void)invalidate
+  - (void).cxx_destruct
+  - (id)observer
+  - (id)service
+  - (void)dealloc
+  - (id)initWithObserver:(id)arg0 service:(id)arg1
+  - (void)setInvalidated:(BOOL)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSHomeScreenServiceIconStyleObservationAssertion
+📌 父类: NSObject
+📋 协议: BSInvalidatable
+
+🔸 属性 (7):
+  • invalidated
+  • service
+  • observer
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (3):
+  • _invalidated : B
+  • _observer : @"<SBSHomeScreenServiceIconStyleObserver>"
+  • _service : @"SBSHomeScreenService"
+
+⚡️ 实例方法 (9):
+  - (void)setService:(id)arg0
+  - (BOOL)isInvalidated
+  - (void)invalidate
+  - (void).cxx_destruct
+  - (id)observer
+  - (id)service
+  - (void)dealloc
+  - (id)initWithObserver:(id)arg0 service:(id)arg1
+  - (void)setInvalidated:(BOOL)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSHomeScreenServiceHomeScreenApplicationsObservationAssertion
+📌 父类: NSObject
+📋 协议: BSInvalidatable
+
+🔸 属性 (7):
+  • invalidated
+  • service
+  • observer
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (3):
+  • _invalidated : B
+  • _observer : @"<SBSHomeScreenServiceHomeScreenApplicationsObserver>"
+  • _service : @"SBSHomeScreenService"
+
+⚡️ 实例方法 (9):
+  - (void)setService:(id)arg0
+  - (BOOL)isInvalidated
+  - (void)invalidate
+  - (void).cxx_destruct
+  - (id)observer
+  - (id)service
+  - (void)dealloc
+  - (id)initWithObserver:(id)arg0 service:(id)arg1
+  - (void)setInvalidated:(BOOL)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSStatusBarStyleOverridesAssertion
+📌 父类: SBSBackgroundActivityAssertion
+
+🔸 属性 (1):
+  • statusBarStyleOverrides
+
+⚡️ 实例方法 (2):
+  - (id)initWithStatusBarStyleOverrides:(unsigned long long)arg0 forPID:(int)arg1 exclusive:(BOOL)arg2 showsWhenForeground:(BOOL)arg3
+  - (unsigned long long)statusBarStyleOverrides
+
+⚡️ 类方法 (2):
+  + (id)assertionWithStatusBarStyleOverrides:(unsigned long long)arg0 forPID:(int)arg1 exclusive:(BOOL)arg2 showsWhenForeground:(BOOL)arg3
+  + (id)backgroundLocationAssertionForPID:(int)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBScreenTimeTrackingController
+📌 父类: NSObject
+📋 协议: FBSDisplayLayoutObserver
+
+🔸 属性 (4):
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (6):
+  • _layoutMonitor : @"FBSDisplayLayoutMonitor"
+  • _queue : @"NSObject<OS_dispatch_queue>"
+  • _queue_activeContext : i
+  • _queue_activeCategory : i
+  • _queue_lastLayout : @"FBSDisplayLayout"
+  • _queue_lastLayoutTransitionContext : @"FBSDisplayLayoutTransitionContext"
+
+⚡️ 实例方法 (7):
+  - (void).cxx_destruct
+  - (void)layoutMonitor:(id)arg0 didUpdateDisplayLayout:(id)arg1 withContext:(id)arg2
+  - (void)dealloc
+  - (id)init
+  - (void)_queue_setActiveCategory:(int)arg0 context:(int)arg1
+  - (id)_nameForContext:(int)arg0
+  - (void)_queue_handleNewLayout:(id)arg0 withContext:(id)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSKeyboardFocusService
+📌 父类: NSObject
+📋 协议: SBSKeyboardFocusServiceServerToClientInterface
+
+🔸 属性 (4):
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (3):
+  • _connection : @"BSServiceConnection"
+  • _connectionQueue : @"NSObject<OS_dispatch_queue>"
+  • _externalSceneIdentitiesAssertion : @"BSCompoundAssertion"
+
+⚡️ 实例方法 (7):
+  - (id)_connection
+  - (void).cxx_destruct
+  - (void)dealloc
+  - (id)applyAdditionalDeferringRules:(id)arg0 whenSceneHasKeyboardFocus:(id)arg1 processID:(int)arg2
+  - (void)removeKeyboardFocusFromSceneIdentity:(id)arg0 processID:(int)arg1
+  - (void)requestKeyboardFocusForSceneIdentity:(id)arg0 processID:(int)arg1 completion:(@?)arg2
+  - (id)setExternalSceneIdentities:(id)arg0 forReason:(id)arg1
+
+⚡️ 类方法 (1):
+  + (id)systemKeyCommandOverlayEnvironment
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSDisplayLayoutElement
+📌 父类: FBSDisplayLayoutElement
+📋 协议: SBSDisplayLayoutElement
+
+🔸 属性 (9):
+  • layoutRole
+  • zOrderIndex
+  • sb_transitioning
+  • sb_stashedPIP
+  • springBoardElement
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+⚡️ 实例方法 (11):
+  - (void)sb_setStashedPIP:(BOOL)arg0
+  - (void)setLayoutRole:(long long)arg0
+  - (BOOL)sb_isStashedPIP
+  - (long long)layoutRole
+  - (void)setZOrderIndex:(long long)arg0
+  - (BOOL)isSpringBoardElement
+  - (long long)zOrderIndex
+  - (BOOL)sb_isTransitioning
+  - (void)sb_setTransitioning:(BOOL)arg0
+  - (id)initWithIdentifier:(id)arg0 layoutRole:(long long)arg1
+  - (id)succinctDescriptionBuilder
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSSystemNotesPresentationRequest
+📌 父类: NSObject
+
+⚡️ 类方法 (1):
+  + (void)performPresentationWithConfiguration:(id)arg0 completion:(@?)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSRemoteAlertHandle
+📌 父类: NSObject
+
+🔸 属性 (3):
+  • handleID
+  • active
+  • valid
+
+🔹 实例变量 (7):
+  • _lock : {os_unfair_lock_s="_os_unfair_lock_opaque"I}
+  • _lock_active : B
+  • _lock_valid : B
+  • _lock_observers : @"NSHashTable"
+  • _calloutSerialQueue : @"NSObject<OS_dispatch_queue>"
+  • _handleClient : @"<SBSRemoteAlertHandleClient>"
+  • _handleID : @"NSString"
+
+⚡️ 实例方法 (16):
+  - (void)invalidate
+  - (void)removeObserver:(id)arg0
+  - (void).cxx_destruct
+  - (void)registerObserver:(id)arg0
+  - (BOOL)isActive
+  - (BOOL)isValid
+  - (void)addObserver:(id)arg0
+  - (void)unregisterObserver:(id)arg0
+  - (id)handleID
+  - (id)_initWithHandleID:(id)arg0 handleClient:(id)arg1
+  - (void)_receivedInvalidationWithError:(id)arg0
+  - (void)_didActivate
+  - (void)_didDeactivate
+  - (void)_invalidateWithError:(id)arg0 shouldInvalidateHandleClient:(BOOL)arg1
+  - (void)activateWithContext:(id)arg0
+  - (void)activateWithOptions:(id)arg0
+
+⚡️ 类方法 (8):
+  + (id)lookupHandlesForDefinition:(id)arg0 creatingIfNone:(BOOL)arg1 configurationContext:(id)arg2
+  + (id)defaultHandleClient
+  + (id)handleWithConfiguration:(id)arg0
+  + (id)lookupHandlesForConfiguration:(id)arg0 creatingIfNone:(BOOL)arg1
+  + (id)lookupHandlesForDefinition:(id)arg0
+  + (id)lookupHandlesForDefinition:(id)arg0 creatingIfNone:(BOOL)arg1
+  + (id)newHandleWithDefinition:(id)arg0 configurationContext:(id)arg1
+  + (void)setDefaultHandleClient:(id)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSWidgetMetricsServiceInterfaceSpecification
+📌 父类: NSObject
+
+⚡️ 类方法 (3):
+  + (id)interface
+  + (id)serviceQuality
+  + (id)identifier
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSStatusBarBackgroundActivityTapContextImpl
+📌 父类: NSObject
+📋 协议: NSSecureCoding, SBSStatusBarTapContext, SBSStatusBarBackgroundActivityTapContext
+
+🔸 属性 (2):
+  • backgroundActivityIdentifier
+  • styleOverride
+
+🔹 实例变量 (2):
+  • _backgroundActivityIdentifier : @"NSString"
+  • _styleOverride : Q
+
+⚡️ 实例方法 (8):
+  - (id)initWithCoder:(id)arg0
+  - (void).cxx_destruct
+  - (void)encodeWithCoder:(id)arg0
+  - (unsigned long long)styleOverride
+  - (id)backgroundActivityIdentifier
+  - (id)initWithBackgroundActivityIdentifier:(id)arg0
+  - (void)setBackgroundActivityIdentifier:(id)arg0
+  - (void)setStyleOverride:(unsigned long long)arg0
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSSystemServiceClient
+📌 父类: SBSServiceFacilityClient
+
+🔸 属性 (10):
+  • passcodePolicy
+  • chamoisWindowingUIEnabled
+  • chamoisPrefersDockHidden
+  • chamoisPrefersStripHidden
+  • systemApertureUnderAutomationTesting
+  • deviceSupportsSystemAperture
+  • systemApertureStateDump
+  • systemApertureModelStateDump
+  • widgetControllerStateDump
+  • animationFrameRecordings
+
+🔹 实例变量 (3):
+  • _buttonEventServiceIsWaitingForServerMessages : B
+  • _chamoisPrefersStripHidden : B
+  • _systemApertureUnderAutomationTesting : B
+
+⚡️ 实例方法 (70):
+  - (BOOL)isMenuBarSupported
+  - (void)setReachabilityActive:(BOOL)arg0
+  - (void)setRequestsHIDEvents:(BOOL)arg0 token:(id)arg1 forButtonKind:(long long)arg2
+  - (void)addWidgetsToEachPage
+  - (void)initiateSecureFlipBookRecordingsForElement:(id)arg0 withCompletion:(@?)arg1
+  - (void)countScenesForBundleIdentifier:(id)arg0 withCompletion:(@?)arg1
+  - (void)writeSystemApertureStateDumpToTextFileAtPath:(id)arg0
+  - (id)acquireAssertionForReachabilityEnabled:(BOOL)arg0
+  - (void)requestUpdateSwitcherWindowingMode:(int)arg0 withCompletion:(@?)arg1
+  - (id)systemApertureStateDump
+  - (void)resetToHomeScreenAnimated:(BOOL)arg0
+  - (void)enterLostMode
+  - (void)setAccessoryType:(long long)arg0 attached:(BOOL)arg1
+  - (void)setPasscodePolicy:(long long)arg0
+  - (void)stashSwitcherModelToPath:(id)arg0
+  - (void)setUserPresenceDetectedSinceWake
+  - (void)requestStateDump:(unsigned long long)arg0 withCompletion:(@?)arg1
+  - (void)requestAppSwitcherAppearanceForHiddenApplicationWithBundleIdentifier:(id)arg0 reacquiringExistingAssertion:(id)arg1 completion:(@?)arg2
+  - (long long)passcodePolicy
+  - (void)setAlertsEnabled:(BOOL)arg0
+  - (void)setSystemApertureUnderAutomationTesting:(BOOL)arg0
+  - (void)setIdleTimerEnabled:(BOOL)arg0
+  - (void)setOrientationLockEnabled:(BOOL)arg0
+  - (void)updateSystemGlowStyle:(long long)arg0
+  - (void)setApplicationBundleIdentifier:(id)arg0 blockedForScreenTime:(BOOL)arg1
+  - (id)availableRecordableFlipBookElementIdentifiers
+  - (void)enableRemoteStateDumpWithTimeout:(long long)arg0 completion:(@?)arg1
+  - (id)deserializedStringArrayForKey:(r*)arg0 fromPayload:(id)arg1
+  - (id)animationFrameRecordings
+  - (void)requestResetLayoutAttributesWithCompletion:(@?)arg0
+  - (BOOL)chamoisPrefersStripHidden
+  - (void)loadStashedSwitcherModelFromPath:(id)arg0
+  - (void)setSpringBoardAnimationFrameRecordingEnabledForUpdateTypes:(unsigned long long)arg0
+  - (BOOL)getAssociatedHintViewsSupported
+  - (id)acquireHUDHiddenAssertionForIdentifier:(id)arg0
+  - (id)systemApertureModelStateDump
+  - (void)requestSystemGlowEffectWithInitialStyle:(long long)arg0 completion:(@?)arg1
+  - (id)registerAssociatedHintViewContextId:(unsigned int)arg0 layerRenderId:(unsigned long long)arg1 layerSize:({CGSize=dd})arg2 forButtonKind:(long long)arg3
+  - (void)setAmbientPresentationState:(long long)arg0
+  - (void)setTestRunnerRecoveryApplicationBundleIdentifier:(id)arg0
+  - (BOOL)chamoisPrefersDockHidden
+  - (void)setMallocStackLoggingEnabled:(BOOL)arg0
+  - (BOOL)deviceSupportsSystemAperture
+  - (void)writeStateDump:(unsigned long long)arg0 toTextFileAtPath:(id)arg1
+  - (void)fetchHapticTypeForButtonKind:(long long)arg0 completion:(@?)arg1
+  - (BOOL)systemApertureUnderAutomationTesting
+  - (void)suspendAllDisplays
+  - (void)_handleButtonEventConsumePressMessage:(id)arg0
+  - (void)addWidgetWithIdentifier:(id)arg0 toPage:(int)arg1 withSizing:(int)arg2
+  - (void)setButtonEventServiceIsWaitingForServerMessages:(BOOL)arg0
+  - (void)setChamoisHideStripsEnabled:(BOOL)arg0
+  - (void)disableRemoteStateDumpWithCompletion:(@?)arg0
+  - (void)fetchUnlockCredentialSetWithCompletion:(@?)arg0
+  - (void)setChamoisWindowingUIEnabled:(BOOL)arg0
+  - (void)setChamoisPrefersDockHidden:(BOOL)arg0
+  - (void)setHiddenFeaturesEnabled:(BOOL)arg0
+  - (void)setEventMask:(unsigned long long)arg0 forButtonKind:(long long)arg1 priority:(long long)arg2
+  - (void)requestSystemApertureStateDumpWithCompletion:(@?)arg0
+  - (void)acquireAssertionOfType:(long long)arg0 forReason:(id)arg1 withCompletion:(@?)arg2
+  - (void)clearAllUserNotifications
+  - (void)addWidgetStackWithIdentifiers:(id)arg0 toPage:(int)arg1 withSizing:(int)arg2
+  - (void)handleMessage:(id)arg0 withType:(long long)arg1
+  - (void)setChamoisPrefersStripHidden:(BOOL)arg0
+  - (void)exitLostMode
+  - (void)updateHintViewContentVisibility:(long long)arg0 forButton:(long long)arg1 animationSettings:(id)arg2
+  - (void)toggleMenuBarVisibility
+  - (long long)toggleStateForButtonKind:(long long)arg0
+  - (void)setHapticType:(long long)arg0 forButtonKind:(long long)arg1
+  - (BOOL)isChamoisWindowingUIEnabled
+  - (id)widgetControllerStateDump
+
+⚡️ 类方法 (1):
+  + (id)serviceFacilityIdentifier
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSCFUserNotificationGraphicIconDefinition
+📌 父类: SBSUserNotificationImageDefinition
+
+🔸 属性 (5):
+  • iconType
+  • iconBundleIdentifier
+  • iconDecorationType
+  • iconDecorationBundleIdentifier
+  • iconDecorationPosition
+
+🔹 实例变量 (5):
+  • _iconType : @"NSString"
+  • _iconBundleIdentifier : @"NSString"
+  • _iconDecorationType : @"NSString"
+  • _iconDecorationBundleIdentifier : @"NSString"
+  • _iconDecorationPosition : @"NSNumber"
+
+⚡️ 实例方法 (12):
+  - (void).cxx_destruct
+  - (id)_initWithDictionary:(id)arg0
+  - (id)build
+  - (id)iconType
+  - (id)_initWithIconType:(id)arg0 iconBundleIdentifier:(id)arg1 iconDecorationType:(id)arg2 iconDecorationBundleIdentifier:(id)arg3 iconDecorationPosition:(id)arg4
+  - (id)iconBundleIdentifier
+  - (id)iconDecorationBundleIdentifier
+  - (id)iconDecorationPosition
+  - (id)iconDecorationType
+  - (id)initWithIconBundleIdentifier:(id)arg0
+  - (id)initWithIconType:(id)arg0
+  - (id)initWithIconType:(id)arg0 iconBundleIdentifier:(id)arg1 iconDecorationType:(id)arg2 iconDecorationBundleIdentifier:(id)arg3 iconDecorationPosition:(id)arg4
+
+⚡️ 类方法 (1):
+  + (id)_definitionType
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSUserNotificationImageAssetDefinition
+📌 父类: SBSUserNotificationImageDefinition
+
+🔸 属性 (3):
+  • imagePath
+  • catalogPath
+  • catalogImageKey
+
+🔹 实例变量 (3):
+  • _imagePath : @"NSString"
+  • _catalogPath : @"NSString"
+  • _catalogImageKey : @"NSString"
+
+⚡️ 实例方法 (9):
+  - (id)imagePath
+  - (void).cxx_destruct
+  - (id)_initWithDictionary:(id)arg0
+  - (id)build
+  - (id)catalogImageKey
+  - (id)_initWithImagePath:(id)arg0 imageCatalogPath:(id)arg1 catalogImageKey:(id)arg2
+  - (id)catalogPath
+  - (id)initWithImageCatalogPath:(id)arg0 catalogImageKey:(id)arg1
+  - (id)initWithImagePath:(id)arg0
+
+⚡️ 类方法 (1):
+  + (id)_definitionType
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSLockScreenContentAction
+📌 父类: BSAction
+
+🔸 属性 (6):
+  • type
+  • slot
+  • identifier
+  • secureAppType
+  • configurationObject
+  • automaticallyInvalidatesOnSecureAppUserDismissal
+
+🔹 实例变量 (4):
+  • _type : Q
+  • _slot : @"NSString"
+  • _secureAppType : Q
+  • _configurationObject : @
+
+⚡️ 实例方法 (12):
+  - (unsigned long long)type
+  - (void).cxx_destruct
+  - (id)slot
+  - (void)setSlot:(id)arg0
+  - (void)setType:(unsigned long long)arg0
+  - (id)identifier
+  - (BOOL)automaticallyInvalidatesOnSecureAppUserDismissal
+  - (id)configurationObject
+  - (id)initWithType:(unsigned long long)arg0 slot:(id)arg1 identifier:(id)arg2 configurationObject:(id)arg3 handler:(@?)arg4
+  - (unsigned long long)secureAppType
+  - (void)setConfigurationObject:(id)arg0
+  - (void)setSecureAppType:(unsigned long long)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSWebClipService
+📌 父类: NSObject
+
+⚡️ 类方法 (4):
+  + (id)_setupAndActivateServiceConnection
+  + (void)launchWebClipWithIdentifier:(id)arg0
+  + (void)launchWebClipWithIdentifier:(id)arg0 origin:(unsigned long long)arg1
+  + (void)updateWebClipPropertiesWithIdentifier:(id)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSRemoteAlertActivationContext
+📌 父类: NSObject
+📋 协议: BSDescriptionProviding, BSSettingDescriptionProvider, BSXPCCoding, NSSecureCoding, NSCopying
+
+🔸 属性 (19):
+  • legacyAlertOptions
+  • shouldInvalidateWhenDeactivated
+  • switcherEligible
+  • presentationMode
+  • reason
+  • activatingForSiri
+  • shouldDismissPresentedBanners
+  • shouldStashPictureInPictureIfNeeded
+  • actions
+  • userInfo
+  • activityContinuationIdentifier
+  • initialSupportedInterfaceOrientations
+  • presentationTarget
+  • preferredSceneDeactivationReason
+  • shouldEmbedOverShieldedApps
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (15):
+  • _activatingForSiri : B
+  • _shouldDismissPresentedBanners : B
+  • _shouldStashPictureInPictureIfNeeded : B
+  • _shouldEmbedOverShieldedApps : B
+  • _shouldInvalidateWhenDeactivated : B
+  • _switcherEligible : B
+  • _reason : @"NSString"
+  • _actions : @"NSSet"
+  • _userInfo : @"NSDictionary"
+  • _activityContinuationIdentifier : @"NSUUID"
+  • _initialSupportedInterfaceOrientations : Q
+  • _presentationTarget : @"SBSRemoteAlertPresentationTarget"
+  • _preferredSceneDeactivationReason : @"NSNumber"
+  • _legacyAlertOptions : @"NSDictionary"
+  • _presentationMode : q
+
+⚡️ 实例方法 (45):
+  - (id)initWithCoder:(id)arg0
+  - (long long)presentationMode
+  - (unsigned long long)initialSupportedInterfaceOrientations
+  - (void)setReason:(id)arg0
+  - (id)userInfo
+  - (void)setPresentationMode:(long long)arg0
+  - (void)setActions:(id)arg0
+  - (void).cxx_destruct
+  - (id)actions
+  - (void)setUserInfo:(id)arg0
+  - (id)reason
+  - (id)descriptionWithMultilinePrefix:(id)arg0
+  - (id)initWithXPCDictionary:(id)arg0
+  - (void)setInitialSupportedInterfaceOrientations:(unsigned long long)arg0
+  - (id)init
+  - (void)encodeWithCoder:(id)arg0
+  - (id)succinctDescription
+  - (void)encodeWithXPCDictionary:(id)arg0
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (id)succinctDescriptionBuilder
+  - (id)description
+  - (id)descriptionBuilderWithMultilinePrefix:(id)arg0
+  - (id)initWithActions:(id)arg0
+  - (void)setShouldEmbedOverShieldedApps:(BOOL)arg0
+  - (BOOL)shouldInvalidateWhenDeactivated
+  - (id)activityContinuationIdentifier
+  - (id)initWithActions:(id)arg0 presentationTarget:(id)arg1
+  - (id)initWithActions:(id)arg0 presentationTarget:(id)arg1 userInfo:(id)arg2
+  - (BOOL)isActivatingForSiri
+  - (BOOL)isSwitcherEligible
+  - (id)legacyAlertOptions
+  - (id)preferredSceneDeactivationReason
+  - (id)presentationTarget
+  - (void)setActivatingForSiri:(BOOL)arg0
+  - (void)setActivityContinuationIdentifier:(id)arg0
+  - (void)setLegacyAlertOptions:(id)arg0
+  - (void)setPreferredSceneDeactivationReason:(id)arg0
+  - (void)setPresentationTarget:(id)arg0
+  - (void)setShouldDismissPresentedBanners:(BOOL)arg0
+  - (void)setShouldInvalidateWhenDeactivated:(BOOL)arg0
+  - (void)setShouldStashPictureInPictureIfNeeded:(BOOL)arg0
+  - (void)setSwitcherEligible:(BOOL)arg0
+  - (BOOL)shouldDismissPresentedBanners
+  - (BOOL)shouldEmbedOverShieldedApps
+  - (BOOL)shouldStashPictureInPictureIfNeeded
+
+⚡️ 类方法 (2):
+  + (BOOL)supportsSecureCoding
+  + (id)activationContextWithLegacyAlertOptions:(id)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSStateDumpService
+📌 父类: SBSAbstractSystemService
+
+⚡️ 实例方法 (4):
+  - (void)requestStateDump:(unsigned long long)arg0 withCompletion:(@?)arg1
+  - (void)enableRemoteStateDumpWithTimeout:(long long)arg0 completion:(@?)arg1
+  - (void)writeStateDump:(unsigned long long)arg0 toTextFileAtPath:(id)arg1
+  - (void)disableRemoteStateDumpWithCompletion:(@?)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSWakeToRemoteAlertAssertion
+📌 父类: SBSLockScreenContentAssertion
+
+⚡️ 类方法 (1):
+  + (id)acquireWakeToRemoteAlertAssertionWithDefinition:(id)arg0 errorHandler:(@?)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSHomeScreenItem
+📌 父类: NSObject
+📋 协议: BSXPCSecureCoding, NSCopying
+
+🔸 属性 (5):
+  • kind
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+⚡️ 实例方法 (7):
+  - (BOOL)isEqual:(id)arg0
+  - (id)initWithBSXPCCoder:(id)arg0
+  - (void)encodeWithBSXPCCoder:(id)arg0
+  - (long long)kind
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (id)description
+  - (unsigned long long)hash
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsBSXPCSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSHomeScreenConfiguration
+📌 父类: NSObject
+📋 协议: BSXPCSecureCoding, NSCopying
+
+🔸 属性 (6):
+  • name
+  • layout
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (2):
+  • _name : @"NSString"
+  • _layout : @"SBSHomeScreenConfigurationLayout"
+
+⚡️ 实例方法 (11):
+  - (BOOL)isEqual:(id)arg0
+  - (id)initWithBSXPCCoder:(id)arg0
+  - (void).cxx_destruct
+  - (void)encodeWithBSXPCCoder:(id)arg0
+  - (id)name
+  - (void)setLayout:(id)arg0
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (void)setName:(id)arg0
+  - (id)description
+  - (unsigned long long)hash
+  - (id)layout
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsBSXPCSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSStatusBarStyleOverridesCoordinator
+📌 父类: SBSBackgroundActivityCoordinator
+
+🔸 属性 (2):
+  • delegate
+  • styleOverrides
+
+⚡️ 实例方法 (4):
+  - (void)setDelegate:(id)arg0
+  - (id)delegate
+  - (unsigned long long)styleOverrides
+  - (void)setRegisteredStyleOverrides:(unsigned long long)arg0 reply:(@?)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSApplicationClient
+📌 父类: SBSServiceFacilityClient
+
+⚡️ 实例方法 (7):
+  - (void)fetchApplicationShortcutItemsOfTypes:(unsigned long long)arg0 forBundleIdentifier:(id)arg1 withCompletionHandler:(@?)arg2
+  - (void)updateDynamicApplicationShortcutItems:(id)arg0 bundleIdentifier:(id)arg1
+  - (void)requestShelfPresentationForSceneWithIdentifier:(id)arg0
+  - (void)fetchWhitePointAdaptivityStyleForDisplayId:(unsigned int)arg0 withCompletionHandler:(@?)arg1
+  - (void)deleteSnapshotsForApplicationIdentifier:(id)arg0
+  - (void)triggerShowAllWindowsForApplicationBundleIdentifier:(id)arg0
+  - (id)applicationShortcutItemsOfTypes:(unsigned long long)arg0 forBundleIdentifier:(id)arg1
+
+⚡️ 类方法 (1):
+  + (id)serviceFacilityIdentifier
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSApplicationMultiwindowService
+📌 父类: SBSAbstractApplicationService
+
+⚡️ 实例方法 (2):
+  - (void)requestShelfPresentationForSceneWithIdentifier:(id)arg0
+  - (void)triggerShowAllWindowsForApplicationBundleIdentifier:(id)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSTestAutomationService
+📌 父类: SBSAbstractSystemService
+
+🔸 属性 (9):
+  • chamoisWindowingUIEnabled
+  • chamoisPrefersDockHidden
+  • chamoisPrefersStripHidden
+  • systemApertureModelStateDump
+  • systemApertureStateDump
+  • systemApertureUnderAutomationTesting
+  • deviceSupportsSystemAperture
+  • widgetControllerStateDump
+  • animationFrameRecording
+
+🔹 实例变量 (1):
+  • _systemApertureUnderAutomationTesting : B
+
+⚡️ 实例方法 (40):
+  - (void)setReachabilityActive:(BOOL)arg0
+  - (void)addWidgetsToEachPage
+  - (void)initiateSecureFlipBookRecordingsForElement:(id)arg0 withCompletion:(@?)arg1
+  - (void)countScenesForBundleIdentifier:(id)arg0 withCompletion:(@?)arg1
+  - (id)acquireAssertionForReachabilityEnabled:(BOOL)arg0
+  - (id)systemApertureStateDump
+  - (void)resetToHomeScreenAnimated:(BOOL)arg0
+  - (void)enterLostMode
+  - (void)setAccessoryType:(long long)arg0 attached:(BOOL)arg1
+  - (void)stashSwitcherModelToPath:(id)arg0
+  - (void)setUserPresenceDetectedSinceWake
+  - (void)setAlertsEnabled:(BOOL)arg0
+  - (void)setSystemApertureUnderAutomationTesting:(BOOL)arg0
+  - (void)setIdleTimerEnabled:(BOOL)arg0
+  - (void)setOrientationLockEnabled:(BOOL)arg0
+  - (void)setApplicationBundleIdentifier:(id)arg0 blockedForScreenTime:(BOOL)arg1
+  - (id)availableRecordableFlipBookElementIdentifiers
+  - (BOOL)chamoisPrefersStripHidden
+  - (void)loadStashedSwitcherModelFromPath:(id)arg0
+  - (void)setSpringBoardAnimationFrameRecordingEnabledForUpdateTypes:(unsigned long long)arg0
+  - (id)acquireHUDHiddenAssertionForIdentifier:(id)arg0
+  - (id)systemApertureModelStateDump
+  - (void)setAmbientPresentationState:(long long)arg0
+  - (void)setTestRunnerRecoveryApplicationBundleIdentifier:(id)arg0
+  - (BOOL)chamoisPrefersDockHidden
+  - (void)setMallocStackLoggingEnabled:(BOOL)arg0
+  - (BOOL)deviceSupportsSystemAperture
+  - (BOOL)systemApertureUnderAutomationTesting
+  - (void)suspendAllDisplays
+  - (void)addWidgetWithIdentifier:(id)arg0 toPage:(int)arg1 withSizing:(int)arg2
+  - (void)setChamoisWindowingUIEnabled:(BOOL)arg0
+  - (void)setChamoisPrefersDockHidden:(BOOL)arg0
+  - (void)setHiddenFeaturesEnabled:(BOOL)arg0
+  - (void)clearAllUserNotifications
+  - (void)addWidgetStackWithIdentifiers:(id)arg0 toPage:(int)arg1 withSizing:(int)arg2
+  - (void)setChamoisPrefersStripHidden:(BOOL)arg0
+  - (void)exitLostMode
+  - (BOOL)isChamoisWindowingUIEnabled
+  - (id)widgetControllerStateDump
+  - (id)animationFrameRecording
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSApplicationRestrictionMonitorProxy
+📌 父类: NSObject
+📋 协议: SBSApplicationRestrictionMonitorClientInterface, BSInvalidatable
+
+🔸 属性 (4):
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (3):
+  • _monitor : @"<SBSApplicationRestrictionMonitoring>"
+  • _queue : @"NSObject<OS_dispatch_queue>"
+  • _connection : @"BSServiceConnection"
+
+⚡️ 实例方法 (4):
+  - (void)invalidate
+  - (void).cxx_destruct
+  - (void)dealloc
+  - (void)observeUpdateWithApplicationRestrictState:(id)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSBackgroundActivityAssertionData
+📌 父类: NSObject
+📋 协议: NSSecureCoding, BSDescriptionProviding
+
+🔸 属性 (10):
+  • backgroundActivityIdentifiers
+  • pid
+  • exclusive
+  • showsWhenForeground
+  • uniqueIdentifier
+  • statusString
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (6):
+  • _backgroundActivityIdentifiers : @"NSSet"
+  • _pid : i
+  • _exclusive : B
+  • _showsWhenForeground : B
+  • _statusString : @"NSString"
+  • _uniqueIdentifier : @"NSString"
+
+⚡️ 实例方法 (24):
+  - (id)initWithCoder:(id)arg0
+  - (id)uniqueIdentifier
+  - (void)setUniqueIdentifier:(id)arg0
+  - (void).cxx_destruct
+  - (BOOL)isExclusive
+  - (int)pid
+  - (id)descriptionWithMultilinePrefix:(id)arg0
+  - (void)setStatusString:(id)arg0
+  - (void)setPid:(int)arg0
+  - (id)init
+  - (void)encodeWithCoder:(id)arg0
+  - (id)succinctDescription
+  - (id)statusString
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (id)succinctDescriptionBuilder
+  - (id)description
+  - (id)descriptionBuilderWithMultilinePrefix:(id)arg0
+  - (id)backgroundActivityIdentifiers
+  - (id)initWithBackgroundActivityIdentifiers:(id)arg0 forPID:(int)arg1 exclusive:(BOOL)arg2 showsWhenForeground:(BOOL)arg3
+  - (id)initWithBackgroundActivityIdentifiers:(id)arg0 forPID:(int)arg1 exclusive:(BOOL)arg2 showsWhenForeground:(BOOL)arg3 uniqueIdentifier:(id)arg4
+  - (void)setBackgroundActivityIdentifiers:(id)arg0
+  - (void)setExclusive:(BOOL)arg0
+  - (void)setShowsWhenForeground:(BOOL)arg0
+  - (BOOL)showsWhenForeground
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSHomeScreenConfigurationServiceInterfaceSpecification
+📌 父类: NSObject
+
+⚡️ 类方法 (4):
+  + (id)interface
+  + (id)serviceQuality
+  + (id)identifier
+  + (id)domain
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSSystemApertureRestrictionServiceSpecification
+📌 父类: NSObject
+
+⚡️ 类方法 (3):
+  + (id)interface
+  + (id)serviceQuality
+  + (id)identifier
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSRemoteAlertConfigurationContext
+📌 父类: NSObject
+📋 协议: BSXPCCoding, NSSecureCoding
+
+🔸 属性 (8):
+  • legacyAlertOptions
+  • userInfo
+  • xpcEndpoint
+  • actions
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (4):
+  • _userInfo : @"NSDictionary"
+  • _xpcEndpoint : @"NSObject<OS_xpc_object>"
+  • _actions : @"NSSet"
+  • _legacyAlertOptions : @"NSDictionary"
+
+⚡️ 实例方法 (12):
+  - (id)initWithCoder:(id)arg0
+  - (id)userInfo
+  - (void)setActions:(id)arg0
+  - (void).cxx_destruct
+  - (id)actions
+  - (void)setUserInfo:(id)arg0
+  - (id)initWithXPCDictionary:(id)arg0
+  - (void)encodeWithCoder:(id)arg0
+  - (void)encodeWithXPCDictionary:(id)arg0
+  - (void)setXpcEndpoint:(id)arg0
+  - (id)xpcEndpoint
+  - (id)legacyAlertOptions
+
+⚡️ 类方法 (2):
+  + (BOOL)supportsSecureCoding
+  + (id)configurationContextWithLegacyAlertOptions:(id)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSAbstractWindowingTelemetryPersonalizationMetrics
+📌 父类: NSObject
+
+🔸 属性 (4):
+  • previousMultitaskingMode
+  • currentMultitaskingMode
+  • source
+  • multitaskingBuddyPanePresentation
+
+🔹 实例变量 (4):
+  • _previousMultitaskingMode : q
+  • _currentMultitaskingMode : q
+  • _source : q
+  • _multitaskingBuddyPanePresentation : q
+
+⚡️ 实例方法 (6):
+  - (long long)source
+  - (id)_initWithPreviousMultitaskingMode:(long long)arg0 currentMultitaskingMode:(long long)arg1 source:(long long)arg2 multitaskingBuddyPanePresentation:(long long)arg3
+  - (long long)currentMultitaskingMode
+  - (void)emit
+  - (long long)multitaskingBuddyPanePresentation
+  - (long long)previousMultitaskingMode
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSPortalSource
+📌 父类: NSObject
+📋 协议: NSCopying, NSSecureCoding
+
+🔸 属性 (2):
+  • sourceLayerRenderID
+  • sourceContextID
+
+🔹 实例变量 (2):
+  • _sourceContextID : I
+  • _sourceLayerRenderID : Q
+
+⚡️ 实例方法 (9):
+  - (id)initWithCoder:(id)arg0
+  - (BOOL)isEqual:(id)arg0
+  - (void)encodeWithCoder:(id)arg0
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (id)description
+  - (unsigned long long)hash
+  - (unsigned int)sourceContextID
+  - (unsigned long long)sourceLayerRenderID
+  - (id)initWithSourceContextID:(unsigned int)arg0 sourceLayerRenderID:(unsigned long long)arg1
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSSystemNotesConnectAction
+📌 父类: BSAction
+
+🔸 属性 (1):
+  • connectionSource
+
+⚡️ 实例方法 (2):
+  - (unsigned long long)connectionSource
+  - (id)initWithSource:(unsigned long long)arg0 responder:(id)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: _SBSSystemNotesConnectActionSettingsDescriptionProvider
+📌 父类: NSObject
+📋 协议: BSSettingDescriptionProvider
+
+🔸 属性 (4):
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+⚡️ 实例方法 (2):
+  - (id)keyDescriptionForSetting:(unsigned long long)arg0
+  - (id)valueDescriptionForFlag:(long long)arg0 object:(id)arg1 ofSetting:(unsigned long long)arg2
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSAdaptiveTimeLayoutContext
+📌 父类: NSObject
+📋 协议: NSCopying, NSSecureCoding, BSXPCCoding, BSXPCSecureCoding
+
+🔸 属性 (6):
+  • orientation
+  • hasSidebarContents
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (2):
+  • _hasSidebarContents : B
+  • _orientation : q
+
+⚡️ 实例方法 (13):
+  - (id)initWithCoder:(id)arg0
+  - (long long)orientation
+  - (BOOL)isEqual:(id)arg0
+  - (id)initWithBSXPCCoder:(id)arg0
+  - (BOOL)hasSidebarContents
+  - (BOOL)supportsBSXPCSecureCoding
+  - (void)encodeWithBSXPCCoder:(id)arg0
+  - (id)initWithXPCDictionary:(id)arg0
+  - (void)encodeWithCoder:(id)arg0
+  - (void)encodeWithXPCDictionary:(id)arg0
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (void)setHasSidebarContents:(BOOL)arg0
+  - (void)setOrientation:(long long)arg0
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSKeyboardFocusServiceSpecification
+📌 父类: NSObject
+
+⚡️ 类方法 (3):
+  + (id)interface
+  + (id)serviceQuality
+  + (id)identifier
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSExternalDisplayService
+📌 父类: NSObject
+📋 协议: SBSExternalDisplayServiceServerToClientInterface
+
+🔸 属性 (4):
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (3):
+  • _connection : @"BSServiceConnection"
+  • _connectionQueue : @"NSObject<OS_dispatch_queue>"
+  • _queue_observers : @"NSHashTable"
+
+⚡️ 实例方法 (12):
+  - (id)_connection
+  - (Vv)externalDisplayWillDisconnect:(id)arg0
+  - (void)removeObserver:(id)arg0
+  - (void).cxx_destruct
+  - (void)dealloc
+  - (Vv)externalDisplayDidConnect:(id)arg0
+  - (void)addObserver:(id)arg0
+  - (void)setMirroringEnabled:(BOOL)arg0 forDisplay:(id)arg1
+  - (Vv)externalDisplayDidUpdateProperties:(id)arg0
+  - (void)getConnectedDisplayInfoWithCompletionHandler:(@?)arg0
+  - (void)setDisplayArrangement:(id)arg0 forDisplay:(id)arg1
+  - (void)setSettings:(id)arg0 forDisplay:(id)arg1 options:(unsigned long long)arg2 completionHandler:(@?)arg3
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSSystemNotesPresentationConfiguration
+📌 父类: NSObject
+📋 协议: BSDescriptionProviding, NSSecureCoding, NSCopying
+
+🔸 属性 (9):
+  • userActivityData
+  • identifier
+  • sceneBundleIdentifier
+  • userActivity
+  • preferredPresentationMode
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (5):
+  • _userActivityData : @"NSData"
+  • _sceneBundleIdentifier : @"NSString"
+  • _userActivity : @"NSUserActivity"
+  • _preferredPresentationMode : q
+  • _identifier : @"NSUUID"
+
+⚡️ 实例方法 (22):
+  - (id)initWithCoder:(id)arg0
+  - (BOOL)isEqual:(id)arg0
+  - (id)userActivityData
+  - (id)userActivity
+  - (void).cxx_destruct
+  - (id)descriptionWithMultilinePrefix:(id)arg0
+  - (void)encodeWithCoder:(id)arg0
+  - (id)succinctDescription
+  - (id)identifier
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (id)succinctDescriptionBuilder
+  - (id)description
+  - (id)descriptionBuilderWithMultilinePrefix:(id)arg0
+  - (id)initWithSceneBundleIdentifier:(id)arg0
+  - (id)initWithSceneBundleIdentifier:(id)arg0 userActivity:(id)arg1
+  - (id)initWithSceneBundleIdentifier:(id)arg0 userActivity:(id)arg1 preferredPresentationMode:(long long)arg2
+  - (id)initWithSceneBundleIdentifier:(id)arg0 userActivity:(id)arg1 preferredPresentationMode:(long long)arg2 identifier:(id)arg3
+  - (BOOL)isEqualToSystemNotesPresentationConfiguration:(id)arg0
+  - (long long)preferredPresentationMode
+  - (void)prepareForXPCCall:(@?)arg0
+  - (id)presentationConfigurationWithPreferredPresentationMode:(long long)arg0
+  - (id)sceneBundleIdentifier
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSMultitaskingApplicationShortcutService
+📌 父类: NSObject
+📋 协议: SBSMultitaskingApplicationShortcutServiceServerToClientInterface
+
+🔸 属性 (4):
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (4):
+  • _connection : @"BSServiceConnection"
+  • _connectionQueue : @"NSObject<OS_dispatch_queue>"
+  • _trackedBundleIdentifiers : @"NSCountedSet"
+  • _supportedShortcutsByBundleIdentifier : @"NSMutableDictionary"
+
+⚡️ 实例方法 (8):
+  - (id)_connection
+  - (unsigned long long)supportedShortcutActionsForBundleIdentifier:(id)arg0
+  - (void).cxx_destruct
+  - (void)startObservingSupportedShortcutsForBundleIdentifier:(id)arg0
+  - (void)stopObservingSupportedShortcutsForBundleIdentifier:(id)arg0
+  - (Vv)updateSupportedShortcutActionsForBundleIdentifiers:(id)arg0
+  - (void)dealloc
+  - (void)performMultitaskingShortcutAction:(long long)arg0 forBundleIdentifier:(id)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSApplicationShortcutService
+📌 父类: SBSAbstractApplicationService
+
+⚡️ 实例方法 (7):
+  - (void)fetchApplicationShortcutItemsOfTypes:(unsigned long long)arg0 forBundleIdentifier:(id)arg1 withCompletionHandler:(@?)arg2
+  - (void)updateDynamicApplicationShortcutItems:(id)arg0
+  - (void)updateDynamicApplicationShortcutItems:(id)arg0 bundleIdentifier:(id)arg1
+  - (void)updateDynamicApplicationShortcutItems:(id)arg0 forBundleIdentifier:(id)arg1
+  - (void)fetchDynamicApplicationShortcutItemsWithCompletionHandler:(@?)arg0
+  - (id)applicationShortcutItemsOfTypes:(unsigned long long)arg0 forBundleIdentifier:(id)arg1
+  - (void)fetchDynamicApplicationShortcutItemsForBundleIdentifier:(id)arg0 completionHandler:(@?)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSPhysicalButtonTargetMonitorServer
+📌 父类: NSObject
+📋 协议: SBSPhysicalButtonTargetMonitorServiceServer, BSServiceConnectionListenerDelegate
+
+🔸 属性 (6):
+  • connections
+  • physicalButtonTargets
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (5):
+  • _lock : {os_unfair_lock_s="_os_unfair_lock_opaque"I}
+  • _windowSceneManager : @"SBWindowSceneManager"
+  • _connectionListener : @"BSServiceConnectionListener"
+  • _lock_connections : @"NSMutableArray"
+  • _lock_physicalButtonTargets : Q
+
+⚡️ 实例方法 (8):
+  - (void)startServer
+  - (id)connections
+  - (void).cxx_destruct
+  - (void)dealloc
+  - (id)init
+  - (void)listener:(id)arg0 didReceiveConnection:(id)arg1 withContext:(id)arg2
+  - (unsigned long long)physicalButtonTargets
+  - (void)setPhysicalButtonTargets:(unsigned long long)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSPhysicalButtonTargetMonitorClient
+📌 父类: NSObject
+📋 协议: SBSPhysicalButtonTargetMonitorServiceClient
+
+🔸 属性 (4):
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (3):
+  • _lock_connection : @"BSServiceConnection"
+  • _lock : {os_unfair_lock_s="_os_unfair_lock_opaque"I}
+  • _lock_observationBlock : @?
+
+⚡️ 实例方法 (5):
+  - (void)invalidate
+  - (void).cxx_destruct
+  - (id)init
+  - (Vv)setPhysicalButtonTargets:(id)arg0
+  - (void)startObservingPresenceOfPhysicalButtonTargets:(@?)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSPhysicalButtonTargetMonitorServiceSpecification
+📌 父类: NSObject
+
+⚡️ 类方法 (3):
+  + (id)interface
+  + (id)serviceQuality
+  + (id)identifier
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSQuickActionConfigurationRequest
+📌 父类: NSObject
+📋 协议: NSCopying, NSSecureCoding
+
+🔸 属性 (2):
+  • leadingQuickActionControlRequest
+  • trailingQuickActionControlRequest
+
+🔹 实例变量 (2):
+  • _leadingQuickActionControlRequest : @"SBSQuickActionControlRequest"
+  • _trailingQuickActionControlRequest : @"SBSQuickActionControlRequest"
+
+⚡️ 实例方法 (9):
+  - (id)initWithCoder:(id)arg0
+  - (void).cxx_destruct
+  - (void)encodeWithCoder:(id)arg0
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (void)_requestQuickActionControlWithExtensionBundleIdentifier:(id)arg0 containerBundleIdentifier:(id)arg1 kind:(id)arg2 quickActionCategory:(unsigned long long)arg3 type:(unsigned long long)arg4 location:(long long)arg5
+  - (id)leadingQuickActionControlRequest
+  - (void)requestQuickActionControlWithExtensionBundleIdentifier:(id)arg0 containerBundleIdentifier:(id)arg1 kind:(id)arg2 type:(unsigned long long)arg3 location:(long long)arg4
+  - (void)requestQuickActionControlWithQuickActionCategory:(unsigned long long)arg0 location:(long long)arg1
+  - (id)trailingQuickActionControlRequest
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSLockScreenRemoteContentAssertion
+📌 父类: SBSLockScreenContentAssertion
+
+⚡️ 实例方法 (1):
+  - (BOOL)_supportsReacquisition
+
+⚡️ 类方法 (2):
+  + (id)acquireRemoteContentAssertionWithDefinition:(id)arg0 errorHandler:(@?)arg1
+  + (id)acquireWakeToRemoteAlertAssertionWithRemoteDefinition:(id)arg0 errorHandler:(@?)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSSystemNotesTakeScreenshotAction
+📌 父类: BSAction
+
+🔸 属性 (1):
+  • displaysToScreenshot
+
+⚡️ 实例方法 (2):
+  - (id)displaysToScreenshot
+  - (id)initWithDisplaysToScreenshot:(id)arg0 responder:(id)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSHomeScreenIconStyleConfiguration
+📌 父类: NSObject
+📋 协议: BSXPCSecureCoding, BSDescriptionProviding, NSCopying, NSSecureCoding
+
+🔸 属性 (8):
+  • configurationType
+  • updatedConfigurationType
+  • variant
+  • tintColor
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (3):
+  • _configurationType : q
+  • _variant : q
+  • _tintColor : @"BSColor"
+
+⚡️ 实例方法 (21):
+  - (id)initWithCoder:(id)arg0
+  - (BOOL)isEqual:(id)arg0
+  - (long long)configurationType
+  - (id)initWithBSXPCCoder:(id)arg0
+  - (void).cxx_destruct
+  - (Class)classForCoder
+  - (void)encodeWithBSXPCCoder:(id)arg0
+  - (id)descriptionWithMultilinePrefix:(id)arg0
+  - (void)encodeWithCoder:(id)arg0
+  - (id)succinctDescription
+  - (long long)variant
+  - (id)tintColor
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (id)succinctDescriptionBuilder
+  - (id)description
+  - (id)descriptionBuilderWithMultilinePrefix:(id)arg0
+  - (unsigned long long)hash
+  - (long long)iconServicesAppearanceUsingDarkInterfaceStyle:(BOOL)arg0
+  - (long long)iconServicesAppearanceVariantUsingDarkInterfaceStyle:(BOOL)arg0
+  - (id)initWithConfigurationType:(long long)arg0 variant:(long long)arg1 tintColor:(id)arg2
+  - (long long)updatedConfigurationType
+
+⚡️ 类方法 (7):
+  + (BOOL)supportsSecureCoding
+  + (BOOL)supportsBSXPCSecureCoding
+  + (id)automaticStyleConfiguration
+  + (id)darkStyleConfiguration
+  + (id)defaultStyleConfiguration
+  + (id)lightStyleConfiguration
+  + (id)tintedStyleConfigurationWithTintColor:(id)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSSystemNotesTakeScreenshotResult
+📌 父类: NSObject
+📋 协议: BSXPCCoding
+
+🔸 属性 (7):
+  • displayIdentity
+  • machPortSendRight
+  • scale
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (3):
+  • _displayIdentity : @"FBSDisplayIdentity"
+  • _machPortSendRight : @"BSMachPortSendRight"
+  • _scale : d
+
+⚡️ 实例方法 (7):
+  - (id)displayIdentity
+  - (void).cxx_destruct
+  - (id)initWithXPCDictionary:(id)arg0
+  - (double)scale
+  - (void)encodeWithXPCDictionary:(id)arg0
+  - (id)initWithDisplay:(id)arg0 sendRight:(id)arg1 scale:(double)arg2
+  - (id)machPortSendRight
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSApplicationHarmonyService
+📌 父类: SBSAbstractApplicationService
+
+⚡️ 实例方法 (1):
+  - (void)fetchWhitePointAdaptivityStyleForDisplayId:(unsigned int)arg0 withCompletionHandler:(@?)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSApplicationRestrictionState
+📌 父类: NSObject
+📋 协议: NSSecureCoding
+
+🔸 属性 (2):
+  • allowedBundleIdentifiers
+  • restrictedBundleIdentifiers
+
+🔹 实例变量 (2):
+  • _allowedBundleIdentifiers : @"NSSet"
+  • _restrictedBundleIdentifiers : @"NSSet"
+
+⚡️ 实例方法 (6):
+  - (id)initWithCoder:(id)arg0
+  - (void).cxx_destruct
+  - (void)encodeWithCoder:(id)arg0
+  - (id)allowedBundleIdentifiers
+  - (id)initWithAllowedIdentifiers:(id)arg0 restrictedIdentifiers:(id)arg1
+  - (id)restrictedBundleIdentifiers
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSRemoteAlertPresentationTarget
+📌 父类: NSObject
+📋 协议: BSDescriptionProviding, BSXPCCoding, NSSecureCoding
+
+🔸 属性 (10):
+  • targetPredicate
+  • targetProcess
+  • shouldDismissOnUILock
+  • shouldDismissInSwitcher
+  • requiresFullscreenPresentation
+  • scenePersistentIdentifier
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (4):
+  • _shouldDismissOnUILock : B
+  • _shouldDismissInSwitcher : B
+  • _requiresFullscreenPresentation : B
+  • _targetPredicate : @"SBSRemoteAlertPresentationTargetPredicate"
+
+⚡️ 实例方法 (22):
+  - (id)targetProcess
+  - (id)initWithCoder:(id)arg0
+  - (void).cxx_destruct
+  - (id)scenePersistentIdentifier
+  - (id)descriptionWithMultilinePrefix:(id)arg0
+  - (id)initWithXPCDictionary:(id)arg0
+  - (void)encodeWithCoder:(id)arg0
+  - (id)succinctDescription
+  - (void)encodeWithXPCDictionary:(id)arg0
+  - (id)succinctDescriptionBuilder
+  - (id)description
+  - (id)descriptionBuilderWithMultilinePrefix:(id)arg0
+  - (id)targetPredicate
+  - (id)initWithTargetPredicate:(id)arg0
+  - (id)initWithTargetProcess:(id)arg0
+  - (BOOL)requiresFullscreenPresentation
+  - (void)setRequiresFullscreenPresentation:(BOOL)arg0
+  - (void)setScenePersistentIdentifier:(id)arg0
+  - (void)setShouldDismissInSwitcher:(BOOL)arg0
+  - (void)setShouldDismissOnUILock:(BOOL)arg0
+  - (BOOL)shouldDismissInSwitcher
+  - (BOOL)shouldDismissOnUILock
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSRemoteAlertPresentationTargetPredicate
+📌 父类: NSObject
+📋 协议: BSDescriptionProviding, BSXPCCoding, NSSecureCoding
+
+🔸 属性 (7):
+  • process
+  • launchingApplicationIdentity
+  • scenePersistentIdentifier
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (3):
+  • _scenePersistentIdentifier : @"NSString"
+  • _process : @"BSProcessHandle"
+  • _launchingApplicationIdentity : @"LSApplicationIdentity"
+
+⚡️ 实例方法 (17):
+  - (id)initWithCoder:(id)arg0
+  - (void).cxx_destruct
+  - (id)scenePersistentIdentifier
+  - (id)descriptionWithMultilinePrefix:(id)arg0
+  - (id)initWithXPCDictionary:(id)arg0
+  - (id)_init
+  - (void)encodeWithCoder:(id)arg0
+  - (void)setProcess:(id)arg0
+  - (id)succinctDescription
+  - (void)encodeWithXPCDictionary:(id)arg0
+  - (id)succinctDescriptionBuilder
+  - (id)process
+  - (id)description
+  - (id)descriptionBuilderWithMultilinePrefix:(id)arg0
+  - (id)launchingApplicationIdentity
+  - (void)setLaunchingApplicationIdentity:(id)arg0
+  - (void)setScenePersistentIdentifier:(id)arg0
+
+⚡️ 类方法 (3):
+  + (BOOL)supportsSecureCoding
+  + (id)predicateForLaunchingApplicationIdentity:(id)arg0
+  + (id)predicateForProcess:(id)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSApplicationShortcutIcon
+📌 父类: NSObject
+📋 协议: BSXPCCoding, NSCopying
+
+🔸 属性 (4):
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+⚡️ 实例方法 (5):
+  - (id)initWithXPCDictionary:(id)arg0
+  - (id)init
+  - (void)encodeWithXPCDictionary:(id)arg0
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (id)_initForSubclass
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSApplicationShortcutSystemIcon
+📌 父类: SBSApplicationShortcutIcon
+
+🔸 属性 (2):
+  • type
+  • systemImageName
+
+🔹 实例变量 (2):
+  • _type : q
+  • _systemImageName : @"NSString"
+
+⚡️ 实例方法 (10):
+  - (BOOL)isEqual:(id)arg0
+  - (long long)type
+  - (void).cxx_destruct
+  - (id)initWithXPCDictionary:(id)arg0
+  - (id)systemImageName
+  - (void)encodeWithXPCDictionary:(id)arg0
+  - (id)initWithType:(long long)arg0
+  - (unsigned long long)hash
+  - (id)initWithSystemImageName:(id)arg0
+  - (id)_initForSubclass
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSApplicationShortcutSystemPrivateIcon
+📌 父类: SBSApplicationShortcutIcon
+
+🔸 属性 (1):
+  • systemImageName
+
+🔹 实例变量 (1):
+  • _systemImageName : @"NSString"
+
+⚡️ 实例方法 (8):
+  - (BOOL)isEqual:(id)arg0
+  - (void).cxx_destruct
+  - (id)initWithXPCDictionary:(id)arg0
+  - (id)systemImageName
+  - (void)encodeWithXPCDictionary:(id)arg0
+  - (unsigned long long)hash
+  - (id)initWithSystemImageName:(id)arg0
+  - (id)_initForSubclass
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSApplicationShortcutTemplateIcon
+📌 父类: SBSApplicationShortcutIcon
+
+🔸 属性 (1):
+  • templateImageName
+
+🔹 实例变量 (1):
+  • _templateImageName : @"NSString"
+
+⚡️ 实例方法 (8):
+  - (BOOL)isEqual:(id)arg0
+  - (void).cxx_destruct
+  - (id)initWithXPCDictionary:(id)arg0
+  - (void)encodeWithXPCDictionary:(id)arg0
+  - (unsigned long long)hash
+  - (id)initWithTemplateImageName:(id)arg0
+  - (id)_initForSubclass
+  - (id)templateImageName
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSApplicationShortcutCustomImageIcon
+📌 父类: SBSApplicationShortcutIcon
+
+🔸 属性 (4):
+  • imageData
+  • dataType
+  • isTemplate
+  • imagePNGData
+
+🔹 实例变量 (3):
+  • _isTemplate : B
+  • _imageData : @"NSData"
+  • _dataType : q
+
+⚡️ 实例方法 (13):
+  - (id)imageData
+  - (long long)dataType
+  - (BOOL)isEqual:(id)arg0
+  - (void).cxx_destruct
+  - (id)initWithXPCDictionary:(id)arg0
+  - (void)encodeWithXPCDictionary:(id)arg0
+  - (BOOL)isTemplate
+  - (unsigned long long)hash
+  - (id)initWithImageData:(id)arg0 dataType:(long long)arg1 isTemplate:(BOOL)arg2
+  - (id)_initForSubclass
+  - (id)imagePNGData
+  - (id)initWithImageData:(id)arg0 dataType:(long long)arg1
+  - (id)initWithImagePNGData:(id)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSApplicationShortcutContactIcon
+📌 父类: SBSApplicationShortcutIcon
+
+🔸 属性 (4):
+  • contactIdentifier
+  • firstName
+  • lastName
+  • imageData
+
+🔹 实例变量 (4):
+  • _contactIdentifier : @"NSString"
+  • _firstName : @"NSString"
+  • _lastName : @"NSString"
+  • _imageData : @"NSData"
+
+⚡️ 实例方法 (13):
+  - (id)imageData
+  - (id)firstName
+  - (BOOL)isEqual:(id)arg0
+  - (id)lastName
+  - (void).cxx_destruct
+  - (id)contactIdentifier
+  - (id)initWithXPCDictionary:(id)arg0
+  - (void)encodeWithXPCDictionary:(id)arg0
+  - (unsigned long long)hash
+  - (id)_initForSubclass
+  - (id)initWithContactIdentifier:(id)arg0
+  - (id)initWithFirstName:(id)arg0 lastName:(id)arg1
+  - (id)initWithFirstName:(id)arg0 lastName:(id)arg1 imageData:(id)arg2
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSExternalDisplayServiceSpecification
+📌 父类: NSObject
+
+⚡️ 类方法 (3):
+  + (id)interface
+  + (id)serviceQuality
+  + (id)identifier
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSCaptureApplicationServiceSpecification
+📌 父类: NSObject
+
+⚡️ 类方法 (3):
+  + (id)interface
+  + (id)serviceQuality
+  + (id)identifier
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSCardItem
+📌 父类: NSObject
+📋 协议: NSCopying, NSSecureCoding
+
+🔸 属性 (10):
+  • identifier
+  • categoryIdentifier
+  • iconData
+  • title
+  • subtitle
+  • body
+  • requiresPasscode
+  • bundleName
+  • userInfo
+  • thumbnail
+
+🔹 实例变量 (10):
+  • _requiresPasscode : B
+  • _identifier : @"NSString"
+  • _categoryIdentifier : @"NSString"
+  • _iconData : @"NSData"
+  • _title : @"NSString"
+  • _subtitle : @"NSString"
+  • _body : @"NSString"
+  • _bundleName : @"NSString"
+  • _userInfo : @"NSDictionary"
+  • _thumbnail : @"UIImage"
+
+⚡️ 实例方法 (30):
+  - (id)initWithCoder:(id)arg0
+  - (id)categoryIdentifier
+  - (id)body
+  - (void)setCategoryIdentifier:(id)arg0
+  - (void)setBundleName:(id)arg0
+  - (BOOL)isEqual:(id)arg0
+  - (id)thumbnail
+  - (void)setBody:(id)arg0
+  - (id)userInfo
+  - (id)bundleName
+  - (void)setThumbnail:(id)arg0
+  - (void).cxx_destruct
+  - (void)setUserInfo:(id)arg0
+  - (id)subtitle
+  - (void)setTitle:(id)arg0
+  - (id)sortDate
+  - (id)title
+  - (void)encodeWithCoder:(id)arg0
+  - (id)identifier
+  - (void)setIdentifier:(id)arg0
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (void)setSubtitle:(id)arg0
+  - (id)description
+  - (unsigned long long)hash
+  - (id)iconData
+  - (id)initWithIdentifier:(id)arg0 categoryIdentifier:(id)arg1 iconData:(id)arg2 title:(id)arg3 subtitle:(id)arg4 body:(id)arg5 requiresPasscode:(BOOL)arg6 bundleName:(id)arg7 userInfo:(id)arg8
+  - (id)initWithIdentifier:(id)arg0 iconData:(id)arg1 title:(id)arg2 body:(id)arg3 requiresPasscode:(BOOL)arg4 bundleName:(id)arg5 userInfo:(id)arg6
+  - (BOOL)requiresPasscode
+  - (void)setIconData:(id)arg0
+  - (void)setRequiresPasscode:(BOOL)arg0
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSCardItemsController
+📌 父类: NSObject
+📋 协议: SBSCardItemsControllerRemoteInterface
+
+🔸 属性 (4):
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (3):
+  • _identifier : @"NSString"
+  • _connection : @"NSXPCConnection"
+  • _connected : B
+
+⚡️ 实例方法 (9):
+  - (id)_remoteInterfaceWithErrorHandler:(@?)arg0
+  - (void)getCardItemsWithHandler:(@?)arg0
+  - (void).cxx_destruct
+  - (void)setCardItems:(id)arg0
+  - (void)dealloc
+  - (void)_connectToServerIfNecessary
+  - (void)_noteConnectionDropped
+  - (void)_invalidateConnection
+  - (id)initWithIdentifier:(id)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSSystemAperturePortalSourceInfoRequest
+📌 父类: NSObject
+
+⚡️ 类方法 (3):
+  + (id)_portalSource
+  + (void)_setPortalSource:(id)arg0
+  + (void)rootWindowPortalSourceWithCompletion:(@?)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSCaptureButtonAppConfigurationServiceSpecification
+📌 父类: NSObject
+
+⚡️ 类方法 (3):
+  + (id)interface
+  + (id)serviceQuality
+  + (id)identifier
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSRelativeDisplayArrangement
+📌 父类: NSObject
+📋 协议: NSSecureCoding
+
+🔸 属性 (3):
+  • displayIdentifier
+  • edge
+  • offset
+
+🔹 实例变量 (3):
+  • _edge : I
+  • _displayIdentifier : @"NSString"
+  • _offset : d
+
+⚡️ 实例方法 (7):
+  - (unsigned int)edge
+  - (id)initWithCoder:(id)arg0
+  - (double)offset
+  - (void).cxx_destruct
+  - (id)displayIdentifier
+  - (void)encodeWithCoder:(id)arg0
+  - (id)initWithDisplayIdentifier:(id)arg0 edge:(unsigned int)arg1 offset:(double)arg2
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSSecureAppAssertion
+📌 父类: SBSLockScreenContentAssertion
+
+🔸 属性 (1):
+  • actualAssertion
+
+🔹 实例变量 (1):
+  • _actualAssertion : @"SBSLockScreenContentAssertion"
+
+⚡️ 实例方法 (4):
+  - (void).cxx_destruct
+  - (void)setActualAssertion:(id)arg0
+  - (id)actualAssertion
+  - (BOOL)_supportsReacquisition
+
+⚡️ 类方法 (2):
+  + (id)acquireSecureAppAssertionWithType:(unsigned long long)arg0 errorHandler:(@?)arg1
+  + (id)acquireSecureAppAssertionWithType:(unsigned long long)arg0 supportedOrientations:(unsigned long long)arg1 errorHandler:(@?)arg2
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSSystemApertureLayoutMonitorServiceSpecification
+📌 父类: NSObject
+
+⚡️ 类方法 (3):
+  + (id)interface
+  + (id)serviceQuality
+  + (id)identifier
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSCaptureButtonRestrictionServiceSpecification
+📌 父类: NSObject
+
+⚡️ 类方法 (3):
+  + (id)interface
+  + (id)serviceQuality
+  + (id)identifier
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSAssertion
+📌 父类: NSObject
+📋 协议: BSInvalidatable
+
+🔸 属性 (8):
+  • assertionName
+  • reason
+  • valid
+  • receiveRight
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (3):
+  • _assertionName : @"NSString"
+  • _reason : @"NSString"
+  • _receiveRight : @"BSMachPortReceiveRight"
+
+⚡️ 实例方法 (11):
+  - (id)assertionName
+  - (id)initWithAssertionName:(id)arg0 reason:(id)arg1 receiveRight:(id)arg2
+  - (void)invalidate
+  - (void).cxx_destruct
+  - (id)reason
+  - (void)dealloc
+  - (BOOL)isValid
+  - (id)init
+  - (id)initWithAssertionName:(id)arg0 reason:(id)arg1 port:(unsigned int)arg2
+  - (id)receiveRight
+  - (void)addHandler:(@?)arg0 forDeathOfServerPort:(id)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSWebClipServiceSessionSpecification
+📌 父类: NSObject
+
+⚡️ 类方法 (3):
+  + (id)interface
+  + (id)serviceQuality
+  + (id)identifier
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSSystemNotesCreateAction
+📌 父类: BSAction
+
+🔸 属性 (1):
+  • reason
+
+⚡️ 实例方法 (2):
+  - (long long)reason
+  - (id)initWithReason:(long long)arg0 responder:(id)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: _SBSSystemNotesCreateActionSettingsDescriptionProvider
+📌 父类: NSObject
+📋 协议: BSSettingDescriptionProvider
+
+🔸 属性 (4):
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+⚡️ 实例方法 (2):
+  - (id)keyDescriptionForSetting:(unsigned long long)arg0
+  - (id)valueDescriptionForFlag:(long long)arg0 object:(id)arg1 ofSetting:(unsigned long long)arg2
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSOSMigrationHomeScreenApp
+📌 父类: NSObject
+📋 协议: SBSOSMigrationHomeScreenLeafItem
+
+🔸 属性 (5):
+  • bundleIdentifier
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (1):
+  • _bundleIdentifier : @"NSString"
+
+⚡️ 实例方法 (8):
+  - (id)initWithCoder:(id)arg0
+  - (void)appendDescriptionToStream:(id)arg0
+  - (id)bundleIdentifier
+  - (void).cxx_destruct
+  - (id)initWithBundleIdentifier:(id)arg0
+  - (void)encodeWithCoder:(id)arg0
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (id)description
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSOSMigrationHomeScreenWidget
+📌 父类: NSObject
+📋 协议: SBSOSMigrationHomeScreenLeafItem
+
+🔸 属性 (9):
+  • numberOfRows
+  • numberOfColumns
+  • hostApp
+  • widgetIdentifier
+  • widgetKind
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (5):
+  • _numberOfRows : Q
+  • _numberOfColumns : Q
+  • _hostApp : @"SBSOSMigrationHomeScreenApp"
+  • _widgetIdentifier : @"NSString"
+  • _widgetKind : @"NSString"
+
+⚡️ 实例方法 (12):
+  - (id)initWithCoder:(id)arg0
+  - (id)widgetKind
+  - (void)appendDescriptionToStream:(id)arg0
+  - (void).cxx_destruct
+  - (unsigned long long)numberOfRows
+  - (unsigned long long)numberOfColumns
+  - (id)widgetIdentifier
+  - (void)encodeWithCoder:(id)arg0
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (id)description
+  - (id)hostApp
+  - (id)initWithWidgetIdentifier:(id)arg0 widgetKind:(id)arg1 hostApp:(id)arg2 numberOfRows:(unsigned long long)arg3 numberOfColumns:(unsigned long long)arg4
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSOSMigrationHomeScreenFolder
+📌 父类: NSObject
+📋 协议: SBSOSMigrationHomeScreenLeafItem
+
+🔸 属性 (6):
+  • displayName
+  • apps
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (2):
+  • _displayName : @"NSString"
+  • _apps : @"NSArray"
+
+⚡️ 实例方法 (9):
+  - (id)initWithCoder:(id)arg0
+  - (void)appendDescriptionToStream:(id)arg0
+  - (void).cxx_destruct
+  - (id)displayName
+  - (void)encodeWithCoder:(id)arg0
+  - (id)apps
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (id)description
+  - (id)initWithDisplayName:(id)arg0 apps:(id)arg1
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSOSMigrationHomeScreenLayoutItem
+📌 父类: NSObject
+📋 协议: NSSecureCoding
+
+🔸 属性 (4):
+  • identifier
+  • rowIndex
+  • columnIndex
+  • item
+
+🔹 实例变量 (4):
+  • _identifier : q
+  • _rowIndex : Q
+  • _columnIndex : Q
+  • _item : @"<SBSOSMigrationHomeScreenLeafItem>"
+
+⚡️ 实例方法 (11):
+  - (id)initWithCoder:(id)arg0
+  - (void)appendDescriptionToStream:(id)arg0
+  - (void).cxx_destruct
+  - (unsigned long long)columnIndex
+  - (id)item
+  - (void)encodeWithCoder:(id)arg0
+  - (long long)identifier
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (id)description
+  - (unsigned long long)rowIndex
+  - (id)initWithIdentifier:(long long)arg0 rowIndex:(unsigned long long)arg1 columnIndex:(unsigned long long)arg2 item:(id)arg3
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSOSMigrationHomeScreenPage
+📌 父类: NSObject
+📋 协议: NSCopying, NSSecureCoding
+
+🔸 属性 (4):
+  • identifier
+  • numberOfRows
+  • numberOfColumns
+  • layoutItems
+
+🔹 实例变量 (4):
+  • _identifier : q
+  • _numberOfRows : Q
+  • _numberOfColumns : Q
+  • _layoutItems : @"NSArray"
+
+⚡️ 实例方法 (11):
+  - (id)initWithCoder:(id)arg0
+  - (void)appendDescriptionToStream:(id)arg0
+  - (void).cxx_destruct
+  - (unsigned long long)numberOfRows
+  - (unsigned long long)numberOfColumns
+  - (void)encodeWithCoder:(id)arg0
+  - (long long)identifier
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (id)description
+  - (id)initWithIdentifier:(long long)arg0 numberOfRows:(unsigned long long)arg1 numberOfColumns:(unsigned long long)arg2 layoutItems:(id)arg3
+  - (id)layoutItems
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSOSMigrationHomeScreenLayout
+📌 父类: NSObject
+📋 协议: NSCopying, NSSecureCoding
+
+🔸 属性 (2):
+  • pages
+  • bottomBarItems
+
+🔹 实例变量 (2):
+  • _pages : @"NSArray"
+  • _bottomBarItems : @"NSArray"
+
+⚡️ 实例方法 (9):
+  - (id)initWithCoder:(id)arg0
+  - (void)appendDescriptionToStream:(id)arg0
+  - (void).cxx_destruct
+  - (void)encodeWithCoder:(id)arg0
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (id)description
+  - (id)pages
+  - (id)bottomBarItems
+  - (id)initWithPages:(id)arg0 bottomBarItems:(id)arg1
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSHomeScreenConfigurationServiceProxy
+📌 父类: NSObject
+📋 协议: SBSHomeScreenConfigurationSession, SBSHomeScreenConfigurationClientToServerInterface
+
+🔸 属性 (4):
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (3):
+  • _queue : @"NSObject<OS_dispatch_queue>"
+  • _invalidationHandler : @?
+  • _connection : @"BSServiceConnection"
+
+⚡️ 实例方法 (4):
+  - (void).cxx_destruct
+  - (void)applyConfiguration:(id)arg0 completion:(@?)arg1
+  - (void)beginConfigurationSessionWithCompletion:(@?)arg0
+  - (void)endConfigurationSessionWithCompletion:(@?)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSBackgroundActivityAssertionAcquisitionHandlerEntry
+📌 父类: NSObject
+
+🔸 属性 (2):
+  • handler
+  • queue
+
+🔹 实例变量 (2):
+  • _handler : @?
+  • _queue : @"NSObject<OS_dispatch_queue>"
+
+⚡️ 实例方法 (5):
+  - (void).cxx_destruct
+  - (@?)handler
+  - (id)init
+  - (id)initWithHandler:(@?)arg0 queue:(id)arg1
+  - (id)queue
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSBackgroundActivityAssertionManager
+📌 父类: NSObject
+📋 协议: BSDescriptionProviding, SBSBackgroundActivityAssertionClient
+
+🔸 属性 (10):
+  • assertionsByIdentifier
+  • acquisitionHandlerEntriesByIdentifier
+  • sbXPCConnection
+  • internalQueue
+  • internalQueue_backgroundActivityCoordinator
+  • coordinatorCalloutQueue
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (6):
+  • _assertionsByIdentifier : @"NSMapTable"
+  • _acquisitionHandlerEntriesByIdentifier : @"NSMutableDictionary"
+  • _sbXPCConnection : @"NSXPCConnection"
+  • _internalQueue : @"NSObject<OS_dispatch_queue>"
+  • _internalQueue_backgroundActivityCoordinator : @"SBSBackgroundActivityCoordinator"
+  • _coordinatorCalloutQueue : @"NSObject<OS_dispatch_queue>"
+
+⚡️ 实例方法 (32):
+  - (void).cxx_destruct
+  - (id)descriptionWithMultilinePrefix:(id)arg0
+  - (id)internalQueue
+  - (id)init
+  - (id)succinctDescription
+  - (void)setInternalQueue:(id)arg0
+  - (id)succinctDescriptionBuilder
+  - (id)description
+  - (id)descriptionBuilderWithMultilinePrefix:(id)arg0
+  - (void)_handleXPCConnectionInvalidation
+  - (id)sbXPCConnection
+  - (void)updateStatusStringForAssertion:(id)arg0
+  - (void)_internalQueue_removeBackgroundActivityAssertionWithIdentifier:(id)arg0 invalidate:(BOOL)arg1
+  - (void)_internalQueue_setupXPCConnectionIfNecessary
+  - (void)_internalQueue_updateRegistrationForCoordinator:(id)arg0 reply:(@?)arg1
+  - (void)_reactivateAssertions
+  - (void)_registerBackgroundActivityCoordinatorAfterInterruption
+  - (id)acquisitionHandlerEntriesByIdentifier
+  - (void)addBackgroundActivityAssertion:(id)arg0 withHandler:(@?)arg1 onQueue:(id)arg2
+  - (id)assertionsByIdentifier
+  - (id)coordinatorCalloutQueue
+  - (id)internalQueue_backgroundActivityCoordinator
+  - (void)invalidateBackgroundActivityAssertionsWithIdentifiers:(id)arg0
+  - (void)removeBackgroundActivityAssertion:(id)arg0
+  - (void)setAcquisitionHandlerEntriesByIdentifier:(id)arg0
+  - (void)setAssertionsByIdentifier:(id)arg0
+  - (void)setCoordinatorCalloutQueue:(id)arg0
+  - (void)setInternalQueue_backgroundActivityCoordinator:(id)arg0
+  - (void)setSbXPCConnection:(id)arg0
+  - (void)statusBarTappedWithContext:(id)arg0 reply:(@?)arg1
+  - (void)unregisterCoordinator
+  - (void)updateRegistrationForCoordinator:(id)arg0 reply:(@?)arg1
+
+⚡️ 类方法 (1):
+  + (id)sharedInstance
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSSpotlightActivationRequestServer
+📌 父类: NSObject
+📋 协议: BSServiceConnectionListenerDelegate, SBSSpotlightActivationRequestServiceClientToServerProtocol
+
+🔸 属性 (5):
+  • delegate
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (4):
+  • _connectionListener : @"BSServiceConnectionListener"
+  • _connectionsLock : {os_unfair_lock_s="_os_unfair_lock_opaque"I}
+  • _connectionsLock_connections : @"NSMutableSet"
+  • _delegate : @"<SBSSpotlightActivationRequestServerDelegate>"
+
+⚡️ 实例方法 (11):
+  - (void)startServer
+  - (void)setDelegate:(id)arg0
+  - (void)invalidate
+  - (void).cxx_destruct
+  - (id)initWithDelegate:(id)arg0
+  - (void)dealloc
+  - (void)_removeConnection:(id)arg0
+  - (id)delegate
+  - (void)listener:(id)arg0 didReceiveConnection:(id)arg1 withContext:(id)arg2
+  - (void)_addConnection:(id)arg0
+  - (Vv)requestSpotlightActivation
+
+⚡️ 类方法 (3):
+  + (id)interface
+  + (id)serviceQuality
+  + (id)identifier
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSDebugActiveWidgetInfo
+📌 父类: NSObject
+📋 协议: BSDescriptionProviding, BSXPCSecureCoding, NSSecureCoding, NSCopying
+
+🔸 属性 (7):
+  • liveWidgetCount
+  • staticWidgetCount
+  • fakeWidgetCount
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (3):
+  • _liveWidgetCount : Q
+  • _staticWidgetCount : Q
+  • _fakeWidgetCount : Q
+
+⚡️ 实例方法 (18):
+  - (id)initWithCoder:(id)arg0
+  - (BOOL)isEqual:(id)arg0
+  - (id)initWithBSXPCCoder:(id)arg0
+  - (void)encodeWithBSXPCCoder:(id)arg0
+  - (id)descriptionWithMultilinePrefix:(id)arg0
+  - (void)encodeWithCoder:(id)arg0
+  - (id)succinctDescription
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (id)succinctDescriptionBuilder
+  - (id)description
+  - (id)descriptionBuilderWithMultilinePrefix:(id)arg0
+  - (unsigned long long)hash
+  - (unsigned long long)fakeWidgetCount
+  - (unsigned long long)liveWidgetCount
+  - (void)setFakeWidgetCount:(unsigned long long)arg0
+  - (void)setLiveWidgetCount:(unsigned long long)arg0
+  - (void)setStaticWidgetCount:(unsigned long long)arg0
+  - (unsigned long long)staticWidgetCount
+
+⚡️ 类方法 (2):
+  + (BOOL)supportsSecureCoding
+  + (BOOL)supportsBSXPCSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSUniversalControlInterfaceSpecification
+📌 父类: NSObject
+
+⚡️ 类方法 (3):
+  + (id)interface
+  + (id)serviceQuality
+  + (id)identifier
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSRemoteAlertHandleXPCClient
+📌 父类: NSObject
+📋 协议: SBSRemoteAlertHandleServiceClientInterface, SBSRemoteAlertHandleClient
+
+🔸 属性 (4):
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (6):
+  • _calloutQueue : @"NSObject<OS_dispatch_queue>"
+  • _connectionAccessQueue : @"NSObject<OS_dispatch_queue>"
+  • _connection : @"BSServiceConnection"
+  • _connectionActivated : B
+  • _connectionInvalidated : B
+  • _handleIDToHandle : @"NSMutableDictionary"
+
+⚡️ 实例方法 (12):
+  - (id)_connection
+  - (void).cxx_destruct
+  - (void)_handleError:(id)arg0
+  - (id)init
+  - (void)_invalidateHandleForHandleID:(id)arg0 withError:(id)arg1
+  - (void)activateRemoteAlertHandle:(id)arg0 withContext:(id)arg1
+  - (id)createRemoteAlertHandleWithDefinition:(id)arg0 configurationContext:(id)arg1
+  - (void)invalidateRemoteAlertHandle:(id)arg0
+  - (Vv)remoteAlertHandleWithID:(id)arg0 didInvalidateWithError:(id)arg1
+  - (Vv)remoteAlertHandleWithIDDidActivate:(id)arg0
+  - (Vv)remoteAlertHandleWithIDDidDeactivate:(id)arg0
+  - (id)remoteAlertHandlesForDefinition:(id)arg0 allowsCreation:(BOOL)arg1 configurationContext:(id)arg2
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSSystemApertureScenePresentationSessionClient
+📌 父类: NSObject
+
+🔸 属性 (2):
+  • identityToken
+  • connection
+
+🔹 实例变量 (2):
+  • _identityToken : @"FBSSceneIdentityToken"
+  • _connection : @"BSServiceConnection"
+
+⚡️ 实例方法 (7):
+  - (id)connection
+  - (void)setConnection:(id)arg0
+  - (void).cxx_destruct
+  - (void)dealloc
+  - (id)identityToken
+  - (void)destroyScene
+  - (void)requestScene
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSSystemApertureScenePresentationSessionServer
+📌 父类: NSObject
+📋 协议: BSServiceConnectionListenerDelegate, SBSSystemApertureScenePresentationSessionClientInterface
+
+🔸 属性 (5):
+  • delegate
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (6):
+  • _connectionListener : @"BSServiceConnectionListener"
+  • _isAvailable : B
+  • _connectionsLock : {os_unfair_lock_s="_os_unfair_lock_opaque"I}
+  • _connectionsLock_connections : @"NSMutableSet"
+  • _sceneConnections : @"NSMutableDictionary"
+  • _delegate : @"<SBSSystemApertureScenePresentationSessionServerDelegate>"
+
+⚡️ 实例方法 (13):
+  - (void)startServer
+  - (void)setDelegate:(id)arg0
+  - (void)invalidate
+  - (void).cxx_destruct
+  - (id)initWithDelegate:(id)arg0
+  - (void)dealloc
+  - (void)_removeConnection:(id)arg0
+  - (id)delegate
+  - (void)listener:(id)arg0 didReceiveConnection:(id)arg1 withContext:(id)arg2
+  - (void)_addConnection:(id)arg0
+  - (Vv)requestSystemApertureScene:(@?)arg0
+  - (void)requestSystemApertureSceneForCurrentProcess
+  - (void)requestSystemApertureSceneInvalidationWithIdentityToken:(id)arg0
+
+⚡️ 类方法 (4):
+  + (id)interface
+  + (id)serviceQuality
+  + (id)activeInstance
+  + (id)identifier
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSSystemNotesPresentationHandle
+📌 父类: NSObject
+📋 协议: SBSSystemNotesPresentationServerToClientInterface
+
+🔸 属性 (6):
+  • presentationMode
+  • requestedConfiguration
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (7):
+  • _lock : {os_unfair_lock_s="_os_unfair_lock_opaque"I}
+  • _lock_state : q
+  • _lock_presentationMode : q
+  • _lock_observers : @"NSHashTable"
+  • _handleClient : @"SBSSystemNotesPresentationClientToServerProxy"
+  • _calloutSerialQueue : @"NSObject<OS_dispatch_queue>"
+  • _configuration : @"SBSSystemNotesPresentationConfiguration"
+
+⚡️ 实例方法 (13):
+  - (long long)presentationMode
+  - (void)invalidate
+  - (void)removeObserver:(id)arg0
+  - (void).cxx_destruct
+  - (void)dealloc
+  - (void)activate
+  - (void)addObserver:(id)arg0
+  - (id)initWithConfiguration:(id)arg0
+  - (void)_invalidateWithError:(id)arg0 locally:(BOOL)arg1
+  - (Vv)configuration:(id)arg0 didChangeToPresentationMode:(id)arg1
+  - (Vv)configuration:(id)arg0 didInvalidateWithError:(id)arg1
+  - (id)initWithConfiguration:(id)arg0 client:(id)arg1
+  - (id)requestedConfiguration
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSUniversalControlService
+📌 父类: NSObject
+📋 协议: SBSUniversalControlServerToClientInterface
+
+🔸 属性 (4):
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (5):
+  • _lock : {os_unfair_lock_s="_os_unfair_lock_opaque"I}
+  • _queue : @"NSObject<OS_dispatch_queue>"
+  • _disableKeyboardFocusAssertion : @"BSCompoundAssertion"
+  • _screenEdgeOwnershipAssertion : @"BSCompoundAssertion"
+  • _serverConnection : @"BSServiceConnection"
+
+⚡️ 实例方法 (5):
+  - (void).cxx_destruct
+  - (id)init
+  - (id)description
+  - (id)acquireScreenEdgeOwnershipForPointerEvents:(unsigned long long)arg0 forReason:(id)arg1
+  - (id)disableKeyboardFocusOnCurrentDeviceForReason:(id)arg0
+
+⚡️ 类方法 (2):
+  + (id)new
+  + (id)sharedInstance
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSSystemApertureLayoutMonitor
+📌 父类: NSObject
+📋 协议: BSInvalidatable
+
+🔸 属性 (4):
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (5):
+  • _connection : @"BSServiceConnection"
+  • _connectionQueue : @"NSObject<OS_dispatch_queue>"
+  • _observers : @"NSPointerArray"
+  • _frames : @"NSArray"
+  • _isValid : B
+
+⚡️ 实例方法 (6):
+  - (void)invalidate
+  - (Vv)systemApertureLayoutDidChange:(id)arg0
+  - (void)removeObserver:(id)arg0
+  - (void).cxx_destruct
+  - (id)init
+  - (void)addObserver:(id)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSApplicationUserQuitMonitor
+📌 父类: NSObject
+📋 协议: SBSApplicationUserQuitMonitorServerToClientInterface
+
+🔸 属性 (4):
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (3):
+  • _connectionQueue : @"NSObject<OS_dispatch_queue>"
+  • _connection : @"BSServiceConnection"
+  • _delegate : @"<SBSApplicationUserQuitMonitorDelegate>"
+
+⚡️ 实例方法 (6):
+  - (void)invalidate
+  - (void).cxx_destruct
+  - (id)initWithDelegate:(id)arg0
+  - (Vv)userClosedLastSceneOfApplicationWithBundleID:(id)arg0
+  - (void)_connectionQueue_invalidate
+  - (void)_connectionQueue_setupAndActivate
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSAccidentalActivationMitigationSessionServiceServer
+📌 父类: NSObject
+📋 协议: BSServiceConnectionListenerDelegate, SBSAccidentalActivationMitigationSessionClientToServerInterface, SBSAccidentalActivationMitigationSessionObserver
+
+🔸 属性 (7):
+  • _connection
+  • _hostSession
+  • delegate
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (5):
+  • _lock : {os_unfair_lock_s="_os_unfair_lock_opaque"I}
+  • _lock_host_session : @"SBAccidentalActivationMitigationHostSession"
+  • _connectionListener : @"BSServiceConnectionListener"
+  • _lock_connection : @"BSServiceConnection"
+  • _delegate : @"<SBSAccidentalActivationMitigationSessionServiceServerDelegate>"
+
+⚡️ 实例方法 (14):
+  - (void)startServer
+  - (id)_connection
+  - (void)setDelegate:(id)arg0
+  - (void)_setConnection:(id)arg0
+  - (void).cxx_destruct
+  - (id)initWithDelegate:(id)arg0
+  - (void)dealloc
+  - (id)delegate
+  - (void)listener:(id)arg0 didReceiveConnection:(id)arg1 withContext:(id)arg2
+  - (id)_hostSession
+  - (void)_setHostSession:(id)arg0
+  - (void)accidentalActivationMitigationSessionStateDidChange:(id)arg0
+  - (Vv)activateSessionForBundleIdentifier:(id)arg0 durationNum:(id)arg1 accidentalActivationMitigationSessionCancellationPolicyClassName:(id)arg2
+  - (Vv)requestSessionCancellation
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSRemoteContentPreferences
+📌 父类: NSObject
+📋 协议: NSSecureCoding
+
+🔹 实例变量 (10):
+  • _dateTimeStyle : q
+  • _backgroundStyle : q
+  • _homeGestureMode : q
+  • _preferredNotificationListMode : q
+  • _preferredLayout : q
+  • _reducesWhitePoint : B
+  • _suppressesNotifications : B
+  • _suppressesBottomEdgeContent : B
+  • _dismissesOnTap : B
+  • _prefersInlinePresentation : B
+
+⚡️ 实例方法 (15):
+  - (id)initWithCoder:(id)arg0
+  - (BOOL)isEqual:(id)arg0
+  - (long long)dateTimeStyle
+  - (id)init
+  - (void)encodeWithCoder:(id)arg0
+  - (id)initWithConfiguration:(id)arg0
+  - (long long)backgroundStyle
+  - (long long)preferredLayout
+  - (long long)homeGestureMode
+  - (BOOL)dismissesOnTap
+  - (long long)preferredNotificationListMode
+  - (BOOL)prefersInlinePresentation
+  - (BOOL)reducesWhitePoint
+  - (BOOL)suppressesBottomEdgeContent
+  - (BOOL)suppressesNotifications
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSSwitcherDemoCommands
+📌 父类: NSObject
+📋 协议: SBSSwitcherDemoCommandsServerToClientInterface
+
+🔸 属性 (4):
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (2):
+  • _connectionQueue : @"NSObject<OS_dispatch_queue>"
+  • _connection : @"BSServiceConnection"
+
+⚡️ 实例方法 (10):
+  - (BOOL)stashSwitcherModelToPath:(id)arg0
+  - (void)invalidate
+  - (void).cxx_destruct
+  - (BOOL)loadStashedSwitcherModelFromPath:(id)arg0
+  - (id)init
+  - (void)_connectionQueue_invalidate
+  - (void)_connectionQueue_setupAndActivate
+  - (id)_standardizedAbsolutePathForPath:(id)arg0
+  - (BOOL)setShouldDisableSwitcherModelUpdates:(BOOL)arg0
+  - (BOOL)updateHiddenApplicationBundleIDs:(id)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSHomeScreenItemApplication
+📌 父类: SBSHomeScreenItem
+
+🔸 属性 (1):
+  • bundleIdentifier
+
+🔹 实例变量 (1):
+  • _bundleIdentifier : @"NSString"
+
+⚡️ 实例方法 (10):
+  - (BOOL)isEqual:(id)arg0
+  - (id)initWithBSXPCCoder:(id)arg0
+  - (id)bundleIdentifier
+  - (void).cxx_destruct
+  - (void)encodeWithBSXPCCoder:(id)arg0
+  - (id)initWithBundleIdentifier:(id)arg0
+  - (long long)kind
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (id)description
+  - (unsigned long long)hash
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsBSXPCSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSBackgroundContentDefinition
+📌 父类: NSObject
+📋 协议: BSXPCCoding, BSDescriptionProviding
+
+🔸 属性 (6):
+  • sceneIdentifier
+  • clientBundleIdentifier
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (2):
+  • _sceneIdentifier : @"NSString"
+  • _clientBundleIdentifier : @"NSString"
+
+⚡️ 实例方法 (12):
+  - (id)sceneIdentifier
+  - (void).cxx_destruct
+  - (id)clientBundleIdentifier
+  - (id)descriptionWithMultilinePrefix:(id)arg0
+  - (id)initWithXPCDictionary:(id)arg0
+  - (id)init
+  - (id)succinctDescription
+  - (void)encodeWithXPCDictionary:(id)arg0
+  - (id)succinctDescriptionBuilder
+  - (id)description
+  - (id)descriptionBuilderWithMultilinePrefix:(id)arg0
+  - (id)initWithSceneIdentifier:(id)arg0 clientBundleIdentifier:(id)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: _SBSHardwareButtonEventConfiguration
+📌 父类: NSObject
+
+🔸 属性 (2):
+  • eventMask
+  • maximumPriority
+
+🔹 实例变量 (2):
+  • _eventMask : Q
+  • _maximumPriority : q
+
+⚡️ 实例方法 (5):
+  - (unsigned long long)eventMask
+  - (id)description
+  - (void)setEventMask:(unsigned long long)arg0
+  - (long long)maximumPriority
+  - (void)setMaximumPriority:(long long)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: _SBSDisplayIdentifiersCache
+📌 父类: NSObject
+
+🔹 实例变量 (4):
+  • _queue : @"NSObject<OS_dispatch_queue>"
+  • _displayIdentifiers : @"NSSet"
+  • _changedToken : i
+  • _changedBlock : @?
+
+⚡️ 实例方法 (6):
+  - (void).cxx_destruct
+  - (void)_queue_noteChanged
+  - (void)dealloc
+  - (id)init
+  - (id)displayIdentifiers
+  - (void)registerChangedBlock:(@?)arg0
+
+⚡️ 类方法 (1):
+  + (id)sharedInstance
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSAppDragLocalContext
+📌 父类: NSObject
+
+🔸 属性 (15):
+  • uniqueIdentifier
+  • applicationBundleIdentifier
+  • launchActions
+  • startLocation
+  • containedIconIdentifiers
+  • activeCustomIconDataSourceUniqueIdentifier
+  • customIconDataSourceConfigurations
+  • gridSizeClass
+  • draggedSceneIdentifier
+  • launchURL
+  • userActivity
+  • portaledPreview
+  • cancelsViaScaleAndFade
+  • sourceLocal
+  • droppedIconIdentifier
+
+🔹 实例变量 (15):
+  • _cancelsViaScaleAndFade : B
+  • _sourceLocal : B
+  • _uniqueIdentifier : @"NSString"
+  • _applicationBundleIdentifier : @"NSString"
+  • _launchActions : @"NSSet"
+  • _startLocation : q
+  • _containedIconIdentifiers : @"NSSet"
+  • _activeCustomIconDataSourceUniqueIdentifier : @"NSString"
+  • _customIconDataSourceConfigurations : @"NSArray"
+  • _gridSizeClass : @"NSString"
+  • _draggedSceneIdentifier : @"NSString"
+  • _launchURL : @"NSURL"
+  • _userActivity : @"NSUserActivity"
+  • _portaledPreview : @"UIView"
+  • _droppedIconIdentifier : @"NSString"
+
+⚡️ 实例方法 (35):
+  - (id)launchURL
+  - (id)uniqueIdentifier
+  - (void)setGridSizeClass:(id)arg0
+  - (id)userActivity
+  - (void)setLaunchURL:(id)arg0
+  - (id)applicationBundleIdentifier
+  - (void)setUniqueIdentifier:(id)arg0
+  - (void).cxx_destruct
+  - (id)gridSizeClass
+  - (id)descriptionWithMultilinePrefix:(id)arg0
+  - (id)succinctDescription
+  - (id)succinctDescriptionBuilder
+  - (id)description
+  - (void)setApplicationBundleIdentifier:(id)arg0
+  - (id)descriptionBuilderWithMultilinePrefix:(id)arg0
+  - (long long)startLocation
+  - (void)setUserActivity:(id)arg0
+  - (id)launchActions
+  - (id)portaledPreview
+  - (void)setSourceLocal:(BOOL)arg0
+  - (id)activeCustomIconDataSourceUniqueIdentifier
+  - (BOOL)cancelsViaScaleAndFade
+  - (id)containedIconIdentifiers
+  - (id)customIconDataSourceConfigurations
+  - (id)draggedSceneIdentifier
+  - (id)droppedIconIdentifier
+  - (id)initWithUniqueIdentifier:(id)arg0 withLaunchActions:(id)arg1 startLocation:(long long)arg2
+  - (BOOL)isSourceLocal
+  - (void)setActiveCustomIconDataSourceUniqueIdentifier:(id)arg0
+  - (void)setCancelsViaScaleAndFade:(BOOL)arg0
+  - (void)setContainedIconIdentifiers:(id)arg0
+  - (void)setCustomIconDataSourceConfigurations:(id)arg0
+  - (void)setDraggedSceneIdentifier:(id)arg0
+  - (void)setDroppedIconIdentifier:(id)arg0
+  - (void)setPortaledPreview:(id)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSSmartCoverServiceSpecification
+📌 父类: NSObject
+
+⚡️ 类方法 (3):
+  + (id)interface
+  + (id)serviceQuality
+  + (id)identifier
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSBackgroundActivityAssertion
+📌 父类: NSObject
+📋 协议: BSDescriptionProviding
+
+🔸 属性 (12):
+  • assertionData
+  • invalidationHandler
+  • backgroundActivityIdentifiers
+  • pid
+  • exclusive
+  • showsWhenForeground
+  • statusString
+  • uniqueIdentifier
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (2):
+  • _assertionData : @"SBSBackgroundActivityAssertionData"
+  • _invalidationHandler : @?
+
+⚡️ 实例方法 (23):
+  - (id)uniqueIdentifier
+  - (void)invalidate
+  - (@?)invalidationHandler
+  - (void).cxx_destruct
+  - (BOOL)isExclusive
+  - (int)pid
+  - (id)descriptionWithMultilinePrefix:(id)arg0
+  - (void)setStatusString:(id)arg0
+  - (void)dealloc
+  - (id)succinctDescription
+  - (id)statusString
+  - (void)setInvalidationHandler:(@?)arg0
+  - (id)succinctDescriptionBuilder
+  - (id)description
+  - (id)descriptionBuilderWithMultilinePrefix:(id)arg0
+  - (void)acquireWithHandler:(@?)arg0 invalidationHandler:(@?)arg1
+  - (void)acquireWithHandler:(@?)arg0 onQueue:(id)arg1
+  - (id)assertionData
+  - (id)backgroundActivityIdentifiers
+  - (id)initWithBackgroundActivityAssertionData:(id)arg0
+  - (id)initWithBackgroundActivityIdentifiers:(id)arg0 forPID:(int)arg1 exclusive:(BOOL)arg2 showsWhenForeground:(BOOL)arg3
+  - (void)setAssertionData:(id)arg0
+  - (BOOL)showsWhenForeground
+
+⚡️ 类方法 (3):
+  + (id)assertionWithBackgroundActivityIdentifier:(id)arg0 forPID:(int)arg1 exclusive:(BOOL)arg2 showsWhenForeground:(BOOL)arg3
+  + (id)assertionWithBackgroundActivityIdentifiers:(id)arg0 forPID:(int)arg1 exclusive:(BOOL)arg2 showsWhenForeground:(BOOL)arg3
+  + (id)backgroundLocationAssertionForPID:(int)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSUserNotificationAssetDefinition
+📌 父类: NSObject
+📋 协议: NSCopying
+
+⚡️ 实例方法 (3):
+  - (id)_initWithDictionary:(id)arg0
+  - (id)build
+  - (id)copyWithZone:(^{_NSZone=})arg0
+
+⚡️ 类方法 (2):
+  + (id)_definitionType
+  + (id)_definitionFromSerializedDefinition:(id)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSBackgroundActivityCoordinator
+📌 父类: NSObject
+
+🔸 属性 (2):
+  • delegate
+  • backgroundActivityIdentifiers
+
+🔹 实例变量 (2):
+  • _backgroundActivityIdentifiers : @"NSSet"
+  • _delegate : @"<SBSBackgroundActivityCoordinatorDelegate>"
+
+⚡️ 实例方法 (10):
+  - (void)setDelegate:(id)arg0
+  - (void).cxx_destruct
+  - (void)dealloc
+  - (id)delegate
+  - (unsigned long long)styleOverrides
+  - (void)setRegisteredStyleOverrides:(unsigned long long)arg0 reply:(@?)arg1
+  - (void)_handleStatusBarTapWithContext:(id)arg0 withCompletionBlock:(@?)arg1
+  - (void)_registrationInvalidated:(id)arg0
+  - (id)backgroundActivityIdentifiers
+  - (void)setRegisteredBackgroundActivityIdentifiers:(id)arg0 reply:(@?)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSAbstractApplicationService
+📌 父类: SBSAbstractFacilityService
+
+🔸 属性 (1):
+  • client
+
+⚡️ 实例方法 (1):
+  - (id)client
+
+⚡️ 类方法 (1):
+  + (Class)serviceFacilityClientClass
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSApplicationRestrictionMonitoringServiceInterfaceSpecification
+📌 父类: NSObject
+
+⚡️ 类方法 (4):
+  + (id)interface
+  + (id)serviceQuality
+  + (id)identifier
+  + (id)domain
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSFocusModesHomeScreenSettingsService
+📌 父类: NSObject
+
+⚡️ 类方法 (5):
+  + (id)activateConnection
+  + (void)addSuggestedHomeScreenPageWithRequest:(id)arg0
+  + (void)homeScreenSnapshotsForSuggestedPagesWithRequest:(id)arg0 completion:(@?)arg1
+  + (void)homeScreenSnapshotsWithRequest:(id)arg0 completion:(@?)arg1
+  + (void)updateFocusModeHomeScreenSettingsWithRequest:(id)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSRemoteAlertDefinition
+📌 父类: NSObject
+📋 协议: BSXPCCoding, BSDescriptionProviding, NSCopying
+
+🔸 属性 (15):
+  • userInfo
+  • impersonatedCarPlayAppIdentifier
+  • forCarPlay
+  • sceneProvidingProcess
+  • configurationIdentifier
+  • supportsMultipleDisplayPresentations
+  • secondaryConfigurationIdentifier
+  • prefersEmbeddedDisplayPresentation
+  • serviceName
+  • viewControllerClassName
+  • secondaryViewControllerClassName
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (11):
+  • _supportsMultipleDisplayPresentations : B
+  • _prefersEmbeddedDisplayPresentation : B
+  • _forCarPlay : B
+  • _sceneProvidingProcess : @"RBSProcessIdentity"
+  • _configurationIdentifier : @"NSString"
+  • _secondaryConfigurationIdentifier : @"NSString"
+  • _serviceName : @"NSString"
+  • _viewControllerClassName : @"NSString"
+  • _secondaryViewControllerClassName : @"NSString"
+  • _userInfo : @"NSDictionary"
+  • _impersonatedCarPlayAppIdentifier : @"NSString"
+
+⚡️ 实例方法 (29):
+  - (id)userInfo
+  - (void).cxx_destruct
+  - (id)viewControllerClassName
+  - (void)setUserInfo:(id)arg0
+  - (id)descriptionWithMultilinePrefix:(id)arg0
+  - (id)serviceName
+  - (id)initWithXPCDictionary:(id)arg0
+  - (id)configurationIdentifier
+  - (id)succinctDescription
+  - (void)encodeWithXPCDictionary:(id)arg0
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (id)succinctDescriptionBuilder
+  - (id)description
+  - (id)descriptionBuilderWithMultilinePrefix:(id)arg0
+  - (id)impersonatedCarPlayAppIdentifier
+  - (id)initWithSceneProvidingProcess:(id)arg0 configurationIdentifier:(id)arg1
+  - (id)initWithServiceName:(id)arg0 viewControllerClassName:(id)arg1
+  - (BOOL)isForCarPlay
+  - (BOOL)prefersEmbeddedDisplayPresentation
+  - (id)sceneProvidingProcess
+  - (id)secondaryConfigurationIdentifier
+  - (id)secondaryViewControllerClassName
+  - (void)setForCarPlay:(BOOL)arg0
+  - (void)setImpersonatedCarPlayAppIdentifier:(id)arg0
+  - (void)setPrefersEmbeddedDisplayPresentation:(BOOL)arg0
+  - (void)setSecondaryConfigurationIdentifier:(id)arg0
+  - (void)setSecondaryViewControllerClassName:(id)arg0
+  - (void)setSupportsMultipleDisplayPresentations:(BOOL)arg0
+  - (BOOL)supportsMultipleDisplayPresentations
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSLockScreenPluginService
+📌 父类: NSObject
+
+⚡️ 实例方法 (3):
+  - (id)_serializedDataForContext:(id)arg0
+  - (void)disableLockScreenBundle:(id)arg0 withContext:(id)arg1
+  - (void)enableLockScreenBundle:(id)arg0 withContext:(id)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSCaptureButtonAppConfigurationServer
+📌 父类: NSObject
+📋 协议: BSServiceConnectionListenerDelegate, SBSCaptureButtonAppConfigurationClientToServerInterface
+
+🔸 属性 (8):
+  • connections
+  • delegate
+  • associatedAppBundleIdentifier
+  • eligibleApps
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (6):
+  • _lock : {os_unfair_lock_s="_os_unfair_lock_opaque"I}
+  • _connectionListener : @"BSServiceConnectionListener"
+  • _lock_connections : @"NSMutableArray"
+  • _lock_associatedAppBundleIdentifier : @"NSString"
+  • _lock_eligibleApps : @"NSSet"
+  • _delegate : @"<SBSCaptureButtonAppConfigurationServerDelegate>"
+
+⚡️ 实例方法 (17):
+  - (void)startServer
+  - (void)setDelegate:(id)arg0
+  - (id)connections
+  - (void).cxx_destruct
+  - (void)dealloc
+  - (id)associatedAppBundleIdentifier
+  - (id)delegate
+  - (void)listener:(id)arg0 didReceiveConnection:(id)arg1 withContext:(id)arg2
+  - (void)setAssociatedAppBundleIdentifier:(id)arg0
+  - (id)_currentConnections
+  - (void)_notifyExistingConnectionsDidUpdateAssociatedAppBundleIdentifier:(id)arg0
+  - (void)_notifyExistingConnectionsDidUpdateEligibleApps:(id)arg0
+  - (void)_sendInitialStateForNewConnection:(id)arg0 associatedAppsBundleIdentifier:(id)arg1 eligibleApps:(id)arg2
+  - (id)eligibleApps
+  - (id)initWithAssociatedAppBundleIdentifier:(id)arg0 eligibleApps:(id)arg1 delegate:(id)arg2
+  - (Vv)setCurrentAssociatedAppUsingBundleIdentifier:(id)arg0
+  - (void)setEligibleApps:(id)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSCaptureButtonEligibleApp
+📌 父类: NSObject
+📋 协议: NSCopying, NSSecureCoding
+
+🔸 属性 (2):
+  • bundleIdentifier
+  • cameraTCCIsAuthorized
+
+🔹 实例变量 (2):
+  • _cameraTCCIsAuthorized : B
+  • _bundleIdentifier : @"NSString"
+
+⚡️ 实例方法 (9):
+  - (id)initWithCoder:(id)arg0
+  - (BOOL)isEqual:(id)arg0
+  - (id)bundleIdentifier
+  - (void).cxx_destruct
+  - (void)encodeWithCoder:(id)arg0
+  - (id)copyWithZone:(^{_NSZone=})arg0
+  - (unsigned long long)hash
+  - (BOOL)cameraTCCIsAuthorized
+  - (id)initWithBundleIdentifier:(id)arg0 cameraTCCIsAuthorized:(BOOL)arg1
+
+⚡️ 类方法 (1):
+  + (BOOL)supportsSecureCoding
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSInCallPresentationRequest
+📌 父类: NSObject
+
+⚡️ 类方法 (3):
+  + (id)identifiersForRequestedPresentations
+  + (void)notePresentationEndForRequestWithIdentifier:(id)arg0
+  + (void)performPresentationWithConfiguration:(id)arg0 completion:(@?)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBLegacyServices
+📌 父类: NSObject
+
+⚡️ 类方法 (5):
+  + (void)_configure
+  + (void)setFunction:(void *)arg0 forSymbol:(r*)arg1
+  + (void)start
+  + (id)workloop
+  + (void)checkInPorts
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSLockScreenBackgroundContentAssertion
+📌 父类: SBSLockScreenContentAssertion
+
+⚡️ 实例方法 (1):
+  - (BOOL)_supportsReacquisition
+
+⚡️ 类方法 (1):
+  + (id)acquireBackgroundContentAssertionWithDefinition:(id)arg0 errorHandler:(@?)arg1
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSApplicationRestrictionMonitoringService
+📌 父类: NSObject
+
+⚡️ 类方法 (1):
+  + (id)registerMonitor:(id)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSMultitaskingApplicationShortcutServiceSpecification
+📌 父类: NSObject
+
+⚡️ 类方法 (3):
+  + (id)interface
+  + (id)serviceQuality
+  + (id)identifier
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: _SBSUIRemoteAlertServiceObserverHandle
+📌 父类: NSObject
+📋 协议: SBSRemoteAlertHandleObserver
+
+🔸 属性 (6):
+  • activationHandler
+  • deactivationHandler
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (2):
+  • _activationHandler : @?
+  • _deactivationHandler : @?
+
+⚡️ 实例方法 (8):
+  - (void)remoteAlertHandleDidDeactivate:(id)arg0
+  - (void)remoteAlertHandle:(id)arg0 didInvalidateWithError:(id)arg1
+  - (void)setActivationHandler:(@?)arg0
+  - (void)remoteAlertHandleDidActivate:(id)arg0
+  - (void).cxx_destruct
+  - (@?)activationHandler
+  - (@?)deactivationHandler
+  - (void)setDeactivationHandler:(@?)arg0
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSAccidentalActivationMitigationClientSession
+📌 父类: NSObject
+📋 协议: SBSAccidentalActivationMitigationSessionServiceClientDelegate, SBSAccidentalActivationMitigationSession
+
+🔸 属性 (5):
+  • state
+  • hash
+  • superclass
+  • description
+  • debugDescription
+
+🔹 实例变量 (6):
+  • _lock : {os_unfair_lock_s="_os_unfair_lock_opaque"I}
+  • _lock_state : q
+  • _client : @"SBSAccidentalActivationMitigationSessionServiceClient"
+  • _bundleIdentifier : @"NSString"
+  • _callOutQueue : @"NSObject<OS_dispatch_queue>"
+  • _observers : @"NSHashTable"
+
+⚡️ 实例方法 (10):
+  - (void)removeObserver:(id)arg0
+  - (void).cxx_destruct
+  - (id)initWithBundleIdentifier:(id)arg0
+  - (long long)state
+  - (void)setState:(long long)arg0
+  - (void)addObserver:(id)arg0
+  - (void)activateSessionWithDuration:(double)arg0 accidentalActivationMitigationSessionCancellationPolicyClassName:(id)arg1
+  - (id)initWithBundleIdentifier:(id)arg0 callOutQueue:(id)arg1
+  - (void)mitigationSessionServiceClient:(id)arg0 mitigationSessionDidTransitionToState:(long long)arg1
+  - (void)requestSessionCancellation
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSRemoteAlertActivationOptions
+📌 父类: SBSRemoteAlertActivationContext
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 类名: SBSSettingsWindowingTelemetryPersonalizationMetrics
+📌 父类: SBSAbstractWindowingTelemetryPersonalizationMetrics
+
+⚡️ 实例方法 (1):
+  - (id)initWithPreviousMultitaskingMode:(long long)arg0 currentMultitaskingMode:(long long)arg1
+
+
+💾 已保存到: /tmp/SpringBoardServices_dump.json
+📄 可读格式已保存到: /tmp/SpringBoardServices_dump.txt
